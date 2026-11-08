@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test conditions | IB Psychology 2027 Revision</title>
+<meta name="description" content="Timed, offline practice for IB Psychology Paper 1 and Paper 2 (first assessment 2027), with question-specific checklists and a downloadable record of your work.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="testpage">
+
+<header class="hero" id="siteHead">
+  <div class="eyebrow">IB Psychology &nbsp;|&nbsp; First assessment 2027</div>
+  <h1>Test conditions</h1>
+  <p class="subtitle">A random paper or section, timed, in full screen, with your Wi-Fi off. Then check your work and download it.</p>
+  <div class="hero-actions">
+    <a class="btn btn-ghost" href="index.html">&larr; All papers</a>
+    <a class="btn btn-ghost" href="paper1.html">Paper 1 revision</a>
+    <a class="btn btn-ghost" href="paper2.html">Paper 2 revision</a>
+  </div>
+</header>
+
+<div id="testBarHost"></div>
+
+<main class="wrap test-wrap">
+
+  <!-- HOME -->
+  <section class="screen active" id="screen-home">
+    <div id="resumeBox"></div>
+
+    <div class="panel">
+      <h2 class="t-h2">How it works</h2>
+      <ol class="steps">
+        <li><b>Choose a paper and what to sit.</b> The questions are picked at random from the revision pools, so every attempt is different.</li>
+        <li><b>Turn off Wi-Fi and mobile data,</b> then press Start. The questions only appear while you are offline, and the page goes full screen.</li>
+        <li><b>Write against the timer.</b> When time runs out, or you press Finish, your answers lock.</li>
+        <li><b>Check every answer</b> against the checklist written for that question. You must review each one before you can move on.</li>
+        <li><b>Reconnect and download</b> your work as a PDF, then hand it in or upload it to Google Classroom.</li>
+      </ol>
+      <div class="callout c-exam">
+        <strong class="tag">Before you start</strong>
+        <p>Open this page while you are online so it loads fully. Do not refresh or close the page during the test. Your answers are saved on this device as you type, and leaving the page, leaving full screen or reconnecting are recorded on your PDF.</p>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:16px">
+      <h2 class="t-h2">Set up your test</h2>
+      <div class="t-field">
+        <span class="t-label">Paper</span>
+        <div class="t-choices" id="paperChoices">
+          <label class="t-opt"><input type="radio" name="paper" value="1"> <span><b>Paper 1</b><br><span class="small">Concepts, content and contexts</span></span></label>
+          <label class="t-opt"><input type="radio" name="paper" value="2"> <span><b>Paper 2</b><br><span class="small">Research methodology</span></span></label>
+        </div>
+      </div>
+      <div class="t-field">
+        <span class="t-label">What to sit</span>
+        <div class="t-choices" id="modeChoices"></div>
+      </div>
+      <div class="t-row">
+        <label class="t-field">
+          <span class="t-label">Your name</span>
+          <input class="t-input" id="stuName" type="text" autocomplete="name" maxlength="60" placeholder="First and last name">
+        </label>
+        <label class="t-field">
+          <span class="t-label">Class (optional)</span>
+          <input class="t-input" id="stuClass" type="text" maxlength="30" placeholder="For example DP1 Psychology">
+        </label>
+      </div>
+      <p class="t-conn" id="connLine"></p>
+      <button class="btn btn-dark" type="button" id="startBtn">Continue</button>
+      <p class="small" id="startMsg" style="margin-top:8px"></p>
+    </div>
+  </section>
+
+  <!-- TEST -->
+  <section class="screen" id="screen-test">
+    <div id="qwrap"></div>
+    <div class="t-endrow"><button class="btn btn-dark" type="button" id="finishBtn2">I have finished: lock my answers</button></div>
+  </section>
+
+  <!-- CHECK -->
+  <section class="screen" id="screen-check">
+    <div class="panel">
+      <h2 class="t-h2">Your answers are locked. Now check them.</h2>
+      <p>Read each answer again, then tick every statement that is true of what you actually wrote. Be honest: an unticked box is the most useful thing on this page. Tick "I have checked this answer" for every question to continue.</p>
+    </div>
+    <div id="checkList"></div>
+    <div class="panel" style="margin-top:16px">
+      <label class="t-field">
+        <span class="t-label">One thing I will do differently next time</span>
+        <textarea class="t-area small-area" id="reflection" rows="3"></textarea>
+      </label>
+      <button class="btn btn-dark" type="button" id="checkDone" disabled>Continue to download</button>
+      <p class="small" id="checkMsg" style="margin-top:8px"></p>
+    </div>
+  </section>
+
+  <!-- DONE -->
+  <section class="screen" id="screen-done">
+    <div class="panel">
+      <h2 class="t-h2">Test complete</h2>
+      <div id="doneSummary"></div>
+      <div class="t-conn-box" id="dlGate"></div>
+      <div class="hero-actions" style="justify-content:flex-start">
+        <button class="btn btn-dark" type="button" id="dlBtn" disabled>Download PDF</button>
+        <button class="btn btn-line" type="button" id="printBtn" disabled>Print or save as PDF</button>
+        <button class="btn btn-line" type="button" id="newBtn">Start a new test</button>
+      </div>
+      <p class="small" id="dlMsg" style="margin-top:10px"></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- OFFLINE GATE -->
+<div class="t-overlay" id="gate" role="dialog" aria-modal="true" aria-labelledby="gateTitle">
+  <div class="t-box">
+    <h2 id="gateTitle">Go offline to begin</h2>
+    <div id="gateBody"></div>
+    <div class="hero-actions" id="gateActions" style="justify-content:flex-start"></div>
+  </div>
+</div>
+
+<!-- CONFIRM -->
+<div class="t-overlay" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="t-box">
+    <h2 id="modalTitle"></h2>
+    <p id="modalText"></p>
+    <div class="hero-actions" style="justify-content:flex-start">
+      <button class="btn btn-dark" type="button" id="modalYes">Yes</button>
+      <button class="btn btn-line" type="button" id="modalNo">Go back</button>
+    </div>
+  </div>
+</div>
+
+<div id="printHost" aria-hidden="true"></div>
+
+<footer id="siteFoot">
+  <p>Practice questions come from this site's revision pools. Section B scenarios and Paper 2 studies are fictional. Based on the IB Psychology guide (first assessment 2027); not endorsed by the IB.</p>
+</footer>
+
+<script src="assets/vendor/jspdf.umd.min.js"></script>
+<script src="assets/bank-p1.js"></script>
+<script src="assets/bank-p2.js"></script>
+<script src="assets/test.js"></script>
+</body>
+</html>

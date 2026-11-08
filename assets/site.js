@@ -181,6 +181,35 @@
     });
   }
 
+  // ---------- 8. Paper 2 random question with checklist ----------
+  var p2Go=document.getElementById('p2Go');
+  if(p2Go && window.P2BANK){
+    var e2=function(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;};
+    var p2n=0;
+    p2Go.addEventListener('click',function(){
+      var type=document.getElementById('p2Type').value, prac=document.getElementById('p2Prac').value||undefined;
+      var q=window.P2BANK.makeQuestion(type,prac);
+      p2n++;
+      document.getElementById('p2Out').innerHTML='<span class="chip" style="margin-bottom:8px">'+e2(q.label)+' &middot; '+q.marks+' marks &middot; about '+q.minutes+' minutes</span><br>'+e2(q.question)+' ['+q.marks+']';
+      var extra='';
+      if(q.topicHint) extra+='<p class="small" style="margin-top:10px">'+e2(q.topicHint)+'</p>';
+      if(q.study){
+        extra+='<details class="more" open><summary>The study (fictional, for practice): '+e2(q.study.title)+'</summary><div>'+
+          q.study.text.map(function(t){return '<p>'+e2(t)+'</p>';}).join('')+'<p class="small">Context: '+e2(q.study.context)+'</p></div></details>';
+      }
+      document.getElementById('p2Extra').innerHTML=extra;
+      var id='p2c'+p2n;
+      document.getElementById('p2Check').innerHTML='<div class="mini" style="margin-top:12px;background:#fff"><h4>When you have written it, check:</h4><ul class="checklist">'+
+        q.checklist.map(function(c,i){return '<li><label><input type="checkbox" data-g="'+id+'"> '+e2(c)+'</label></li>';}).join('')+
+        '</ul><p class="progress" id="'+id+'">0 of '+q.checklist.length+' ticked</p></div>';
+      var boxes=[].slice.call(document.querySelectorAll('input[data-g="'+id+'"]'));
+      boxes.forEach(function(b){b.addEventListener('change',function(){
+        var n=boxes.filter(function(x){return x.checked;}).length;
+        document.getElementById(id).textContent=n+' of '+boxes.length+' ticked'+(n===boxes.length?'. Nice work.':'');
+      });});
+    });
+  }
+
   // ---------- 4. question builder ----------
   var qb=document.getElementById('qbOut');
   if(qb){
