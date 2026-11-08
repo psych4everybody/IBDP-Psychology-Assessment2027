@@ -9,7 +9,7 @@ Live site: https://psych4everybody.github.io/IBDP-Psychology-Assessment2027/
 | Page | What it covers |
 |---|---|
 | `index.html` | Hub: the papers, the six concepts, and the weightings |
-| `paper1.html` | Paper 1: Sections A, B and C, how each is marked, methods (TAG, CLUE, the 8-step plan), worked examples, self-tests, and a Section C question builder |
+| `paper1.html` | Paper 1: Sections A, B and C, how each is marked, methods (TAG, CLUE, the 8-step plan), worked examples, self-tests, a Section A term bank with recommended studies, a 21-item Section B scenario bank, Section C worked examples and practice bank, and a question builder |
 | `paper2.html` | Paper 2: the class practicals, Section A Q1 to Q4, Section B on an unseen study, a practice set and exam-day checklist |
 | `assets/style.css` | Shared styles |
 | `assets/site.js` | Shared behaviour: section tabs, reveal tables, saved checklists, question builder |

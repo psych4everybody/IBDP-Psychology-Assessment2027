@@ -148,6 +148,39 @@
     }
   });
 
+  // ---------- 6. random Section A question ----------
+  var saGo=document.getElementById('saGo');
+  if(saGo){
+    var saRows=[].slice.call(document.querySelectorAll('#a-bank tr[data-q]'));
+    var saOut=document.getElementById('saOut'), saReveal=document.getElementById('saReveal'), saAns=document.getElementById('saAns');
+    var esc=function(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;};
+    saGo.addEventListener('click',function(){
+      var r=saRows[Math.floor(Math.random()*saRows.length)];
+      var qs=r.dataset.q.split('||');
+      var q=qs[Math.floor(Math.random()*qs.length)];
+      var verb=Math.random()<0.5?'Describe':'Explain';
+      q=q.replace('Describe/Explain',verb)+' [4]';
+      saOut.innerHTML='<span class="small">'+esc(r.dataset.approach)+'</span>'+esc(q);
+      saOut.classList.add('on');
+      saAns.innerHTML='<p><b>Recommended study:</b> '+esc(r.dataset.study)+'</p><p><b>Key vocabulary:</b> '+esc(r.dataset.vocab)+'</p><p class="small">Check your glue sentence: does it say why the study demonstrates '+esc(r.dataset.term.toLowerCase())+'?</p>';
+      saReveal.hidden=false; saReveal.open=false;
+    });
+  }
+
+  // ---------- 7. random scenario ----------
+  var scnGo=document.getElementById('scnGo');
+  if(scnGo){
+    var scns=[].slice.call(document.querySelectorAll('#b-bank .scenario'));
+    scnGo.addEventListener('click',function(){
+      scns.forEach(function(s){s.classList.remove('flash');});
+      document.querySelectorAll('#b-bank details.scn-group').forEach(function(d){d.open=false;});
+      var s=scns[Math.floor(Math.random()*scns.length)];
+      var d=s.closest('details');if(d)d.open=true;
+      s.classList.add('flash');
+      s.scrollIntoView({block:'start'});
+    });
+  }
+
   // ---------- 4. question builder ----------
   var qb=document.getElementById('qbOut');
   if(qb){
