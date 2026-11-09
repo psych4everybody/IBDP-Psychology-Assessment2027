@@ -1,4 +1,4 @@
-/* Test conditions for Paper 1 and Paper 2.
+/* Test conditions for Paper 1, Paper 2 and Paper 3.
    Flow: set up (online) -> go offline -> timed test in full screen -> answers lock
    -> question-specific checklist review (required) -> reconnect -> download PDF.
    Answers are saved to localStorage as the student types. */
@@ -21,7 +21,7 @@
   var lsSet = function(k, v){ try{ localStorage.setItem(k, v); }catch(e){} };
   var lsDel = function(k){ try{ localStorage.removeItem(k); }catch(e){} };
   var isOnline = function(){ return navigator.onLine === true; };
-  var bank = function(p){ return p === '1' ? window.P1BANK : window.P2BANK; };
+  var bank = function(p){ return p === '1' ? window.P1BANK : (p === '3' ? window.P3BANK : window.P2BANK); };
   var pad = function(n){ return (n < 10 ? '0' : '') + n; };
   function fmt(ms){ ms = Math.max(0, ms); var t = Math.ceil(ms / 1000); var h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), x = t % 60; return (h ? h + ':' + pad(m) : m) + ':' + pad(x); }
   function fmtUsed(ms){ var t = Math.round(ms / 1000 * SPEED); var m = Math.floor(t / 60), s = t % 60; return m + ' min ' + pad(s) + ' s'; }
@@ -47,7 +47,8 @@
 
   // ---------- home ----------
   var params = new URLSearchParams(location.search);
-  var chosenPaper = params.get('paper') === '1' ? '1' : (params.get('paper') === '2' ? '2' : '1');
+  var chosenPaper = ['1', '2', '3'].indexOf(params.get('paper')) >= 0 ? params.get('paper') : '1';
+  var chosenSet = params.get('set') || '';
   var chosenMode = 'full';
   function renderModes(){
     var B = bank(chosenPaper);
@@ -61,6 +62,18 @@
       r.checked = r.value === chosenPaper;
       r.parentNode.classList.toggle('sel', r.checked);
     });
+    renderSetPicker();
+  }
+  function renderSetPicker(){
+    var f = $('setField'); if(!f) return;
+    var P3 = window.P3BANK;
+    if(chosenPaper !== '3' || !P3){ f.style.display = 'none'; return; }
+    f.style.display = '';
+    var sel = $('setChoice');
+    sel.innerHTML = '<option value="">A random set</option>' + P3.SETS.map(function(x){
+      return '<option value="' + esc(x.id) + '"' + (x.id === chosenSet ? ' selected' : '') + '>' + esc(x.extension + ' | ' + x.context + ': ' + x.title) + '</option>';
+    }).join('');
+    sel.onchange = function(){ chosenSet = sel.value; };
   }
   document.querySelectorAll('input[name="paper"]').forEach(function(r){
     r.onchange = function(){ chosenPaper = r.value; chosenMode = 'full'; renderModes(); };
@@ -111,10 +124,11 @@
     $('startMsg').textContent = '';
     var B = bank(chosenPaper), M = B.MODES[chosenMode];
     S = { paper: chosenPaper, mode: chosenMode, name: name, cls: $('stuClass').value.trim(),
-      questions: M.build(), minutes: M.minutes, answers: [], choice: null,
+      questions: M.build(chosenSet), minutes: M.minutes, answers: [], choice: null,
       phase: 'pending', startedAt: null, endAt: null, lockedAt: null, lockedReason: null,
       ticks: [], reviewed: [], reflection: '', fsActive: false,
       logs: { tab: 0, fs: 0, conn: 0, connMs: 0, paste: 0 } };
+    S.setId = S.questions[0] && S.questions[0].setId || null;
     S.questions.forEach(function(){ S.answers.push(''); S.ticks.push([]); S.reviewed.push(false); });
     openGate('start', false);
   };
@@ -161,7 +175,10 @@
   }
 
   // ---------- test ----------
+  function p3set(){ return S && S.paper === '3' && window.P3BANK ? window.P3BANK.byId(S.setId) : null; }
+  function p3src(set, n){ return set.sources.filter(function(x){ return x.n === n; })[0]; }
   function stimHTML(q){
+    if(q.type === 'P3' && q.n === 1){ var st = p3set(); return st ? '<div class="t-stim">' + window.P3CHART.source(p3src(st, 1)) + '</div>' : ''; }
     if(q.scenario) return '<div class="t-stim"><span class="t-stim-label">Scenario</span><p>' + esc(q.scenario) + '</p></div>';
     if(q.study) return '<div class="t-stim"><span class="t-stim-label">Study (fictional): ' + esc(q.study.title) + '</span>' + q.study.text.map(function(t){ return '<p>' + esc(t) + '</p>'; }).join('') + '<p class="small">Context: ' + esc(q.study.context) + '</p></div>';
     return '';
@@ -179,6 +196,13 @@
     if(S.paper === '2' && S.questions.some(function(q){ return q.type === 'Q1'; })){
       var prac = S.questions[0].practical;
       intro = '<div class="callout c-tip"><strong class="tag">Section A</strong><p>These questions are about your <b>' + esc(prac) + '</b> class practical. Start each answer with a plan box: write the method and the practical named in the question.</p></div>';
+    }
+    var set3 = p3set();
+    if(set3){
+      intro = '<div class="callout c-tip"><strong class="tag">Instructions</strong><p>' + esc(M.advice || '') + '</p></div>' +
+        '<div class="p3-claim">' + esc(window.P3CHART.preface(set3)) + '</div>' +
+        '<details class="t-booklet" open><summary>Resource booklet: sources 2 to 5 (tap to hide or show)</summary>' +
+        [2, 3, 4, 5].map(function(n){ return window.P3CHART.source(p3src(set3, n)); }).join('') + '</details>';
     }
     if(S.paper === '1' && S.mode === 'full'){
       intro = '<div class="callout c-tip"><strong class="tag">Instructions</strong><p>Section A: answer both questions. Section B: answer both questions. Section C: answer one question. Suggested times: about 20, 25 and 40 minutes, with 5 minutes to check.</p></div>';
@@ -292,6 +316,7 @@
     $('doneSummary').innerHTML =
       '<div class="table-wrap"><table><tbody>' +
       '<tr><td class="key">Paper</td><td>' + esc(B.paperName + ': ' + M.label) + '</td></tr>' +
+      (p3set() ? '<tr><td class="key">Set</td><td>' + esc(p3set().title) + '</td></tr>' : '') +
       '<tr><td class="key">Name</td><td>' + esc(S.name) + (S.cls ? ' (' + esc(S.cls) + ')' : '') + '</td></tr>' +
       '<tr><td class="key">Time used</td><td>' + fmtUsed(used) + ' of ' + M.minutes + ' min' + (S.lockedReason === 'timeout' ? ' (time ran out)' : ' (finished early)') + '</td></tr>' +
       S.questions.map(function(q, i){ return '<tr><td class="key">' + esc(q.label) + '</td><td>' + words(S.answers[i]) + ' words &middot; checklist ' + score(i) + ' ticked</td></tr>'; }).join('') +
@@ -343,6 +368,8 @@
         doc.setFont('helvetica', 'normal'); doc.setTextColor.apply(doc, INK); doc.text(latin(r[1]), Mg + 50, y); y += 5.4;
       });
       y += 4;
+      var set3p = p3set();
+      if(set3p){ text('SET: ' + set3p.extension + ' | ' + set3p.context + ': ' + set3p.title, 9, 'bold', TEAL); text(window.P3CHART.preface(set3p), 10, 'italic', INK); y += 4; }
       S.questions.forEach(function(q, i){
         need(36);
         doc.setFillColor(226, 241, 240); doc.rect(Mg, y - 4.5, CW, 8, 'F');
@@ -381,6 +408,7 @@
   function printWork(){
     var B = bank(S.paper), M = B.MODES[S.mode];
     var h = '<h1>' + esc(B.paperName + ': ' + M.label) + '</h1><p><b>' + esc(S.name) + '</b>' + (S.cls ? ' (' + esc(S.cls) + ')' : '') + ' &middot; locked ' + esc(fmtClock(S.lockedAt)) + '</p>';
+    var set3r = p3set(); if(set3r) h += '<p><b>' + esc(set3r.extension + ' | ' + set3r.context + ': ' + set3r.title) + '</b><br><i>' + esc(window.P3CHART.preface(set3r)) + '</i></p>';
     S.questions.forEach(function(q, i){
       h += '<div class="pq"><h2>' + esc(q.label) + ' (' + q.marks + ' marks)</h2>' + (q.heading ? '<p><b>' + esc(q.heading) + '</b></p>' : '') +
         (q.scenario ? '<p class="st">' + esc(q.scenario) + '</p>' : '') +

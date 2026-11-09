@@ -1,0 +1,1365 @@
+[
+ {
+  "id": "mot-hwb",
+  "extension": "Motivation",
+  "context": "Health and well-being",
+  "areaOfInquiry": "Motivational theories underpinning the prevention or treatment of a health problem",
+  "title": "Helping others as a well-being intervention",
+  "claim": "motivating people to help others is an effective way to protect their mental well-being",
+  "sources": [
+   {
+    "n": 1,
+    "kind": "quantitative",
+    "method": "Correlational study",
+    "title": "Volunteering and well-being in Sharjah",
+    "text": [
+     "Researchers in Sharjah asked 16 adults who attend a community centre to complete a questionnaire. Participants reported how many hours they had spent volunteering in the previous month and completed the Warwick-Edinburgh Mental Well-being Scale (WEMWBS), which gives scores from 14 to 70, where higher scores mean greater well-being. The correlation between the two variables was r = 0.53 (p = 0.035)."
+    ],
+    "figure": {
+     "type": "scatter",
+     "title": "Figure 1: Volunteering more hours raises adults' well-being",
+     "points": [
+      [
+       1,
+       44
+      ],
+      [
+       2,
+       36
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       42
+      ],
+      [
+       4,
+       39
+      ],
+      [
+       5,
+       51
+      ],
+      [
+       6,
+       41
+      ],
+      [
+       6,
+       53
+      ],
+      [
+       8,
+       46
+      ],
+      [
+       9,
+       57
+      ],
+      [
+       10,
+       43
+      ],
+      [
+       12,
+       47
+      ],
+      [
+       13,
+       55
+      ],
+      [
+       15,
+       49
+      ],
+      [
+       16,
+       61
+      ],
+      [
+       18,
+       48
+      ]
+     ],
+     "xLabel": "Hours spent volunteering in the previous month",
+     "yLabel": "Well-being score (WEMWBS, 14 to 70)",
+     "xMin": 0,
+     "xMax": 20,
+     "yMin": 14,
+     "yMax": 70,
+     "trend": true
+    },
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 2,
+    "kind": "quantitative",
+    "method": "Experiment",
+    "title": "A kindness task for university students in Abu Dhabi",
+    "text": [
+     "Researchers in Abu Dhabi recruited 96 undergraduate students aged 18 to 24 (61 women, 35 men) through a university participant pool. Students received course credit for taking part. They were randomly allocated to one of two conditions for four weeks. In the kindness condition (n = 48), students were asked to carry out three acts of kindness for other people each week, such as helping a classmate revise or running an errand for a neighbour, and to log each act online. In the control condition (n = 48), students logged three ordinary daily activities each week.",
+     "Before and after the four weeks, all students completed the WEMWBS well-being scale (scores 14 to 70, higher scores mean greater well-being) and the GAD-7 anxiety questionnaire (scores 0 to 21, higher scores mean more anxiety symptoms). All 96 students completed both measurements. In the kindness condition, 41 of the 48 students logged at least 10 of the 12 requested acts.",
+     "The change in each score from before to after was compared between the two conditions using independent t-tests. The critical value of t at p = 0.05 (two-tailed) with 94 degrees of freedom is 1.99."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 1: Mean (SD) scores before and after the four weeks",
+     "headers": [
+      "Measure",
+      "Kindness: before",
+      "Kindness: after",
+      "Control: before",
+      "Control: after",
+      "Comparison of change"
+     ],
+     "rows": [
+      [
+       "Well-being (WEMWBS)",
+       "44.2 (7.9)",
+       "48.9 (8.4)",
+       "44.8 (8.1)",
+       "45.6 (8.3)",
+       "t(94) = 2.61, p = 0.011"
+      ],
+      [
+       "Anxiety (GAD-7)",
+       "8.1 (4.2)",
+       "6.3 (4.0)",
+       "7.9 (4.4)",
+       "7.4 (4.3)",
+       "t(94) = 1.48, p = 0.14"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 3,
+    "kind": "qualitative",
+    "method": "Semi-structured interviews",
+    "title": "Volunteers' experiences of a community programme in Dubai",
+    "text": [
+     "A charity in Dubai wanted to understand how adults experience its community volunteering programme, in which volunteers pack food boxes for families in need and make weekly visits to elderly residents. The interviews were carried out by the programme's volunteer coordinator, who had designed the programme and knew most of the volunteers personally.",
+     "Team leaders were asked to nominate 'committed volunteers'. Twelve adults aged 26 to 58 (7 women, 5 men; Emirati, Indian, Filipino, Egyptian and British nationals) were interviewed. All had volunteered for at least six months. Interviews took place in the charity's office, were held in English and lasted 30 to 40 minutes. Questions included 'How has volunteering improved your mental health?' and 'What do you enjoy most about the programme?'. Before the interviews, participants were told that the findings would appear in the charity's annual report to donors.",
+     "The coordinator transcribed the audio recordings and coded the transcripts alone, using the programme's three published aims (purpose, belonging and resilience) as the starting categories for a thematic analysis. The themes below were identified."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": [
+     "Theme 1: A sense of purpose. Most participants described feeling useful and said their week felt more meaningful.",
+     "Theme 2: Belonging. Participants valued friendships with other volunteers, especially those who lived far from their extended family.",
+     "Theme 3: Calmness and perspective. Several participants said that helping others made their own worries feel smaller.",
+     "Theme 4: Pressure to keep going. Two participants described feeling guilty or tired when work commitments made them miss sessions."
+    ],
+    "quotes": [
+     {
+      "who": "Participant 3 (teacher, 41)",
+      "text": "When I pack a box I know exactly who it is for. That feeling stays with me all week."
+     },
+     {
+      "who": "Participant 7 (engineer, 29)",
+      "text": "My family is in Manila. The team here is like a second family, we check on each other."
+     },
+     {
+      "who": "Participant 9 (accountant, 52)",
+      "text": "After visiting Mr Rashid, my stress about deadlines just seems less important."
+     },
+     {
+      "who": "Participant 11 (nurse, 34)",
+      "text": "Some weeks I come after a twelve-hour shift and I feel I cannot say no. It becomes one more duty."
+     }
+    ],
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 4,
+    "kind": "quantitative",
+    "method": "Experiment",
+    "title": "Helping a charity during an online task",
+    "text": [
+     "Researchers wanted to know whether knowing that your own actions help other people makes you feel better. They predicted that people whose task helped a charity would report higher well-being than people whose task did not. This source describes the second of three similar experiments.",
+     "The participants were 445 adults aged 18 to 71 (average age 37), recruited through an online work website. The country was not named. This source compares two of the three groups: the neutral group (158 people) and the positive impact group (154 people).",
+     "Everyone played a 4-minute online game that involved pressing the correct keyboard buttons. In both groups, people earned 1 cent for themselves for every correct letter. The neutral group received no other instructions. The positive impact group was told that the Red Cross would also earn 1 cent for every fourth keystroke. After the game, everyone rated their feelings on scales, where higher scores meant stronger feelings. A similar pattern of results appeared in the other two experiments."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 2: Mean ratings of feelings after the game",
+     "headers": [
+      "Feeling",
+      "Neutral group (n = 158)",
+      "Positive impact group (n = 154)"
+     ],
+     "rows": [
+      [
+       "Satisfaction from helping",
+       "2.17",
+       "3.30"
+      ],
+      [
+       "How meaningful the activity felt",
+       "2.43",
+       "3.10"
+      ],
+      [
+       "Positive mood",
+       "3.12",
+       "3.26"
+      ],
+      [
+       "Anxiety",
+       "1.82",
+       "1.69"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "adapted",
+    "citation": "Source: Martela, F., & Ryan, R. M. (2021). If giving money to the Red Cross increases well-being, does taking money from the Red Cross increase ill-being? Evidence from three experiments. Journal of Research in Personality, 93, 104114. https://doi.org/10.1016/j.jrp.2021.104114"
+   },
+   {
+    "n": 5,
+    "kind": "quantitative",
+    "method": "Experiment (randomised trial)",
+    "title": "Kind acts during the COVID-19 pandemic",
+    "text": [
+     "During the COVID-19 pandemic, researchers tested whether doing kind acts for others could protect people's well-being. They predicted that people who did kind acts would report more happiness, a stronger sense that their life is valuable, and lower anxiety.",
+     "In total, 1,234 adults from the United States and Canada, recruited through an online work website in early 2021, were randomly assigned to one of three groups. Data from 1,052 people were analysed. The study lasted three weeks. On the first three days of each week, the kind acts group did at least one kind act for others each day, the enjoyable acts group did a personally enjoyable act each day, and the neutral group tracked their daily activities. Each week, everyone reported their activities and completed questionnaires on happiness, anxiety and how valuable their life felt.",
+     "In the tests planned in advance, the kind acts group did not differ from the other groups on any outcome. Only 38% of people in the kind acts group who were asked to make extra effort said they often or always did so. A second analysis, not planned in advance, looked only at people who said they often or always went beyond their normal behaviour. Among these people, the kind acts group had lower anxiety (p = 0.017) and a stronger sense of a valuable life (p = 0.005) than the neutral group, but did not differ from the enjoyable acts group. The authors warned that this result needs to be repeated."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "adapted",
+    "citation": "Source: Miles, A., Andiappan, M., Upenieks, L., & Orfanidis, C. (2022). Using prosocial behavior to safeguard mental health and foster emotional well-being during the COVID-19 pandemic: A registered report of a randomized trial. PLOS ONE, 17(7), e0272152. https://doi.org/10.1371/journal.pone.0272152"
+   }
+  ],
+  "questions": [
+   {
+    "n": 1,
+    "source": 1,
+    "marks": 3,
+    "text": "Explain one issue that limits the interpretation of the data in source 1."
+   },
+   {
+    "n": 2,
+    "source": 2,
+    "marks": 6,
+    "text": "Analyse the findings from source 2 and state a conclusion linked to the claim that motivating people to help others is an effective way to protect their mental well-being."
+   },
+   {
+    "n": 3,
+    "source": 3,
+    "marks": 6,
+    "kind": "bias",
+    "text": "Discuss how the researcher could avoid bias in source 3."
+   },
+   {
+    "n": 4,
+    "marks": 15,
+    "text": "To what extent can we conclude that motivating people to help others is an effective way to protect their mental well-being? In your answer, use your own knowledge and at least three of sources 2 to 5."
+   }
+  ],
+  "markscheme": {
+   "q1": {
+    "issues": [
+     "The figure title states a causal relationship ('volunteering more hours raises well-being'), but the data come from a single questionnaire showing a correlation, so the graph cannot show that volunteering causes higher well-being; people with higher well-being may simply volunteer more, or a third variable such as free time or income may affect both.",
+     "The trend line and title invite the reader to see a clear effect, but the points are widely scattered (for example, two people with 6 hours score 41 and 53), so the correlation of r = 0.53 is moderate and individual well-being cannot be predicted reliably from volunteering hours.",
+     "With only 16 data points, one or two people (for example, the person at 16 hours scoring 61) can noticeably change the slope of the trend line and the size of r, so the strength of the pattern is uncertain.",
+     "The x-axis shows hours in the previous month only, so the graph cannot show whether this pattern holds for people's usual volunteering, or what type of volunteering was done.",
+     "Very few participants volunteered more than 15 hours, so the right-hand end of the trend line is based on very little data and the graph cannot show whether well-being keeps rising at higher hours."
+    ]
+   },
+   "q2": {
+    "analysis": [
+     "Well-being in the kindness condition rose by 4.7 points (44.2 to 48.9) compared with 0.8 points in the control condition (44.8 to 45.6); this difference in change was significant, t(94) = 2.61, p = 0.011, because 2.61 is above the critical value of 1.99.",
+     "The two conditions started at similar well-being levels (44.2 and 44.8), which suggests that random allocation produced comparable groups and the difference at the end is not explained by starting scores.",
+     "The SDs for well-being (about 8 points) are larger than the 4.7-point gain, so there is considerable overlap between individuals in the two conditions; the effect is a modest shift in the group mean, not a change for every student.",
+     "Anxiety fell more in the kindness condition (8.1 to 6.3, a drop of 1.8) than in the control condition (7.9 to 7.4, a drop of 0.5), but this difference was not significant, t(94) = 1.48, p = 0.14, because 1.48 is below 1.99.",
+     "Adherence was high (41 of 48 students logged at least 10 of the 12 acts), so the result reflects students who mostly did the task, but the analysis included all 48 students in the kindness condition.",
+     "Mean anxiety scores in both conditions were in the mild range and the SDs (about 4) are large relative to the mean differences, so any effect on anxiety is small and uncertain."
+    ],
+    "conclusion": [
+     "Source 2 partly supports the claim: asking students to carry out kind acts produced a significant gain in well-being over four weeks, but no significant reduction in anxiety symptoms, so the evidence supports helping as a way to raise well-being more than as a way to protect against anxiety.",
+     "The findings suggest that, for this sample of university students in Abu Dhabi, a short kindness task can improve self-reported well-being, although the modest size of the effect and the overlap of scores suggest it is not a strong protective factor on its own."
+    ]
+   },
+   "q3": {
+    "points": [
+     "Researcher bias: the interviewer designed the programme and knew most volunteers, and so may have an interest in positive findings; an independent researcher with no link to the charity could conduct the interviews.",
+     "Confirmation bias in analysis: coding began from the programme's own aims (purpose, belonging, resilience), so the themes may mirror these aims; an inductive approach, a second independent coder and checking agreement between coders would reduce this.",
+     "Leading questions: 'How has volunteering improved your mental health?' assumes a positive effect; neutral open questions (for example, 'How, if at all, has volunteering affected you?') would reduce question bias.",
+     "Social desirability and participant bias: participants knew the coordinator personally and were told the results would be reported to donors, so they may have given favourable answers; assuring confidentiality and not linking findings to the donor report would help.",
+     "Sampling bias: team leaders nominated 'committed volunteers' with at least six months' experience, so people who stopped volunteering or had negative experiences were excluded; sampling should include former and newer volunteers.",
+     "The negative theme (pressure to keep going, from two participants) shows contrary views exist; reflexivity, for example a reflexive journal about the coordinator's assumptions, and actively looking for negative cases would reduce bias.",
+     "The setting (the charity's office) may increase the sense of being evaluated; interviewing in a neutral location could reduce participant bias."
+    ]
+   },
+   "q4": {
+    "sources": [
+     "Source 2 supports the claim for well-being: the kindness condition gained significantly more well-being than the control, but the effect on anxiety was not significant; limitation: a short four-week study of university students who received course credit, using self-report questionnaires.",
+     "Source 3 supports the claim through volunteers' accounts of purpose, belonging and calm, but also shows a cost (pressure and guilt); limitation: the coordinator's involvement, nominated sample and leading questions may have biased the findings towards positive accounts.",
+     "Source 4 supports the idea that knowing your actions help others increases satisfaction and meaning (3.30 vs 2.17; 3.10 vs 2.43), but positive mood (3.26 vs 3.12) and anxiety (1.69 vs 1.82) barely differed; limitation: a 4-minute online task with online workers, so well-being 'protection' over time was not tested.",
+     "Source 5 challenges the claim: in the pre-planned tests, kind acts did not improve happiness, anxiety or sense of a valuable life compared with other groups; benefits appeared only in an unplanned analysis of the minority who made extra effort; limitation: the subgroup result is exploratory and North American online workers may not represent other populations."
+    ],
+    "discussion": [
+     "The effect may depend on the outcome measured: helping seems to raise satisfaction, meaning and general well-being more reliably than it reduces anxiety (Sources 2, 4 and 5).",
+     "The effect may depend on how motivated people are to help: Source 5 found benefits only for those who went beyond their normal behaviour, and Source 3 suggests that helping felt as a duty can become a source of pressure, which fits self-determination theory's distinction between autonomous and controlled motivation.",
+     "'Protect' implies preventing decline over time, but most evidence is short term (4 minutes, 3 weeks, 4 weeks); longer follow-ups would be needed to conclude that helping protects mental well-being.",
+     "Comparison groups matter: in Source 5, kind acts did no better than enjoyable acts, suggesting that any pleasant, meaningful activity may be as effective as helping specifically.",
+     "Most measures are self-report and participants may guess the aim (demand characteristics), especially in Sources 2 and 3.",
+     "Samples range from university students in Abu Dhabi to online workers in North America and volunteers in Dubai, so generalisation to clinical groups or other cultures is limited; the role of cultural norms about helping (for example, collectivism) could be discussed."
+    ],
+    "ownKnowledge": [
+     "Self-determination theory (Deci and Ryan): well-being depends on satisfying needs for autonomy, competence and relatedness; helping may satisfy these needs when it is freely chosen.",
+     "Weinstein and Ryan (2010) found that helping benefited helpers' well-being more when the helping was autonomously motivated than when it was controlled.",
+     "Dunn, Aknin and Norton (2008) found that spending money on others was linked to greater happiness than spending it on oneself (prosocial spending).",
+     "Positive psychology interventions such as 'acts of kindness' tasks, and the issue that effects in such studies are often small and may not replicate.",
+     "Research considerations: demand characteristics, self-report bias, pre-registration versus exploratory analyses, and the WEIRD samples critique."
+    ]
+   }
+  },
+  "checklists": {
+   "q1": [
+    "I explained that Figure 1 comes from a correlational questionnaire, so its causal title is not justified by the data.",
+    "I gave at least one alternative explanation, such as reverse causation or a third variable, for why volunteering and well-being go together.",
+    "I referred to something specific in the graph, such as the title, the trend line or the r value of 0.53.",
+    "I wrote about interpreting the data as presented, not a list of general problems with the study's validity.",
+    "I explained why the issue limits what a reader can conclude from the graph, not just named it."
+   ],
+   "q2": [
+    "I calculated the change in well-being in each condition (4.7 points versus 0.8 points), not just the 'after' scores.",
+    "I compared each t value with the critical value of 1.99 and said which result was significant and which was not.",
+    "I noticed that anxiety did not change significantly, so I did not claim that kind acts reduced anxiety.",
+    "I used the SDs to comment on the overlap between the two conditions and the size of the effect.",
+    "I wrote a conclusion that says how far the findings support the claim, linked explicitly to the numbers.",
+    "I did not go beyond the data, for example by saying the effect lasts for months."
+   ],
+   "q3": [
+    "I identified specific sources of bias in source 3 (the coordinator as interviewer, the nominated sample, the leading question, the donor report, coding from the programme's aims).",
+    "For each bias, I explained how it could affect the findings and what the researcher could do differently.",
+    "I quoted or closely referred to details from source 3 rather than writing about bias in general.",
+    "I discussed both researcher bias and participant bias.",
+    "I wrote in developed paragraphs, not a numbered list."
+   ],
+   "q4": [
+    "I used at least three of sources 2 to 5 and said what each one suggests about the claim.",
+    "I included source 5 as evidence that challenges the claim, and explained why its positive subgroup result is weaker evidence.",
+    "I noticed that the sources measure different outcomes (well-being, meaning, mood, anxiety) and that results differ across them.",
+    "I evaluated the sources, for example their length, samples and use of self-report, rather than only describing them.",
+    "I used accurate own knowledge, such as self-determination theory, to explain when helping might or might not protect well-being.",
+    "I reached a reasoned conclusion about the extent to which the claim is supported, not a simple yes or no."
+   ]
+  }
+ },
+ {
+  "id": "mot-hd",
+  "extension": "Motivation",
+  "context": "Human development",
+  "areaOfInquiry": "The role of extrinsic motivators in the social development of a child",
+  "title": "Rewards and children's helping",
+  "claim": "rewarding young children for helping others reduces their motivation to help",
+  "sources": [
+   {
+    "n": 1,
+    "kind": "quantitative",
+    "method": "Survey",
+    "title": "Children's helping at home in Al Ain",
+    "text": [
+     "As part of a study of how families encourage helpful behaviour, researchers in Al Ain surveyed 150 parents of children aged 6 to 9. Each parent estimated how many hours per week their child spends helping at home without being paid or rewarded, for example tidying up, setting the table or looking after a younger sibling. The responses are shown in Figure 1."
+    ],
+    "figure": {
+     "type": "histogram",
+     "title": "Figure 1: Hours per week of unrewarded helping at home (n = 150)",
+     "categories": [
+      "0 to 1",
+      "1 to 2",
+      "2 to 5",
+      "5 to 15"
+     ],
+     "series": [
+      {
+       "name": "Number of children",
+       "values": [
+        34,
+        41,
+        52,
+        23
+       ]
+      }
+     ],
+     "xLabel": "Hours of helping per week",
+     "yLabel": "Number of children",
+     "yMin": 0,
+     "yMax": 60
+    },
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 2,
+    "kind": "quantitative",
+    "method": "Experiment",
+    "title": "Stickers for helping in Dubai nurseries",
+    "text": [
+     "Researchers in Dubai tested 80 children aged 4 to 6 from four nurseries, with written parental consent. In a baseline session, an adult had six small problems, such as dropping a pen or being unable to reach a box. An observer who did not know the purpose of the study recorded how many times each child helped (0 to 6). Children who helped 0 to 2 times were classed as low helpers and those who helped 3 to 6 times as high helpers (40 of each).",
+     "Within each type, children were randomly allocated to a reward condition, in which they received a sticker each time they helped during two training sessions, or a no-reward condition, in which the adult simply said 'OK'. One week later, in a test session with six new helping opportunities, no child received stickers.",
+     "Test-session helping was compared between the reward and no-reward conditions using independent t-tests. For high helpers, t(38) = 2.73, p = 0.009. For low helpers, t(38) = 2.25, p = 0.030. The critical value of t at p = 0.05 (two-tailed) with 38 degrees of freedom is 2.02."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 1: Mean (SD) number of helping acts out of 6 opportunities",
+     "headers": [
+      "Group",
+      "n",
+      "Baseline session",
+      "Training sessions (mean of two)",
+      "Test session (no stickers)"
+     ],
+     "rows": [
+      [
+       "High helpers, reward",
+       "20",
+       "4.6 (1.0)",
+       "5.4 (0.7)",
+       "3.1 (1.6)"
+      ],
+      [
+       "High helpers, no reward",
+       "20",
+       "4.5 (1.1)",
+       "4.6 (1.2)",
+       "4.4 (1.4)"
+      ],
+      [
+       "Low helpers, reward",
+       "20",
+       "1.2 (0.8)",
+       "4.1 (1.3)",
+       "2.6 (1.5)"
+      ],
+      [
+       "Low helpers, no reward",
+       "20",
+       "1.3 (0.7)",
+       "1.7 (1.1)",
+       "1.6 (1.3)"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 3,
+    "kind": "qualitative",
+    "method": "Semi-structured interviews",
+    "title": "Omani parents on encouraging children to help",
+    "text": [
+     "Researchers in Muscat, Oman, interviewed 18 parents (12 mothers and 6 fathers) of children aged 4 to 7. All were Omani and lived in extended-family households, usually with grandparents and several siblings. Parents were recruited through two private nurseries in Muscat. Interviews were held in Arabic in participants' homes, lasted 45 to 60 minutes and were audio-recorded, then translated into English by a bilingual member of the team.",
+     "Parents were asked how they encourage their children to help family members, siblings and neighbours, and whether and how they use rewards. Interviews continued until no new themes emerged, which happened after the sixteenth interview; two more were carried out to confirm this. Two researchers carried out a thematic analysis independently and then agreed the final themes. The report included detailed descriptions of daily household routines, such as shared meals, grandparents' role in childcare and older siblings looking after younger ones."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": [
+     "Theme 1: Rewards as a starting point. Many parents used stickers or small treats when a child first learned a task, then stopped once the habit formed.",
+     "Theme 2: Helping as family duty. Parents described helping as part of respect for elders and belonging to the family, not as something to be paid for.",
+     "Theme 3: Praise in front of relatives. Public praise from grandparents was seen as the most powerful encouragement.",
+     "Theme 4: Worry about 'asking for a prize'. Some parents had stopped using rewards because children began to expect them."
+    ],
+    "quotes": [
+     {
+      "who": "Mother of a 5-year-old",
+      "text": "In the beginning I gave her a star for bringing the plates. Now she does it because she wants to be like her big sister."
+     },
+     {
+      "who": "Father of a 6-year-old",
+      "text": "When his grandfather says 'well done, you are a man of this house', that is worth more than any toy."
+     },
+     {
+      "who": "Mother of twins aged 4",
+      "text": "I stopped the chocolate because every time they helped they asked, 'What will I get?'"
+     },
+     {
+      "who": "Mother of a 7-year-old",
+      "text": "We do not reward helping your grandmother. That is simply what we do."
+     }
+    ],
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 4,
+    "kind": "quantitative",
+    "method": "Experiment (repeated measures)",
+    "title": "Children's happiness after packing items for another child",
+    "text": [
+     "Some programmes let children help others in real life. This study asked whether children feel happier after helping, and whether helping a child who is similar to you feels better than helping a less similar child. The researchers predicted that happiness would rise after helping, and that the rise would be biggest for a similar child.",
+     "Two hundred and thirty-eight children took part (257 were enrolled, and some were excluded). They were aged 5 to 12, with an average age of 8.65 years. They visited Cradles to Crayons warehouses in Boston, Chicago or Philadelphia, USA, between June 2018 and August 2019, with a school class, a sports team or a parent-led group.",
+     "At the warehouse, children packed items such as shoes, books and art supplies for another child. Each child was randomly assigned to pack for a child similar to themselves or for a less similar child. Children rated how happy they felt on a six-point scale, from 'really not happy' to 'really happy', once before and once after packing.",
+     "Happiness rose from an average of 5.18 before packing to 5.63 after packing (p < 0.001). The rise happened in both groups. Packing for a similar child did not give a bigger rise than packing for a less similar child (p = 0.389)."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "adapted",
+    "citation": "Source: Proulx, J. D. E., Van de Vondervoort, J. W., Hamlin, J. K., Helliwell, J. F., & Aknin, L. B. (2023). Are real-world prosociality programs associated with greater psychological well-being in primary school-aged children? International Journal of Environmental Research and Public Health, 20(5), 4403. https://doi.org/10.3390/ijerph20054403"
+   },
+   {
+    "n": 5,
+    "kind": "quantitative",
+    "method": "Experiment (online)",
+    "title": "Children's helping decisions when helping is wrong",
+    "text": [
+     "Researchers asked how children aged 4 to 8 decide whether a character should help when helping would mean doing something wrong, and whether it matters if the person asking is a friend or a stranger. They tested 152 children in Germany (mean age 6.5 years), and data from 147 children were analysed. Most children (120) came from a university database of families interested in child research and received a 5 euro voucher; the other 32 were recruited through an online platform for children's studies. The authors describe the sample as European, urban and middle-class.",
+     "In this online experiment, each child heard four picture stories read by an animated dog called Luna. In each story, one child could not reach an object and another child could. In moral stories, the object belonged to the child asking for help. In immoral stories, it belonged to another child, and the child asking wanted to take it home. The child asking was either the helper's best friend or a stranger. Every child heard all four combinations and then clicked one of two pictures to show what the helper should do: hand over the object (help) or walk away (not help).",
+     "The difference between moral and immoral stories was significant (p < 0.001). For immoral stories, about 25% of younger (preschool age) children said to help, compared with 13% (friend) and 7% (stranger) of older (elementary school age) children. Children were not asked to explain their choices."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 2: Percentage of children who said the helper should help",
+     "headers": [
+      "Story type",
+      "Best friend asking",
+      "Stranger asking"
+     ],
+     "rows": [
+      [
+       "Moral",
+       "97%",
+       "91%"
+      ],
+      [
+       "Immoral",
+       "19%",
+       "16%"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "adapted",
+    "citation": "Schuhmacher, N., Rack, N., Beckmann, L., & Kärtner, J. (2023). Is helping always the preferred decision? Preschool- and elementary school-aged children's helping decisions in complex social situations. Frontiers in Developmental Psychology, 1, Article 1278034. https://doi.org/10.3389/fdpys.2023.1278034"
+   }
+  ],
+  "questions": [
+   {
+    "n": 1,
+    "source": 1,
+    "marks": 3,
+    "text": "Explain one issue that limits the interpretation of the data in source 1."
+   },
+   {
+    "n": 2,
+    "source": 2,
+    "marks": 6,
+    "text": "Analyse the findings from source 2 and state a conclusion linked to the claim that rewarding young children for helping others reduces their motivation to help."
+   },
+   {
+    "n": 3,
+    "source": 3,
+    "marks": 6,
+    "kind": "transferability",
+    "text": "To what extent are the findings from source 3 transferable to other populations or contexts?"
+   },
+   {
+    "n": 4,
+    "marks": 15,
+    "text": "To what extent can we conclude that rewarding young children for helping others reduces their motivation to help? In your answer, use your own knowledge and at least three of sources 2 to 5."
+   }
+  ],
+  "markscheme": {
+   "q1": {
+    "issues": [
+     "The bins have unequal widths (1, 1, 3 and 10 hours) but are drawn as equal-width bars, so the tallest bar (2 to 5 hours, 52 children) looks like the most common amount of helping, when per hour of width it is less dense than the 0 to 1 and 1 to 2 bins (about 17 children per hour compared with 34 and 41).",
+     "The 5 to 15 bin covers ten hours, so its bar (23 children) hides how these children are spread; it cannot show whether most help about 6 hours or nearly 15, which distorts the apparent shape (skew) of the distribution.",
+     "The bin boundaries overlap (1 appears in both '0 to 1' and '1 to 2', 2 in both '1 to 2' and '2 to 5'), so it is unclear where a child helping exactly 1 or 2 hours was counted.",
+     "Because the bins are unequal, a reader cannot estimate the median or typical number of hours accurately from the graph.",
+     "The data are parents' estimates grouped into broad bands, so the graph shows the distribution of reported rather than measured helping, and fine differences within each band are lost."
+    ]
+   },
+   "q2": {
+    "analysis": [
+     "For high helpers, the reward condition helped more during training (5.4 vs 4.6) but less in the test session once stickers stopped (3.1 vs 4.4); this difference was significant, t(38) = 2.73, p = 0.009, which exceeds the critical value of 2.02.",
+     "High helpers in the reward condition dropped from 4.6 at baseline to 3.1 at test (a fall of 1.5), whereas high helpers without rewards stayed almost the same (4.5 to 4.4), which is consistent with an undermining effect of rewards.",
+     "For low helpers the pattern reversed: the reward condition helped more at test than the no-reward condition (2.6 vs 1.6), t(38) = 2.25, p = 0.030, which is significant; their helping rose from 1.2 at baseline to 2.6, above their starting level even without stickers.",
+     "Rewards strongly increased helping while they were given, especially for low helpers (4.1 vs 1.7 during training), so the effect of rewards depends on whether they are present.",
+     "The SDs at test (1.3 to 1.6) are large relative to the 6-point scale, so there is overlap between conditions; some rewarded high helpers still helped more than some non-rewarded ones.",
+     "Baseline scores were very similar within each type (4.6 vs 4.5; 1.2 vs 1.3), so random allocation produced comparable groups."
+    ],
+    "conclusion": [
+     "Source 2 supports the claim only for children who already helped often: for high helpers, stickers were followed by significantly less helping once rewards stopped; for low helpers, rewards were followed by significantly more helping, so the claim is not supported for them.",
+     "The findings suggest that whether rewarding children reduces their motivation to help depends on their initial level of helping, so the claim is supported only in part for 4- to 6-year-olds in this setting."
+    ]
+   },
+   "q3": {
+    "points": [
+     "The sample is specific: Omani parents in extended-family households in Muscat, recruited through private nurseries, so findings may transfer to similar collectivist, extended-family settings in the Gulf but less to nuclear families or more individualist cultures.",
+     "Recruiting through private nurseries may mean higher-income families; parents' use of rewards (stickers, treats) and views may differ in lower-income or rural families.",
+     "The detailed description of household routines (shared meals, grandparents' childcare, older siblings caring for younger ones) is thick description, which helps readers judge whether the findings fit their own context and so supports transferability.",
+     "Themes such as public praise from grandparents and helping as respect for elders depend on the family structure described, so these themes are less likely to transfer to families without grandparents at home.",
+     "Theme 1 and Theme 4 (rewards to start a habit; children who begin to expect rewards) match patterns reported in other cultures and in reward research, so these themes may be more transferable.",
+     "Data saturation (no new themes after the sixteenth interview) and two independent coders increase confidence that the themes are a full picture of this population, though not of other populations.",
+     "The findings are parents' perceptions of children aged 4 to 7, so they may not transfer to children's actual behaviour, to older children or to other carers such as teachers; translation from Arabic may also affect how culturally specific ideas transfer."
+    ]
+   },
+   "q4": {
+    "sources": [
+     "Source 2 partly supports the claim: rewarded high helpers helped significantly less once stickers stopped, but rewarded low helpers helped significantly more; limitation: a short lab-style task in Dubai nurseries with stickers as the only reward and a one-week follow-up.",
+     "Source 3 gives mixed support: parents described children who began to expect rewards ('What will I get?'), but also rewards as a useful starting point that was later phased out, and social praise as powerful; limitation: parents' perceptions from one cultural setting, not observed behaviour.",
+     "Source 4 suggests that helping is rewarding in itself, since children's happiness rose after packing items for others (5.18 to 5.63), which fits the idea that extra rewards are unnecessary; limitation: no control group and no reward condition, so it does not test the claim directly.",
+     "Source 5 suggests that children's helping decisions are guided by moral norms rather than rewards (97% and 91% chose to help in moral stories; few in immoral stories, fewer among older children); limitation: hypothetical choices in stories, a European middle-class sample, and no rewards were tested."
+    ],
+    "discussion": [
+     "The type of reward matters: tangible rewards (stickers, treats) may undermine helping, while social rewards such as praise from relatives (Source 3) may support it, which fits research distinguishing tangible from verbal rewards.",
+     "Children's initial motivation matters: the undermining effect in Source 2 appeared only for children who already helped often, consistent with the overjustification effect applying mainly when intrinsic motivation is high.",
+     "Short-term versus long-term effects: rewards increase helping while present (Source 2 training; Source 3 Theme 1) but may change motivation once removed; most evidence covers only days or weeks.",
+     "Development and age: older children in Source 5 relied more on moral rules, suggesting that the role of extrinsic motivators may change as children internalise norms.",
+     "Culture: in Source 3, helping is framed as family duty and respect for elders, so the meaning of rewards may differ in collectivist and individualist settings; most experimental evidence comes from WEIRD samples.",
+     "Sources 4 and 5 do not test rewards directly, so they can only indirectly support the claim; a strong answer notes this."
+    ],
+    "ownKnowledge": [
+     "Overjustification effect: Lepper, Greene and Nisbett (1973) found that preschool children who expected a reward for drawing later spent less free time drawing.",
+     "Warneken and Tomasello (2008) found that 20-month-old children who were given a material reward for helping later helped less than children who were not rewarded.",
+     "Deci, Koestner and Ryan (1999), a meta-analysis, found that expected tangible rewards tend to undermine intrinsic motivation, while verbal rewards (positive feedback) tend not to.",
+     "Self-determination theory and cognitive evaluation theory: rewards experienced as controlling reduce autonomy and intrinsic motivation; rewards experienced as informational can support competence.",
+     "Operant conditioning (positive reinforcement) and social learning theory (Bandura) as alternative explanations of how rewards and models can build helping habits; individualism and collectivism (Hofstede) for cultural context."
+    ]
+   }
+  },
+  "checklists": {
+   "q1": [
+    "I noticed that the bins are different widths (1, 1, 3 and 10 hours) even though the bars are drawn the same width.",
+    "I explained how this makes the 2 to 5 hours bar look like the most common amount of helping when it is not, per hour.",
+    "I used numbers from the graph, for example 52 children across 3 hours compared with 41 children in 1 hour.",
+    "I wrote about how the data are presented, not about whether parents' estimates are valid.",
+    "I explained the consequence for interpretation, such as a distorted shape or an inaccurate typical value."
+   ],
+   "q2": [
+    "I analysed high helpers and low helpers separately instead of averaging everyone together.",
+    "I compared both t values with the critical value of 2.02 and stated that both were significant.",
+    "I noticed that rewards had opposite effects on high and low helpers in the test session.",
+    "I used the training session data to show that rewards increased helping while stickers were given.",
+    "I commented on the SDs and overlap, not just the means.",
+    "My conclusion says the claim is supported only for some children, and links this to the actual numbers."
+   ],
+   "q3": [
+    "I described exactly who the participants were (Omani parents, extended families, private nurseries in Muscat) before judging transferability.",
+    "I discussed which themes are likely to transfer (for example, rewards starting habits) and which are more culturally specific (for example, praise from grandparents).",
+    "I explained how the detailed description of household routines helps readers judge transferability.",
+    "I considered transfer to other populations (cultures, family types, incomes) and other contexts (schools, older children, observed behaviour).",
+    "I reached a judgement on the extent of transferability rather than only listing limitations."
+   ],
+   "q4": [
+    "I used at least three of sources 2 to 5 and showed that source 2 supports the claim for some children but not others.",
+    "I recognised that sources 4 and 5 do not test rewards directly and used them with care.",
+    "I distinguished tangible rewards from social rewards such as praise.",
+    "I evaluated the sources, for example their samples, settings, length and whether they measured real behaviour.",
+    "I used accurate own knowledge, such as the overjustification effect or self-determination theory.",
+    "I reached a reasoned conclusion that says for whom, and under what conditions, the claim holds."
+   ]
+  }
+ },
+ {
+  "id": "mot-hr",
+  "extension": "Motivation",
+  "context": "Human relationships",
+  "areaOfInquiry": "Motivators leading to greater employee satisfaction and performance",
+  "title": "Recognition or bonuses at work?",
+  "claim": "recognition from managers is more effective than financial bonuses at improving employee satisfaction and performance",
+  "sources": [
+   {
+    "n": 1,
+    "kind": "quantitative",
+    "method": "Analysis of company records",
+    "title": "A recognition scheme in a Dubai logistics firm",
+    "text": [
+     "A logistics firm in Dubai employing 210 delivery drivers introduced a recognition scheme. Each month, the driver with the best punctuality record was named 'Driver of the Month', thanked by the managing director and photographed for the company noticeboard. The operations manager used company records to compare the number of late deliveries before and after the scheme began, as shown in Figure 1."
+    ],
+    "figure": {
+     "type": "bar",
+     "title": "Figure 1: Late deliveries before and after the Driver of the Month scheme",
+     "categories": [
+      "Before scheme (12 months)",
+      "After scheme (3 months)"
+     ],
+     "series": [
+      {
+       "name": "Late deliveries",
+       "values": [
+        480,
+        150
+       ]
+      }
+     ],
+     "xLabel": "Period",
+     "yLabel": "Number of late deliveries",
+     "yMin": 0,
+     "yMax": 500
+    },
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 2,
+    "kind": "quantitative",
+    "method": "Field experiment",
+    "title": "Bonuses and recognition in a Riyadh customer service centre",
+    "text": [
+     "Researchers in Riyadh worked with a telecommunications company's customer service centre. The 90 staff (aged 21 to 44) worked in six teams of 15, and two teams were randomly allocated to each of three conditions for eight weeks. In the bonus condition, staff received a cash payment for every resolved call above their weekly target. In the recognition condition, managers gave each staff member specific spoken praise at a weekly team meeting, and the top performers were named on a team screen. The control condition continued as normal.",
+     "Performance was measured from computer records as the mean number of customer calls resolved per shift. Job satisfaction was measured with a questionnaire scored from 1 to 7, where higher scores mean greater satisfaction. Week 8 scores were compared using one-way ANOVA. The critical value of F at p = 0.05 with 2 and 87 degrees of freedom is 3.10.",
+     "Post hoc tests showed that, for performance, the bonus condition was significantly higher than both other conditions (p < 0.05), while recognition did not differ significantly from control (p = 0.14). For job satisfaction, the recognition condition was significantly higher than both other conditions (p < 0.05), while bonus did not differ significantly from control."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 1: Mean (SD) performance and job satisfaction at week 0 and week 8",
+     "headers": [
+      "Condition",
+      "Calls resolved per shift: week 0",
+      "Calls resolved per shift: week 8",
+      "Job satisfaction (1 to 7): week 0",
+      "Job satisfaction (1 to 7): week 8"
+     ],
+     "rows": [
+      [
+       "Bonus (n = 30)",
+       "31.6 (4.8)",
+       "37.8 (4.9)",
+       "4.4 (1.1)",
+       "4.6 (1.1)"
+      ],
+      [
+       "Recognition (n = 30)",
+       "31.9 (5.1)",
+       "34.6 (5.2)",
+       "4.5 (1.0)",
+       "5.4 (1.0)"
+      ],
+      [
+       "Control (n = 30)",
+       "31.4 (4.9)",
+       "32.1 (5.0)",
+       "4.4 (1.2)",
+       "4.5 (1.2)"
+      ],
+      [
+       "ANOVA at week 8",
+       "",
+       "F(2, 87) = 9.66, p < 0.001",
+       "",
+       "F(2, 87) = 6.00, p = 0.004"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 3,
+    "kind": "qualitative",
+    "method": "Focus groups",
+    "title": "Nurses' views on recognition and pay in an Abu Dhabi hospital",
+    "text": [
+     "A private hospital in Abu Dhabi introduced a monthly 'Star Nurse' award one year before this study. The hospital's human resources (HR) manager, who had introduced the award, wanted to find out how nurses felt about recognition and pay. She held three focus groups, one each on the surgical, children's and outpatient wards, with six nurses in each group (18 in total). Ward supervisors chose which nurses would take part. The nurses were aged 24 to 51 and came from India, the Philippines, Jordan and the UAE.",
+     "Each focus group lasted about 40 minutes and took place in a hospital meeting room during working hours. The sessions were not audio-recorded. The HR manager led the discussion and took handwritten notes, which she typed up the same evening. She then read the notes several times and identified themes on her own. The focus groups were the only source of data, and the findings were presented to the hospital's senior management."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": [
+     "Theme 1: Being seen. Nurses valued thanks from supervisors and patients more than the award itself.",
+     "Theme 2: Pay as the foundation. Many nurses said recognition matters only when pay is felt to be fair.",
+     "Theme 3: Rivalry. Several nurses felt the individual award created competition and ignored teamwork.",
+     "Theme 4: Preference for team recognition. Nurses suggested recognising whole wards or shifts instead of individuals."
+    ],
+    "quotes": [
+     {
+      "who": "Nurse, surgical ward (Philippines, 32)",
+      "text": "When the charge nurse says thank you after a hard night, I feel I matter here."
+     },
+     {
+      "who": "Nurse, outpatient ward (India, 45)",
+      "text": "A certificate is nice, but praise does not pay my children's school fees."
+     },
+     {
+      "who": "Nurse, children's ward (Jordan, 27)",
+      "text": "Since the award started, some colleagues keep good cases for themselves."
+     },
+     {
+      "who": "Nurse, surgical ward (UAE, 38)",
+      "text": "We save patients as a team, so thank the team."
+     }
+    ],
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 4,
+    "kind": "quantitative",
+    "method": "Correlational study (survey)",
+    "title": "Recognition, pay and satisfaction across Gulf companies",
+    "text": [
+     "Researchers in Doha invited 2,780 employees of 38 private-sector companies in the UAE, Saudi Arabia, Oman and Qatar to complete an online questionnaire, and 1,140 responded (a response rate of 41%). Employees rated how often their manager recognised their work (perceived recognition), how satisfied they were with their pay (pay satisfaction) and their overall job satisfaction, each on a scale from 1 to 7. Each employee's direct supervisor also rated the employee's job performance on a scale from 1 to 10.",
+     "Employees were divided into two salary bands at the median monthly salary for their country. Pearson correlations were calculated for all employees and for each salary band (Table 2). All correlations shown were significant at p < 0.01."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 2: Correlations (r) between motivators and outcomes",
+     "headers": [
+      "Variables",
+      "All employees (n = 1,140)",
+      "Lower salary band (n = 590)",
+      "Higher salary band (n = 550)"
+     ],
+     "rows": [
+      [
+       "Perceived recognition and job satisfaction",
+       "0.48",
+       "0.45",
+       "0.50"
+      ],
+      [
+       "Pay satisfaction and job satisfaction",
+       "0.36",
+       "0.47",
+       "0.21"
+      ],
+      [
+       "Perceived recognition and supervisor-rated performance",
+       "0.21",
+       "0.19",
+       "0.23"
+      ],
+      [
+       "Pay satisfaction and supervisor-rated performance",
+       "0.17",
+       "0.22",
+       "0.12"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 5,
+    "kind": "quantitative",
+    "method": "Field experiment",
+    "title": "Bonus and recognition schemes in Malaysian shops over 12 months",
+    "text": [
+     "Researchers in Kuala Lumpur, Malaysia, worked with a retail chain of 24 shops with similar sales histories. Twelve shops were randomly allocated to a bonus scheme, in which staff shared a cash bonus when monthly sales targets were met; as planned, the bonus was withdrawn at the end of month 6. The other twelve shops introduced a recognition scheme, in which area managers visited each month to thank staff for specific achievements and described them in the company newsletter; this continued for all 12 months.",
+     "Sales per staff hour were recorded each month and converted into an index, where 100 equals each shop's mean in the three months before the study (Figure 2). At month 6, the bonus shops had a significantly higher index than the recognition shops, t(22) = 2.31, p = 0.031. At month 12, the recognition shops had a significantly higher index, t(22) = 2.58, p = 0.017. The critical value of t at p = 0.05 (two-tailed) with 22 degrees of freedom is 2.07."
+    ],
+    "figure": {
+     "type": "line",
+     "title": "Figure 2: Mean sales index in bonus and recognition shops",
+     "categories": [
+      "Month 0",
+      "Month 2",
+      "Month 4",
+      "Month 6",
+      "Month 8",
+      "Month 10",
+      "Month 12"
+     ],
+     "series": [
+      {
+       "name": "Bonus shops (bonus withdrawn after month 6)",
+       "values": [
+        100,
+        108,
+        111,
+        112,
+        101,
+        97,
+        96
+       ]
+      },
+      {
+       "name": "Recognition shops",
+       "values": [
+        100,
+        103,
+        105,
+        106,
+        106,
+        105,
+        106
+       ]
+      }
+     ],
+     "xLabel": "Month of study",
+     "yLabel": "Sales per staff hour (index, before study = 100)",
+     "yMin": 80,
+     "yMax": 120
+    },
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   }
+  ],
+  "questions": [
+   {
+    "n": 1,
+    "source": 1,
+    "marks": 3,
+    "text": "Explain one issue that limits the interpretation of the data in source 1."
+   },
+   {
+    "n": 2,
+    "source": 2,
+    "marks": 6,
+    "text": "Analyse the findings from source 2 and state a conclusion linked to the claim that recognition from managers is more effective than financial bonuses at improving employee satisfaction and performance."
+   },
+   {
+    "n": 3,
+    "source": 3,
+    "marks": 6,
+    "kind": "credibility",
+    "text": "Discuss how the researcher could improve the credibility of the findings in source 3."
+   },
+   {
+    "n": 4,
+    "marks": 15,
+    "text": "To what extent can we conclude that recognition from managers is more effective than financial bonuses at improving employee satisfaction and performance? In your answer, use your own knowledge and at least three of sources 2 to 5."
+   }
+  ],
+  "markscheme": {
+   "q1": {
+    "issues": [
+     "The two bars cover different lengths of time (12 months before, 3 months after) but show raw totals, so the 'after' bar looks much lower; per month, late deliveries were 40 before (480 / 12) and 50 after (150 / 3), so the graph may hide a rise rather than show a fall.",
+     "Because the bars are not converted to a common rate (such as late deliveries per month or per 1,000 deliveries), the reader cannot directly compare the two periods from the graph.",
+     "The graph does not show the total number of deliveries in each period, so the number of late deliveries cannot be interpreted as a proportion; a busier period would be expected to have more late deliveries.",
+     "Only two totals are shown, so month-to-month variation (for example, seasonal peaks or the months just before the scheme) is hidden, and a reader cannot see whether any change began before the scheme started.",
+     "The 3-month 'after' window is short and may cover an unusual period, so a single total gives no sense of how stable the figure is."
+    ]
+   },
+   "q2": {
+    "analysis": [
+     "Performance rose most in the bonus condition (31.6 to 37.8, a gain of 6.2 calls per shift) compared with recognition (31.9 to 34.6, a gain of 2.7) and control (31.4 to 32.1, a gain of 0.7); the ANOVA was significant, F(2, 87) = 9.66, p < 0.001, well above the critical value of 3.10.",
+     "Post hoc tests showed bonus was significantly higher than both other conditions on performance, but recognition was not significantly different from control (p = 0.14), so recognition did not clearly improve performance.",
+     "Job satisfaction rose most in the recognition condition (4.5 to 5.4) while bonus (4.4 to 4.6) and control (4.4 to 4.5) changed very little; the ANOVA was significant, F(2, 87) = 6.00, p = 0.004, above 3.10, and recognition was higher than both other conditions.",
+     "Week 0 means were very similar across conditions for both measures, suggesting the randomly allocated teams were comparable at the start.",
+     "SDs of about 5 calls and about 1 satisfaction point mean there is substantial overlap between individuals; for example, the 2.5-call difference between recognition and control at week 8 (34.6 vs 32.1) is small relative to an SD of about 5.",
+     "The results point in opposite directions for the two outcomes: bonuses improved performance but not satisfaction, while recognition improved satisfaction but not significantly performance."
+    ],
+    "conclusion": [
+     "Source 2 supports the claim for job satisfaction, where recognition outperformed bonuses, but contradicts it for performance, where bonuses produced a significantly larger gain, so the claim is only partly supported.",
+     "Over eight weeks in this Riyadh call centre, the findings suggest that which motivator is 'more effective' depends on the outcome: recognition for satisfaction, bonuses for short-term performance."
+    ]
+   },
+   "q3": {
+    "points": [
+     "Recording and transcription: the sessions were not audio-recorded and relied on handwritten notes, so nurses' words may be incomplete or paraphrased; audio-recording and verbatim transcription would improve credibility.",
+     "Researcher triangulation: the HR manager identified themes on her own; a second researcher coding independently, then comparing and agreeing themes, would increase confidence that the themes reflect the data.",
+     "Reflexivity: the HR manager introduced the award and presented findings to senior management, so she should record and reflect on how her role and expectations may shape what she noticed.",
+     "Independent moderator: nurses may not speak openly to an HR manager during working hours; a moderator not employed by the hospital would make it more likely that findings reflect nurses' real views.",
+     "Member checking: themes could be shared with participating nurses to confirm they accurately represent what was said, for example whether 'pay as the foundation' was a majority or minority view.",
+     "Method and data triangulation: the focus groups were the only data; individual interviews (to reduce conformity in groups), anonymous surveys or records of award winners could be used to check the themes.",
+     "Sampling: supervisors chose participants, so including nurses selected randomly or by volunteering, from more wards, would give a fuller and more credible picture."
+    ]
+   },
+   "q4": {
+    "sources": [
+     "Source 2 partly supports the claim: recognition increased job satisfaction more than bonuses, but bonuses increased performance more, and recognition did not significantly improve performance; limitation: eight weeks in one call centre, and only six teams were randomised.",
+     "Source 3 suggests recognition matters (being seen, thanks from supervisors), but also that pay is the foundation and individual awards can cause rivalry; limitation: credibility is limited by no recording, a single coder who designed the award, and supervisor-chosen participants.",
+     "Source 4 supports the claim for satisfaction: recognition correlates more strongly with job satisfaction (r = 0.48) than pay satisfaction does (r = 0.36), but in the lower salary band pay matters as much as recognition (0.47 vs 0.45); links with performance are weak for both (r = 0.21 and 0.17); limitation: correlational, 41% response rate, and satisfaction with pay is not the same as receiving a bonus.",
+     "Source 5 shows bonuses gave a larger short-term rise in sales (112 vs 106 at month 6), but after the bonus was withdrawn sales fell below baseline (96), while recognition shops held steady (106 at month 12); limitation: the bonus was withdrawn by design, so the comparison at month 12 is between a removed bonus and a continuing recognition scheme."
+    ],
+    "discussion": [
+     "The answer depends on the outcome: recognition seems more effective for satisfaction (Sources 2 and 4), while bonuses seem more effective for short-term performance (Sources 2 and 5).",
+     "The answer depends on the time scale: bonuses work while they are paid, but Source 5 suggests a drop below baseline after withdrawal, which may reflect a crowding-out or overjustification effect.",
+     "The answer depends on the employee: in Source 4, pay matters more for lower-paid employees, consistent with Herzberg's view of pay as a hygiene factor and with Maslow's idea that basic needs come first.",
+     "The type of recognition matters: Source 3 suggests that sincere thanks from supervisors and team recognition are valued more than individual awards, which can create rivalry.",
+     "Methodological issues: field experiments (Sources 2 and 5) allow causal conclusions but involve few randomised units (teams, shops); Hawthorne effects and novelty may affect both schemes; Source 4 relies on self-report and is correlational.",
+     "Generalisability across job types and cultures: call centres, retail shops, hospitals and Gulf private-sector firms differ, and most sources come from Asian and Gulf settings, which may differ from Western workplaces."
+    ],
+    "ownKnowledge": [
+     "Herzberg's two-factor theory: pay and working conditions are hygiene factors that prevent dissatisfaction, while recognition and achievement are motivators that increase satisfaction.",
+     "Self-determination theory (Deci and Ryan): recognition that supports competence and relatedness may enhance autonomous motivation, while contingent financial rewards may be experienced as controlling.",
+     "Vroom's expectancy theory: effort depends on expectancy, instrumentality and valence, which explains why clear bonus targets can raise performance.",
+     "Overjustification effect and crowding out of intrinsic motivation by external rewards (for example, Deci, Koestner and Ryan's 1999 meta-analysis).",
+     "Locke and Latham's goal-setting theory, and the Hawthorne effect as an explanation for short-term changes in workplace studies."
+    ]
+   }
+  },
+  "checklists": {
+   "q1": [
+    "I noticed that the two bars cover different time periods (12 months and 3 months).",
+    "I converted the totals to a monthly rate (40 per month before, 50 per month after) to show how the graph could mislead.",
+    "I explained that raw totals over unequal periods cannot be compared directly.",
+    "I wrote about how the data are presented, not about whether the scheme was a good idea.",
+    "I explained the consequence: the graph may suggest an improvement when there may have been none."
+   ],
+   "q2": [
+    "I analysed performance and job satisfaction separately, because they show different patterns.",
+    "I calculated gains from week 0 to week 8 for each condition, not just week 8 means.",
+    "I compared both F values with the critical value of 3.10 and used the post hoc results to say which conditions differed.",
+    "I noted that recognition did not significantly improve performance (p = 0.14).",
+    "I commented on the SDs and overlap between conditions.",
+    "My conclusion says the claim is supported for satisfaction but not for performance, linked to the numbers."
+   ],
+   "q3": [
+    "I explained what credibility means for qualitative research (the findings accurately reflect participants' views).",
+    "I suggested specific improvements linked to details in source 3, such as audio-recording, a second coder, member checking and an independent moderator.",
+    "I explained how each improvement would make the findings more credible, not just named it.",
+    "I discussed the HR manager's role in introducing the award and how reflexivity could address this.",
+    "I wrote developed paragraphs instead of a numbered list."
+   ],
+   "q4": [
+    "I used at least three of sources 2 to 5 and separated evidence about satisfaction from evidence about performance.",
+    "I used the salary bands in source 4 to show that the importance of pay depends on the employee.",
+    "I used source 5 to discuss short-term versus long-term effects and noted that the bonus was withdrawn by design.",
+    "I evaluated the sources (design, sample, time scale, self-report), not just described their results.",
+    "I used accurate own knowledge, such as Herzberg's two-factor theory or self-determination theory.",
+    "I reached a reasoned conclusion that says when recognition is and is not more effective than bonuses."
+   ]
+  }
+ },
+ {
+  "id": "mot-lc",
+  "extension": "Motivation",
+  "context": "Learning and cognition",
+  "areaOfInquiry": "The role of motivation in enhancing one cognitive process",
+  "title": "Curiosity, rewards and memory",
+  "claim": "intrinsic motivation improves students' long-term memory more than external rewards do",
+  "sources": [
+   {
+    "n": 1,
+    "kind": "quantitative",
+    "method": "Correlational study",
+    "title": "Motivation to learn science and recall in Sharjah",
+    "text": [
+     "Researchers in Sharjah gave 400 secondary school students aged 14 to 17 a questionnaire measuring how motivated they were to learn science. All students then studied a passage about the human immune system for 20 minutes. One week later, they completed a surprise recall test scored from 0 to 30. Figure 1 shows the mean recall scores for students in the top 10% and the bottom 10% of motivation scores."
+    ],
+    "figure": {
+     "type": "bar",
+     "title": "Figure 1: Motivation to learn science and recall one week later",
+     "categories": [
+      "Lowest motivation (bottom 10%, n = 40)",
+      "Highest motivation (top 10%, n = 40)"
+     ],
+     "series": [
+      {
+       "name": "Mean recall score",
+       "values": [
+        12.4,
+        21.8
+       ],
+       "errors": [
+        4.6,
+        4.1
+       ]
+      }
+     ],
+     "xLabel": "Motivation group",
+     "yLabel": "Mean recall score (0 to 30)",
+     "yMin": 0,
+     "yMax": 30
+    },
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 2,
+    "kind": "quantitative",
+    "method": "Experiment (repeated measures)",
+    "title": "Curiosity and rewards in trivia learning in Abu Dhabi",
+    "text": [
+     "Researchers in Abu Dhabi tested 60 students aged 16 to 18. Each student first read 60 trivia questions (for example, 'Which planet has the shortest day?') and rated how curious they were to know each answer. For each student, the 30 highest-rated questions were classed as high curiosity and the 30 lowest-rated as low curiosity.",
+     "Students then saw each question again, followed by its answer. Before half of the questions in each curiosity type, a coin symbol appeared, telling the student they would earn points towards a canteen voucher for recalling that answer correctly. Recall was tested immediately and again one week later, and points were awarded for coin-marked answers in both tests. Each student contributed scores to all four combinations.",
+     "Paired t-tests were used. The critical value of t at p = 0.05 (two-tailed) with 59 degrees of freedom is 2.00. Effect of reward (averaged across curiosity types): immediate test t(59) = 3.10, p = 0.003; one week later t(59) = 1.62, p = 0.11. Effect of curiosity (averaged across reward conditions): immediate test t(59) = 5.24, p < 0.001; one week later t(59) = 7.90, p < 0.001."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 1: Mean (SD) percentage of answers recalled",
+     "headers": [
+      "Condition",
+      "Immediate test",
+      "One week later"
+     ],
+     "rows": [
+      [
+       "High curiosity, reward",
+       "78 (12)",
+       "61 (15)"
+      ],
+      [
+       "High curiosity, no reward",
+       "74 (13)",
+       "59 (16)"
+      ],
+      [
+       "Low curiosity, reward",
+       "66 (14)",
+       "44 (16)"
+      ],
+      [
+       "Low curiosity, no reward",
+       "58 (15)",
+       "40 (15)"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 3,
+    "kind": "qualitative",
+    "method": "Focus groups",
+    "title": "Students' views on what makes learning stick, in Dubai",
+    "text": [
+     "Researchers in Dubai ran four focus groups with 22 students in Grades 11 and 12 (aged 16 to 18) at one fee-paying international school that teaches an English-medium pre-university curriculum. The students held 11 different nationalities, and all planned to attend university, most of them abroad. Students volunteered after an announcement in assemblies.",
+     "The groups met at school in the month before mock examinations and each lasted about 50 minutes. A researcher who did not work at the school moderated the groups, asking when students remembered material best and what motivated them to study. Sessions were audio-recorded and transcribed. Two researchers carried out an inductive thematic analysis and then shared the themes with six participants, who agreed that they matched their experiences."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": [
+     "Theme 1: Curiosity makes it stick. Students said they remembered topics they found interesting for much longer, often without trying.",
+     "Theme 2: Grades drive effort, not memory. Many said they studied hard for marks but quickly forgot material after tests.",
+     "Theme 3: Teachers spark interest. Enthusiastic teachers and real-life examples made topics feel worth remembering.",
+     "Theme 4: Pressure and expectations. Some students said that parents' and universities' expectations were their main reason to study, and that this pressure helped them focus."
+    ],
+    "quotes": [
+     {
+      "who": "Student A (Grade 12, 17)",
+      "text": "I still remember everything about black holes from a video I watched in Grade 8, because I wanted to know."
+     },
+     {
+      "who": "Student F (Grade 11, 16)",
+      "text": "For the chemistry test I crammed for the grade. Two weeks later, it was gone."
+     },
+     {
+      "who": "Student K (Grade 12, 18)",
+      "text": "When our biology teacher linked hormones to sleep, suddenly I cared, and it stayed."
+     },
+     {
+      "who": "Student P (Grade 11, 16)",
+      "text": "Honestly, the university offer is what keeps me going. Without that I would not open the book."
+     }
+    ],
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 4,
+    "kind": "quantitative",
+    "method": "Correlational study (survey)",
+    "title": "Motivation, exam grades and retention in Jeddah",
+    "text": [
+     "Researchers in Jeddah surveyed 1,250 first-year university students aged 18 to 21 taking an introductory biology course. In the second week of the course, students completed a questionnaire measuring intrinsic motivation (studying because the subject is interesting or enjoyable) and extrinsic motivation (studying for grades, prizes or the approval of others), each scored from 1 to 5.",
+     "At the end of the course, the researchers recorded each student's final exam grade. Six months later, as part of a follow-up course, all students took a short unannounced retention test on the same biology content. Pearson correlations were calculated (Table 2). Intrinsic and extrinsic motivation scores were themselves positively correlated (r = 0.31, p < 0.001)."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 2: Correlations (r) between motivation and learning outcomes (n = 1,250)",
+     "headers": [
+      "Motivation type",
+      "Final exam grade",
+      "Retention test six months later"
+     ],
+     "rows": [
+      [
+       "Intrinsic motivation",
+       "r = 0.24, p < 0.001",
+       "r = 0.29, p < 0.001"
+      ],
+      [
+       "Extrinsic motivation",
+       "r = 0.18, p < 0.001",
+       "r = 0.03, p = 0.29"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 5,
+    "kind": "quantitative",
+    "method": "Experiment (repeated measures)",
+    "title": "Money and memory for words in the Netherlands",
+    "text": [
+     "Researchers in the Netherlands tested 48 adult volunteers aged 19 to 35. Participants saw 80 neutral words, one at a time. Before each word, a symbol showed whether recalling that word later would earn a high reward (50 cents) or a low reward (1 cent). There were 40 words in each condition, presented in a random order.",
+     "Free recall of the words was tested immediately and again 24 hours later, and participants were paid for every word recalled in either test. Paired t-tests compared recall of high-reward and low-reward words. Immediate test: t(47) = 1.45, p = 0.15. 24 hours later: t(47) = 4.12, p < 0.001. The critical value of t at p = 0.05 (two-tailed) with 47 degrees of freedom is 2.01."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 3: Mean (SD) percentage of words recalled",
+     "headers": [
+      "Word type",
+      "Immediate test",
+      "24 hours later"
+     ],
+     "rows": [
+      [
+       "High reward (50 cents)",
+       "34 (11)",
+       "28 (10)"
+      ],
+      [
+       "Low reward (1 cent)",
+       "31 (10)",
+       "19 (9)"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   }
+  ],
+  "questions": [
+   {
+    "n": 1,
+    "source": 1,
+    "marks": 3,
+    "text": "Explain one issue that limits the interpretation of the data in source 1."
+   },
+   {
+    "n": 2,
+    "source": 2,
+    "marks": 6,
+    "text": "Analyse the findings from source 2 and state a conclusion linked to the claim that intrinsic motivation improves students' long-term memory more than external rewards do."
+   },
+   {
+    "n": 3,
+    "source": 3,
+    "marks": 6,
+    "kind": "transferability",
+    "text": "To what extent are the findings from source 3 transferable to other populations or contexts?"
+   },
+   {
+    "n": 4,
+    "marks": 15,
+    "text": "To what extent can we conclude that intrinsic motivation improves students' long-term memory more than external rewards do? In your answer, use your own knowledge and at least three of sources 2 to 5."
+   }
+  ],
+  "markscheme": {
+   "q1": {
+    "issues": [
+     "Only the top 10% and bottom 10% of motivation scores are shown (80 of 400 students), so the middle 80% (320 students) is missing; comparing extremes exaggerates the apparent difference and the reader cannot tell how strongly motivation and recall are related across the full range.",
+     "Because the middle groups are omitted, the graph cannot show the shape of the relationship; for example, recall might rise steadily with motivation, level off, or change only at the extremes.",
+     "Turning a continuous motivation score into two extreme groups loses information, so the graph gives no correlation coefficient or measure of how much motivation explains recall.",
+     "The error bars are not labelled (SD, standard error or confidence interval), so the reader cannot judge how much the two groups overlap.",
+     "The figure does not show the motivation scores that define each group, so it is unclear how far apart the two groups actually are on the motivation scale."
+    ]
+   },
+   "q2": {
+    "analysis": [
+     "Curiosity had a large effect at both times: averaged across reward conditions, high curiosity answers were recalled at 76% vs 62% immediately and 60% vs 42% one week later; both t values (5.24 and 7.90) exceed the critical value of 2.00, and the curiosity gap widened over the week (14 to 18 points).",
+     "Reward had a smaller effect: averaged across curiosity types, rewarded answers were recalled at 72% vs 66% immediately (t = 3.10, p = 0.003, significant) but only 52.5% vs 49.5% one week later (t = 1.62, p = 0.11, not significant, below 2.00).",
+     "The reward effect was larger for low curiosity questions (66% vs 58% immediately) than for high curiosity questions (78% vs 74%), suggesting rewards helped most when interest was low.",
+     "Forgetting over the week was greater for low curiosity answers (for example 58% to 40%) than for high curiosity answers (for example 74% to 59%), consistent with curiosity supporting longer-term retention.",
+     "SDs of 12 to 16 percentage points mean individual students' scores overlap considerably across conditions, especially for the 2 to 4 point reward differences at one week.",
+     "Because the design was repeated measures, each student acted as their own control, so differences are not due to differences between students."
+    ],
+    "conclusion": [
+     "Source 2 supports the claim: curiosity (intrinsic motivation) produced a large, significant advantage in recall that was still present one week later, whereas the reward advantage was significant immediately but not after one week.",
+     "The findings suggest that, for these students and trivia material, intrinsic motivation improves longer-term memory more than rewards do, although rewards did give a short-term boost, especially for low curiosity questions."
+    ]
+   },
+   "q3": {
+    "points": [
+     "The participants were 22 senior students at one fee-paying international school with an English-medium pre-university curriculum, all university-bound, so the findings may transfer to similar high-achieving international school students but less to state schools, lower-income students or students not planning university.",
+     "The students held 11 nationalities, which may make the findings more transferable across cultural backgrounds than a single-nationality sample, although all shared the same school culture.",
+     "The groups were held in the month before mock exams, so the theme about grades and pressure may be stronger than at other times of year, limiting transfer to other contexts.",
+     "Volunteers recruited through assemblies may be more reflective or more motivated than other students, so the views may not transfer to less engaged students.",
+     "Theme 2 ('cram and forget') and Theme 1 (curiosity aids memory) are consistent with experimental research on curiosity and memory, which increases confidence that these themes may transfer beyond this school.",
+     "Theme 4 shows that some students found external pressure helpful, which may vary across cultures with different family expectations; this theme may transfer more to contexts with strong academic pressure.",
+     "The findings are students' perceptions of their own memory, not measured recall, so they may transfer as perceptions but cannot be assumed to show how memory works in other populations, such as younger students or adults at work."
+    ]
+   },
+   "q4": {
+    "sources": [
+     "Source 2 supports the claim: curiosity improved recall strongly and its advantage persisted one week later, while the reward effect was significant only immediately; limitation: trivia questions and a canteen voucher may not represent school learning or larger rewards.",
+     "Source 3 supports the claim through students' accounts that curiosity makes learning 'stick' and that grade-driven cramming is quickly forgotten, but Theme 4 shows external pressure can help focus; limitation: perceptions from one fee-paying international school before mock exams.",
+     "Source 4 supports the claim: intrinsic motivation correlated with retention six months later (r = 0.29), but extrinsic motivation did not (r = 0.03, p = 0.29), although both correlated with final exam grades (0.24 and 0.18); limitation: correlational, self-report motivation, and the two types of motivation were themselves correlated (r = 0.31).",
+     "Source 5 challenges the claim: high monetary rewards improved recall after 24 hours (28% vs 19%, t = 4.12, p < 0.001) but not immediately, suggesting that rewards can strengthen consolidation of memory; limitation: adults and neutral word lists, and it did not compare rewards with intrinsic motivation."
+    ],
+    "discussion": [
+     "Sources 2 and 5 conflict about rewards over time: in Source 2 the reward effect faded after a week, whereas in Source 5 it appeared only after 24 hours; differences in materials (interesting trivia versus neutral words), reward size and delay could explain this.",
+     "The type of material may matter: rewards may help most when material is not interesting (Source 2, low curiosity questions; Source 5, neutral words), while curiosity dominates for interesting material.",
+     "'Long-term' is defined differently across sources (24 hours, one week, six months), so conclusions about long-term memory are strongest from Source 4, which is correlational.",
+     "Intrinsic and extrinsic motivation are not opposites: in Source 4 they were positively correlated, and in Source 3 some students used both, which fits self-determination theory's continuum of motivation.",
+     "Possible mechanisms: intrinsic motivation may increase depth of processing and attention at encoding, while rewards may affect consolidation; studies differ in whether they test encoding or retention.",
+     "Samples range from Gulf secondary and university students to Dutch adults, and most measures are lab-based or self-report, so ecological validity for everyday classroom learning is limited."
+    ],
+    "ownKnowledge": [
+     "Gruber, Gelman and Ranganath (2014) found that states of high curiosity improved memory for trivia answers and were linked to activity in the dopaminergic reward circuit and the hippocampus.",
+     "Murayama and Kuhbandner (2011) found that monetary rewards enhanced delayed (but not immediate) memory, mainly for uninteresting material, suggesting an effect on consolidation.",
+     "Self-determination theory (Deci and Ryan) and the overjustification effect: external rewards may reduce intrinsic motivation when experienced as controlling.",
+     "Craik and Lockhart's levels of processing: deeper, meaningful processing leads to better retention, and interest may encourage deeper processing.",
+     "The Yerkes-Dodson law, as a way of explaining why moderate pressure (Source 3, Theme 4) may help focus while high pressure may impair memory."
+    ]
+   }
+  },
+  "checklists": {
+   "q1": [
+    "I noticed that Figure 1 shows only the top and bottom 10% of students, so 320 of the 400 students are missing.",
+    "I explained why comparing extreme groups can exaggerate the difference between more and less motivated students.",
+    "I explained that the graph cannot show the shape or strength of the relationship across the full range of motivation.",
+    "I wrote about how the data are presented, not about the validity of the motivation questionnaire.",
+    "I used specific details from the figure, such as the group sizes or the mean scores of 12.4 and 21.8."
+   ],
+   "q2": [
+    "I compared the effect of curiosity and the effect of reward at both the immediate test and one week later.",
+    "I compared each t value with the critical value of 2.00 and noted that the reward effect was not significant after one week.",
+    "I noticed that the reward effect was larger for low curiosity questions.",
+    "I calculated at least one difference or amount of forgetting from the table rather than just copying the means.",
+    "I commented on the SDs and overlap.",
+    "My conclusion is linked to the findings and recognises that rewards still gave a short-term benefit."
+   ],
+   "q3": [
+    "I described the specific sample and setting (22 students, one fee-paying international school, university-bound, before mock exams) before judging transferability.",
+    "I explained which themes may transfer to other students and which may depend on this school's context.",
+    "I considered transfer to different populations (state schools, younger students, other cultures) and different contexts (other times of year, adults at work).",
+    "I noted that the findings are students' perceptions, not measured memory.",
+    "I reached a judgement on how transferable the findings are, rather than only listing problems."
+   ],
+   "q4": [
+    "I used at least three of sources 2 to 5, including source 5 as evidence that rewards can improve delayed memory.",
+    "I explained why sources 2 and 5 might disagree, for example different materials, rewards or delays.",
+    "I noticed that 'long-term' means different things in different sources (24 hours, one week, six months).",
+    "I evaluated the sources, including the correlational design of source 4 and the perceptions in source 3.",
+    "I used accurate own knowledge, such as self-determination theory or research on curiosity and memory.",
+    "I reached a reasoned conclusion that says under what conditions intrinsic motivation is more effective than rewards."
+   ]
+  }
+ }
+]

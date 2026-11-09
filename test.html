@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test conditions | IB Psychology 2027 Revision</title>
-<meta name="description" content="Timed, offline practice for IB Psychology Paper 1 and Paper 2 (first assessment 2027), with question-specific checklists and a downloadable record of your work.">
+<meta name="description" content="Timed, offline practice for IB Psychology Papers 1, 2 and 3 (first assessment 2027), with question-specific checklists and a downloadable record of your work.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
@@ -20,6 +20,7 @@
     <a class="btn btn-ghost" href="index.html">&larr; All papers</a>
     <a class="btn btn-ghost" href="paper1.html">Paper 1 revision</a>
     <a class="btn btn-ghost" href="paper2.html">Paper 2 revision</a>
+    <a class="btn btn-ghost" href="paper3.html">Paper 3 revision</a>
   </div>
 </header>
 
@@ -53,8 +54,13 @@
         <div class="t-choices" id="paperChoices">
           <label class="t-opt"><input type="radio" name="paper" value="1"> <span><b>Paper 1</b><br><span class="small">Concepts, content and contexts</span></span></label>
           <label class="t-opt"><input type="radio" name="paper" value="2"> <span><b>Paper 2</b><br><span class="small">Research methodology</span></span></label>
+          <label class="t-opt"><input type="radio" name="paper" value="3"> <span><b>Paper 3 (HL)</b><br><span class="small">Source-based HL extensions</span></span></label>
         </div>
       </div>
+      <label class="t-field" id="setField" style="display:none">
+        <span class="t-label">Paper 3 set</span>
+        <select class="t-input" id="setChoice"></select>
+      </label>
       <div class="t-field">
         <span class="t-label">What to sit</span>
         <div class="t-choices" id="modeChoices"></div>
@@ -139,12 +145,14 @@
 <div id="printHost" aria-hidden="true"></div>
 
 <footer id="siteFoot">
-  <p>Practice questions come from this site's revision pools. Section B scenarios and Paper 2 studies are fictional. Based on the IB Psychology guide (first assessment 2027); not endorsed by the IB.</p>
+  <p>Practice questions come from this site's revision pools. Section B scenarios, Paper 2 studies and most Paper 3 sources are fictional; adapted Paper 3 sources give their reference. Based on the IB Psychology guide (first assessment 2027); not endorsed by the IB.</p>
 </footer>
 
 <script src="assets/vendor/jspdf.umd.min.js"></script>
 <script src="assets/bank-p1.js"></script>
 <script src="assets/bank-p2.js"></script>
+<script src="assets/charts.js"></script>
+<script src="assets/bank-p3.js"></script>
 <script src="assets/test.js"></script>
 </body>
 </html>

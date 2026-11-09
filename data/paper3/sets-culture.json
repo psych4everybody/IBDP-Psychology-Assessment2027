@@ -1,0 +1,1378 @@
+[
+ {
+  "id": "cult-hwb",
+  "extension": "Culture",
+  "context": "Health and well-being",
+  "areaOfInquiry": "The role of culture in diagnosing and treating mental health issues",
+  "title": "Expressing distress: culture and the recorded prevalence of depression",
+  "claim": "differences in how distress is expressed across cultures explain differences in the recorded prevalence of depression between countries",
+  "sources": [
+   {
+    "n": 1,
+    "kind": "quantitative",
+    "method": "Secondary analysis of health records",
+    "title": "Depression diagnoses and unexplained physical symptoms in primary care",
+    "text": [
+     "Researchers compiled routine primary care data from four countries for the year 2024. For each country they reported how often doctors recorded a diagnosis of depression and how often patients attended with physical symptoms, such as tiredness, headaches or chest pain, for which no medical cause was found. The countries are identified by region only."
+    ],
+    "figure": {
+     "type": "bar",
+     "title": "Figure 1: Recorded depression and unexplained physical symptoms in primary care, 2024",
+     "categories": [
+      "Country W (Western Europe)",
+      "Country X (East Asia)",
+      "Country Y (Gulf region)",
+      "Country Z (North America)"
+     ],
+     "series": [
+      {
+       "name": "Diagnosed depression",
+       "values": [
+        5.2,
+        1.8,
+        2.3,
+        6.0
+       ]
+      },
+      {
+       "name": "Unexplained physical symptoms",
+       "values": [
+        3.1,
+        9.4,
+        8.6,
+        2.7
+       ]
+      }
+     ],
+     "xLabel": "Country",
+     "yLabel": "Rate",
+     "yMin": 0,
+     "yMax": 10
+    },
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 2,
+    "kind": "quantitative",
+    "method": "Quasi-experiment",
+    "title": "Main complaints of adults diagnosed with depression in Sharjah and Manchester",
+    "text": [
+     "Researchers studied 160 adults aged 25 to 60 who had been diagnosed with depression by a psychiatrist using a structured clinical interview. Eighty attended primary care clinics in Sharjah, UAE (Emirati, other Arab and South Asian residents) and 80 attended clinics in Manchester, UK (mainly White British and British South Asian residents).",
+     "Two trained raters, who did not know which city a record came from, coded each participant's first consultation record for the main complaint the patient described to the doctor. The raters agreed on 92% of records. The psychiatrist also rated symptom severity from 0 (no symptoms) to 30 (very severe).",
+     "Main complaint (Table 1): chi-squared = 14.58, df = 2; the critical value at p = 0.05 is 5.99.",
+     "Symptom severity: Sharjah M = 17.2 (SD = 4.8, range 8 to 27); Manchester M = 16.6 (SD = 5.1, range 7 to 28); t(158) = 0.77, p = 0.44."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 1: Main complaint at first consultation, number (percentage) of patients",
+     "headers": [
+      "Main complaint",
+      "Sharjah (n = 80)",
+      "Manchester (n = 80)"
+     ],
+     "rows": [
+      [
+       "Mainly physical (for example tiredness, pain, poor sleep)",
+       "38 (47.5%)",
+       "18 (22.5%)"
+      ],
+      [
+       "Mainly emotional (for example sadness, worry, loss of interest)",
+       "22 (27.5%)",
+       "44 (55.0%)"
+      ],
+      [
+       "Physical and emotional equally",
+       "20 (25.0%)",
+       "18 (22.5%)"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 3,
+    "kind": "qualitative",
+    "method": "Semi-structured interviews",
+    "title": "Experiences of distress among adults in Al Ain",
+    "text": [
+     "Researchers interviewed 16 Emirati adults (9 women, 7 men) aged 40 to 65 who had been diagnosed with depression within the previous six months at one government primary care centre in Al Ain. Participants were invited by their family doctor. All lived in extended family households and most had lived in Al Ain all their lives.",
+     "Interviews took place in 2025 in a private room at the centre. They were conducted in Arabic by a female Emirati psychologist, lasted 45 to 70 minutes, and were audio-recorded, transcribed and translated into English. Two researchers carried out an inductive thematic analysis. The report includes a detailed description of each participant's age, education, household and work, and of the local health services.",
+     "Two participants in their early forties, both university graduates who had worked abroad, described their feelings mainly in emotional terms, unlike most of the sample."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": [
+     "Theme 1: Distress felt in the body (heaviness in the chest, tiredness, headaches)",
+     "Theme 2: The family as the first source of help",
+     "Theme 3: Concern about how others would view a diagnosis",
+     "Theme 4: Trust in the family doctor rather than a specialist"
+    ],
+    "quotes": [
+     {
+      "who": "Participant 3 (woman, 58)",
+      "text": "At first I did not say I was sad. I said my chest was heavy and I could not sleep. That is what I felt."
+     },
+     {
+      "who": "Participant 7 (man, 49)",
+      "text": "My brothers and my mother noticed before I did. We talked at home first; the clinic came later."
+     },
+     {
+      "who": "Participant 11 (woman, 42, university graduate)",
+      "text": "I knew the word for it. I told the doctor I felt hopeless, the same way I would have said it when I lived in London."
+     },
+     {
+      "who": "Participant 14 (man, 63)",
+      "text": "The doctor has known my family for years. I would not go to a stranger with this."
+     }
+    ],
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 4,
+    "kind": "quantitative",
+    "method": "Experiment",
+    "title": "Doctors' diagnoses of physical and emotional case descriptions",
+    "text": [
+     "Researchers in Abu Dhabi and Birmingham, UK recruited 120 primary care doctors (60 in each city) for an online study. Each doctor was randomly allocated to read one of two written case descriptions of a 45-year-old patient. Both versions described the same duration of symptoms and the same difficulties at work and at home. In the physical version the patient described tiredness, back pain and poor sleep; in the emotional version the patient described sadness, loss of interest and poor sleep.",
+     "Doctors wrote down their most likely diagnosis and reported whether they had received training in cultural competence. The pattern of results was similar in both cities."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 2: Doctors naming depression as the most likely diagnosis",
+     "headers": [
+      "Version read",
+      "Doctors (n)",
+      "Named depression, number (percentage)"
+     ],
+     "rows": [
+      [
+       "Emotional version",
+       "60",
+       "47 (78.3%)"
+      ],
+      [
+       "Physical version",
+       "60",
+       "25 (41.7%)"
+      ],
+      [
+       "Physical version: doctors with cultural competence training",
+       "24",
+       "14 (58.3%)"
+      ],
+      [
+       "Physical version: doctors without cultural competence training",
+       "36",
+       "11 (30.6%)"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 5,
+    "kind": "quantitative",
+    "method": "Cross-cultural survey",
+    "title": "Standard and culturally adapted diagnostic interviews in three countries",
+    "text": [
+     "A research team surveyed 6,000 randomly selected adults: 2,000 in each of three countries (a Gulf country, an East Asian country and a Western European country). Each participant completed two diagnostic interviews in their own language, one week apart and in random order. One was a standard interview developed in the USA. The other was a culturally adapted version that also asked about physical signs of distress and used local expressions for low mood.",
+     "Table 3 shows the percentage of adults meeting the criteria for depression in the previous 12 months. In all three countries, people who reported low social support were about twice as likely to meet the criteria as people who reported high social support."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 3: 12-month prevalence of depression by type of interview",
+     "headers": [
+      "Country",
+      "Standard interview",
+      "Culturally adapted interview"
+     ],
+     "rows": [
+      [
+       "Gulf country",
+       "2.6%",
+       "3.9%"
+      ],
+      [
+       "East Asian country",
+       "2.2%",
+       "3.4%"
+      ],
+      [
+       "Western European country",
+       "5.1%",
+       "5.4%"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   }
+  ],
+  "questions": [
+   {
+    "n": 1,
+    "source": 1,
+    "marks": 3,
+    "text": "Explain one issue that limits the interpretation of the data in source 1."
+   },
+   {
+    "n": 2,
+    "source": 2,
+    "marks": 6,
+    "text": "Analyse the findings from source 2 and state a conclusion linked to the claim that differences in how distress is expressed across cultures explain differences in the recorded prevalence of depression between countries."
+   },
+   {
+    "n": 3,
+    "source": 3,
+    "marks": 6,
+    "kind": "transferability",
+    "text": "To what extent are the findings from source 3 transferable to other populations or contexts?"
+   },
+   {
+    "n": 4,
+    "marks": 15,
+    "text": "To what extent can we conclude that differences in how distress is expressed across cultures explain differences in the recorded prevalence of depression between countries? In your answer, use your own knowledge and at least three of sources 2 to 5."
+   }
+  ],
+  "markscheme": {
+   "q1": {
+    "issues": [
+     "The y-axis is labelled only \"Rate\" with no base (per 100, per 1,000 or per 100,000 people), so the reader cannot tell how common either outcome actually is or whether the differences between countries are large or trivial.",
+     "It is not stated whether both series use the same base; if depression is recorded per 1,000 patients and unexplained symptoms per 100 visits, the two bars for each country cannot be compared even though they share one axis.",
+     "It is unclear what the rate is calculated from (the whole adult population, registered patients or clinic visits), so a country where fewer people visit primary care could appear to have lower rates for that reason alone.",
+     "Countries may record and count cases in different ways (for example per patient or per consultation), and with no unit stated the figure gives no way to check that like is being compared with like.",
+     "No sample sizes or numbers of records are given for any country, so the reader cannot judge how stable each rate is.",
+     "The figure shows recorded diagnoses, not the number of people with depression, so it describes how often depression is recognised rather than its true prevalence."
+    ]
+   },
+   "q2": {
+    "analysis": [
+     "In Sharjah the most common main complaint was physical (38 of 80, 47.5%), whereas in Manchester it was emotional (44 of 80, 55.0%); the physical complaint was about twice as common in Sharjah (47.5% vs 22.5%).",
+     "The proportion presenting with physical and emotional complaints equally was similar in both cities (25.0% vs 22.5%), so the difference lies mainly in the balance between physical and emotional presentations.",
+     "chi-squared = 14.58 exceeds the critical value of 5.99 (df = 2, p = 0.05), so the distribution of main complaints differs significantly between the two cities.",
+     "Severity was almost identical (17.2 vs 16.6), the SDs were similar (4.8 and 5.1) and the ranges overlapped almost completely (8 to 27 vs 7 to 28); t(158) = 0.77, p = 0.44 is not significant.",
+     "So patients in the two cities were equally unwell but described their depression differently; the coding was blind to city and inter-rater agreement was high (92%), which supports the reliability of the complaint data.",
+     "A notable minority in each city did not follow the city's main pattern (for example 22 Sharjah patients presented mainly emotionally), showing variation within each setting."
+    ],
+    "conclusion": [
+     "The findings support the part of the claim that the expression of distress differs across cultural settings: depression of similar severity was presented mainly physically in Sharjah and mainly emotionally in Manchester.",
+     "However, because every participant had already been diagnosed and severity was similar, source 2 does not show that differences in expression cause differences in recorded prevalence; it only suggests a mechanism by which some cases could be missed where physical presentation is common.",
+     "A cautious conclusion is that the source offers partial support for the claim, limited to two cities and to patients who reached diagnosis."
+    ]
+   },
+   "q3": {
+    "points": [
+     "The sample is narrow: 16 Emirati adults aged 40 to 65, from one government centre in Al Ain, all living in extended family households, so findings may not transfer to younger Emiratis, to expatriate residents in the UAE, or to people living in nuclear families.",
+     "The two participants in their early forties who were graduates and had worked abroad described distress emotionally, which suggests education and international experience change how distress is expressed, so the somatic theme may transfer less to younger, more globally mobile groups.",
+     "Recruitment through the family doctor means participants were people who already trust and attend primary care (Theme 4), so the findings may not transfer to people who never seek help or who use private clinics.",
+     "The report gives a thick description of participants and of local health services, which allows readers to judge similarity with their own context; findings may reasonably transfer to similar communities elsewhere in the Gulf, such as Oman or Saudi Arabia.",
+     "Interviews were in Arabic with a female Emirati psychologist and then translated; this suited the participants but means the findings are tied to Arabic expressions of distress (for example \"heaviness\" in the chest) that may not map onto other languages.",
+     "Participants had been diagnosed within the last six months, so their accounts may not transfer to people with long-term depression or to those not yet diagnosed.",
+     "Qualitative findings are not intended to generalise statistically; transferability is a judgement the reader makes case to case, and the themes (body, family, trust) may transfer as ideas even if their strength differs between groups."
+    ]
+   },
+   "q4": {
+    "sources": [
+     "Source 2 suggests that depression of similar severity is expressed more physically in Sharjah than in Manchester, which supports the idea that expression differs; but it includes only diagnosed patients from two cities, so it cannot show that expression changes how many cases are recorded.",
+     "Source 3 suggests that distress may be felt and reported through the body and handled first within the family, which could keep some cases out of clinic records; but it is a small sample of older adults from one centre, and two participants did not fit the pattern.",
+     "Source 4 shows a possible mechanism: doctors named depression far less often for a physical presentation (41.7%) than an emotional one (78.3%), and training raised recognition (58.3% vs 30.6%); but it uses written case descriptions rather than real consultations, so it may not reflect real diagnostic decisions.",
+     "Source 5 complicates the claim: an adapted interview raised prevalence in the Gulf and East Asian countries (2.6% to 3.9%, 2.2% to 3.4%) but a gap with the Western European country remained (5.4%), and social support was linked to depression in all three, suggesting expression explains only part of the difference; however, completing two interviews a week apart may have affected answers to the second."
+    ],
+    "discussion": [
+     "Expression versus genuine differences: source 2 shows that distress is expressed differently across settings, and sources 4 and 5 suggest that physical expression can lead to under-recognition, but source 5's remaining gap suggests other factors, such as social support, may produce real differences in prevalence.",
+     "Recognition versus prevalence: the claim is about recorded prevalence, and sources 1 and 4 suggest diagnosis depends partly on what doctors look for, so recorded rates reflect both culture and health systems.",
+     "Help-seeking: source 3 suggests family support and concern about others' views may delay clinic visits, an alternative explanation that is related to culture but not only to how symptoms are expressed.",
+     "Within-culture variation: minorities in source 2, the graduates in source 3 and the effect of training in source 4 show that expression varies with education, experience and setting, so treating countries as single cultures risks stereotyping.",
+     "Methodological triangulation: the claim is supported by a quasi-experiment, interviews, an experiment and a survey, but none measures expression, recognition and prevalence in the same people.",
+     "Implications: if expression explains part of the gap, culturally adapted interviews and training for doctors (sources 4 and 5) could improve diagnosis, which is a practical reason to take the claim seriously even if it is only partly true."
+    ],
+    "ownKnowledge": [
+     "Kleinman's research in Hunan, China, in which many patients diagnosed with neurasthenia also met criteria for depression and described their distress mainly in physical terms (somatisation).",
+     "Imposed etic: applying diagnostic criteria and interviews developed in Western countries to other cultures may miss local expressions of distress, compared with emic approaches that start from local concepts.",
+     "DSM-5 cultural concepts of distress and the Cultural Formulation Interview, which ask clinicians to consider how a patient's culture shapes symptoms and explanations.",
+     "Hofstede's individualism and collectivism dimension, linked to family-based help-seeking and to stigma as reasons for differences in help-seeking and diagnosis.",
+     "WEIRD samples (Henrich, Heine and Norenzayan): much research on depression and its measurement comes from Western, educated, industrialised, rich and democratic populations."
+    ]
+   }
+  },
+  "checklists": {
+   "q1": [
+    "I named a problem with how Figure 1 presents the data (the unit or base of the rate), not a problem with how the study was carried out.",
+    "I explained why a \"Rate\" with no \"per 100\" or \"per 1,000\" stops the reader judging how large the differences really are.",
+    "I explained what this means for comparing the two bars for one country, or the bars for different countries.",
+    "I used at least one value from the figure (for example 9.4 vs 1.8) to show the issue.",
+    "I stayed with one issue and developed it, instead of listing several."
+   ],
+   "q2": [
+    "I used the counts and percentages in Table 1 (for example 47.5% vs 22.5% mainly physical).",
+    "I interpreted the chi-squared result by comparing 14.58 with the critical value of 5.99.",
+    "I used the severity means, SDs, ranges and the t-test to show the groups were equally unwell.",
+    "I noticed that all participants were already diagnosed, so the source does not measure prevalence.",
+    "I did not infer beyond the data, for example by saying people in Sharjah have less depression.",
+    "My conclusion is explicitly linked to the findings and says how far they support the claim."
+   ],
+   "q3": [
+    "I referred to specific details of source 3 (age 40 to 65, one centre in Al Ain, extended families, recruited by the family doctor).",
+    "I used the two graduates who had worked abroad as evidence about which groups the findings may not transfer to.",
+    "I discussed the thick description and the kind of context the findings could transfer to, not only where they cannot.",
+    "I discussed the effect of language and translation on transferability.",
+    "I wrote in developed paragraphs, not a numbered list, and reached a judgement on \"to what extent\"."
+   ],
+   "q4": [
+    "I used at least three of sources 2 to 5 and said what each suggests about the claim and its main limitation.",
+    "I separated how distress is expressed from whether depression is recognised and how common it really is.",
+    "I evaluated an alternative explanation, such as help-seeking, social support or the remaining gap in source 5.",
+    "I included accurate own knowledge (for example Kleinman's research, imposed etic or the Cultural Formulation Interview).",
+    "I avoided treating whole countries as having one way of expressing distress, using within-culture variation from the sources.",
+    "My conclusion answers \"to what extent\" and follows from the points I evaluated."
+   ]
+  }
+ },
+ {
+  "id": "cult-hd",
+  "extension": "Culture",
+  "context": "Human development",
+  "areaOfInquiry": "The role of culture in developing the self",
+  "title": "Who am I? Culture and children's self-descriptions",
+  "claim": "cultural values shape the way children come to describe themselves",
+  "sources": [
+   {
+    "n": 1,
+    "kind": "quantitative",
+    "method": "Cross-cultural study",
+    "title": "Self-descriptions of 8-year-olds in three countries",
+    "text": [
+     "Researchers asked 8-year-old children in the UK, India and the UAE to complete a \"Who am I?\" task, writing or saying ten sentences that began \"I am...\". Each sentence was coded as a personal attribute (for example \"I am kind\") or a social role (for example \"I am a sister\"). Figure 1 shows the mean number of statements of each type."
+    ],
+    "figure": {
+     "type": "bar",
+     "title": "Figure 1: Mean number of personal-attribute and social-role statements by 8-year-olds",
+     "categories": [
+      "UK",
+      "India",
+      "UAE"
+     ],
+     "series": [
+      {
+       "name": "Personal attributes",
+       "values": [
+        5.8,
+        5.3,
+        5.5
+       ]
+      },
+      {
+       "name": "Social roles",
+       "values": [
+        2.4,
+        2.9,
+        2.7
+       ]
+      }
+     ],
+     "xLabel": "Country",
+     "yLabel": "Mean number of statements (out of 10)",
+     "yMin": 0,
+     "yMax": 10
+    },
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 2,
+    "kind": "quantitative",
+    "method": "Quasi-experiment",
+    "title": "Relational self-descriptions at ages 5, 8 and 11 in Abu Dhabi and London",
+    "text": [
+     "Researchers studied 180 children: 90 from Emirati and other Arab families attending Arabic-medium schools in Abu Dhabi, and 90 from British-born families attending schools in London. In each city there were 30 children at each of three ages (5, 8 and 11).",
+     "Each child was interviewed individually in their first language and asked to describe themselves in as many ways as they could. Two coders who did not know the city calculated the percentage of each child's statements that were relational, meaning they referred to family, friends or groups (for example \"I am my grandmother's helper\", \"I am on the football team\").",
+     "Independent t-tests compared the two cities at each age (critical value 2.00 at p = 0.05). In both cities, older children also used more statements about abstract traits and values than younger children."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 1: Percentage of relational statements in children's self-descriptions",
+     "headers": [
+      "Age",
+      "Abu Dhabi: mean (SD)",
+      "Abu Dhabi: range",
+      "London: mean (SD)",
+      "London: range",
+      "t(58)"
+     ],
+     "rows": [
+      [
+       "5",
+       "22.4 (9.1)",
+       "5 to 41",
+       "18.9 (8.7)",
+       "3 to 37",
+       "1.52"
+      ],
+      [
+       "8",
+       "31.6 (10.2)",
+       "10 to 53",
+       "21.3 (9.5)",
+       "4 to 42",
+       "4.05"
+      ],
+      [
+       "11",
+       "38.2 (11.4)",
+       "8 to 62",
+       "23.8 (10.8)",
+       "4 to 49",
+       "5.02"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 3,
+    "kind": "qualitative",
+    "method": "Semi-structured interviews",
+    "title": "Parents' views on their children's sense of self in Dubai",
+    "text": [
+     "A researcher interviewed 14 parents (10 mothers, 4 fathers) of children aged 6 to 10 at one private school in Dubai. Parents were Emirati (5), Indian (5) and Filipino (4) residents. They volunteered after a letter was sent home describing a study of \"how families pass on cultural values\".",
+     "Each parent was interviewed once, in English, for about 25 minutes, in a meeting room at the school. The researcher, who also teaches at the school, took handwritten notes rather than recording the interviews and typed them up the same evening; the quotes below are taken from these notes. She read the notes several times and identified the themes on her own. Participants did not see the themes, and no other data about the families were collected."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": [
+     "Theme 1: Belonging comes before standing out",
+     "Theme 2: Praise for helping others as well as for personal success",
+     "Theme 3: Balancing the messages of home and school",
+     "Theme 4: Wanting children to be their own person"
+    ],
+    "quotes": [
+     {
+      "who": "Parent 2 (Emirati mother)",
+      "text": "When my son introduces himself, I want him to remember whose son and grandson he is."
+     },
+     {
+      "who": "Parent 6 (Indian father)",
+      "text": "School tells them to be the best version of yourself. At home we say, think of the family first. They learn to do both."
+     },
+     {
+      "who": "Parent 9 (Filipino mother)",
+      "text": "I tell my daughter to be proud of being helpful. That is who she is."
+     },
+     {
+      "who": "Parent 4 (Indian mother)",
+      "text": "My son describes himself by his hobbies: chess, cricket, coding. That is very different from how I grew up."
+     },
+     {
+      "who": "Parent 12 (Emirati mother)",
+      "text": "I want my girls to know what they like and what they are good at, not only what the family expects."
+     }
+    ],
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 4,
+    "kind": "quantitative",
+    "method": "Experiment",
+    "title": "Language of testing and bilingual children's self-descriptions in Sharjah",
+    "text": [
+     "Researchers in Sharjah studied 64 Arabic-English bilingual children aged 10, all of whom had attended bilingual schools since age 4. Children were randomly allocated to complete a self-description task in either Arabic or English, with instructions given by a fluent speaker of that language. Each child wrote ten \"I am...\" statements. Two coders who did not know the condition calculated the percentage of relational statements (statements about family, friends or groups).",
+     "Children tested in Arabic: M = 34.1%, SD = 10.8. Children tested in English: M = 24.6%, SD = 11.2. The difference was significant, t(62) = 3.45, p < 0.01.",
+     "Afterwards, children rated their agreement with \"I am the same person in every language\" (1 = strongly disagree, 5 = strongly agree). The mean was 4.2 in both groups."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 5,
+    "kind": "quantitative",
+    "method": "Correlational study",
+    "title": "Age, parenting and self-description in international schools in Dubai",
+    "text": [
+     "Researchers in Dubai surveyed 420 children aged 7 to 12 attending international schools, from 34 nationalities, and one parent of each child. Parents completed a questionnaire on how much they encouraged independence (for example letting the child make their own choices) and how much they encouraged closeness to family (for example family duties). Children completed a self-description task coded for abstract traits, personal attributes and relational statements.",
+     "Differences between nationality groups explained 4% of the variation in children's percentage of relational statements. Differences between families within the same nationality group explained 21%."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 2: Correlations (n = 420)",
+     "headers": [
+      "Variables",
+      "r",
+      "p"
+     ],
+     "rows": [
+      [
+       "Child's age and percentage of abstract-trait statements",
+       "0.52",
+       "< 0.001"
+      ],
+      [
+       "Parents' encouragement of independence and percentage of personal-attribute statements",
+       "0.31",
+       "< 0.001"
+      ],
+      [
+       "Parents' encouragement of family closeness and percentage of relational statements",
+       "0.27",
+       "< 0.001"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   }
+  ],
+  "questions": [
+   {
+    "n": 1,
+    "source": 1,
+    "marks": 3,
+    "text": "Explain one issue that limits the interpretation of the data in source 1."
+   },
+   {
+    "n": 2,
+    "source": 2,
+    "marks": 6,
+    "text": "Analyse the findings from source 2 and state a conclusion linked to the claim that cultural values shape the way children come to describe themselves."
+   },
+   {
+    "n": 3,
+    "source": 3,
+    "marks": 6,
+    "kind": "credibility",
+    "text": "Discuss how the researcher could improve the credibility of the findings in source 3."
+   },
+   {
+    "n": 4,
+    "marks": 15,
+    "text": "To what extent can we conclude that cultural values shape the way children come to describe themselves? In your answer, use your own knowledge and at least three of sources 2 to 5."
+   }
+  ],
+  "markscheme": {
+   "q1": {
+    "issues": [
+     "Figure 1 shows only means, with no standard deviations, error bars or ranges, so the reader cannot tell whether differences of 0.2 to 0.5 statements between countries are meaningful or simply reflect the spread of scores within each country.",
+     "The differences between countries are very small (for example 5.8 vs 5.3 personal attributes) and, without any measure of variability, they could easily be due to a few children with unusual answers.",
+     "The number of children in each country is not given, so the reader cannot judge how reliable each mean is.",
+     "The two categories do not add up to ten in any country (for example 5.8 + 2.4 = 8.2), so some statements are not shown and the reader does not know how they were coded.",
+     "A single mean for each country hides variation within each country (for example between regions, schools or family backgrounds), so the figure may suggest a uniform national pattern that is not there.",
+     "Children could write or say their sentences, and it is not shown how many did each, so differences may partly reflect the response format."
+    ]
+   },
+   "q2": {
+    "analysis": [
+     "At age 5 the cities were similar (22.4% vs 18.9%); t(58) = 1.52 is below the critical value of 2.00, so the difference is not significant.",
+     "At ages 8 and 11 Abu Dhabi children gave a higher percentage of relational statements (31.6% vs 21.3%; 38.2% vs 23.8%), and t(58) = 4.05 and 5.02 both exceed 2.00, so these differences are significant.",
+     "The gap grows with age (about 3.5, then 10.3, then 14.4 percentage points), mainly because relational statements rose from 22.4% to 38.2% in Abu Dhabi while they changed little in London (18.9% to 23.8%).",
+     "SDs are large (8.7 to 11.4) and ranges overlap a great deal at every age (for example 8 to 62 vs 4 to 49 at age 11), so many London children gave more relational statements than many Abu Dhabi children.",
+     "In both cities older children used more abstract traits and values, showing a shared developmental trend alongside the cultural difference.",
+     "Coding was done by coders who did not know the city, and children were interviewed in their first language, which strengthens confidence in the comparisons."
+    ],
+    "conclusion": [
+     "The findings support the claim to some extent: a difference in relational self-description that is absent at age 5 becomes significant by age 8 and larger by age 11, consistent with children coming to describe themselves in line with the values around them.",
+     "However, the large overlap between cities and the shared age trend suggest that culture shapes the content of self-description alongside, not instead of, common developmental changes.",
+     "Because children were not randomly allocated to cities, the source cannot show which aspect of culture (values, schooling or language) produces the difference."
+    ]
+   },
+   "q3": {
+    "points": [
+     "The interviews were not recorded and the quotes come from notes typed up later, so the researcher could audio-record and transcribe verbatim, making the data a more accurate account of what parents said.",
+     "One researcher identified the themes alone; researcher triangulation (a second researcher coding independently and discussing differences) would check that the themes are not just one person's interpretation.",
+     "Participants did not see the themes; member checking, returning the themes or a summary to parents, would check that the findings reflect what parents meant.",
+     "The researcher teaches at the school and interviewed parents on school premises, which may lead to socially desirable answers; reflexivity about her role, or an interviewer and location not linked to the school, would improve credibility.",
+     "Each interview was one session of about 25 minutes, in English only; longer or repeated interviews (prolonged engagement) and offering Arabic, Hindi, Malayalam or Filipino with an interpreter would allow fuller and more accurate accounts.",
+     "No other data were collected; methodological triangulation, for example observing parent and child conversations or collecting the children's own self-descriptions, would check whether parents' views match what children actually say.",
+     "The letter described the study as about \"passing on cultural values\", which may have shaped answers; the researcher could use a more neutral description and look for negative cases such as Parents 4 and 12, reporting them openly."
+    ]
+   },
+   "q4": {
+    "sources": [
+     "Source 2 suggests cultural setting shapes self-description increasingly with age (no significant difference at 5, significant at 8 and 11); but it is a quasi-experiment comparing two cities, so culture is confounded with schooling and language, and ranges overlap greatly.",
+     "Source 3 suggests that parents from different backgrounds deliberately pass on values about belonging and helping, a possible route by which culture shapes the self; but parents also differ within groups (Parents 4 and 12) and the data come from one researcher's notes.",
+     "Source 4 suggests that activating a cultural frame through the language of testing changes self-description (34.1% vs 24.6% relational), which supports a causal role for culture; but it also shows the self-description is flexible and context-dependent rather than fixed, and the children themselves felt they were the same person (4.2 of 5).",
+     "Source 5 complicates the claim: family-level differences within nationalities explained far more variation (21%) than nationality (4%), and age was the strongest correlate (r = 0.52); this supports the role of family values but challenges equating culture with nationality, and it is correlational."
+    ],
+    "discussion": [
+     "Universal development versus cultural shaping: the age trend in sources 2 and 5 suggests a common developmental path, while differences in content suggest culture shapes what children say within that path.",
+     "Defining culture: if culture means national group, source 5 offers weak support; if it means the values transmitted by families, sources 3 and 5 offer stronger support.",
+     "Self-description as a measure: tasks such as \"Who am I?\" measure what children say about themselves in one setting, and source 4 shows that the language and setting of testing can change answers.",
+     "Causation: only source 4 manipulates a variable, and it shows short-term effects of language rather than long-term effects of values.",
+     "Within-culture variation and bicultural children: the overlap in source 2, the parents in source 3 and the international-school sample in source 5 warn against stereotyping national groups as simply \"individualist\" or \"collectivist\".",
+     "Context of the UAE: many children grow up with more than one set of cultural values (Theme 3 in source 3), so a simple claim about one culture shaping the self may fit less well than a model of blended or switching identities."
+    ],
+    "ownKnowledge": [
+     "Markus and Kitayama's distinction between independent and interdependent self-construals.",
+     "The Twenty Statements Test (Kuhn and McPartland) as a method for studying self-concept, and its limits as a self-report measure.",
+     "Wang's research comparing the self-descriptions and autobiographical memories of European American and Chinese children, which found more personal-attribute statements in the American children's self-descriptions.",
+     "Cultural frame switching (Hong and colleagues): bicultural individuals shift between cultural frames when cues such as language or symbols are presented.",
+     "Hofstede's individualism and collectivism dimension, and the risk of imposed etic when applying Western models of self-development (for example Erikson's emphasis on individual identity) to other cultures."
+    ]
+   }
+  },
+  "checklists": {
+   "q1": [
+    "I identified that Figure 1 shows means with no SD, error bars or range.",
+    "I explained why this matters when the differences between countries are so small (for example 5.8 vs 5.3).",
+    "I used numbers from the figure to support my explanation.",
+    "I wrote about how the data are presented, not about whether the study was valid or the sample was biased.",
+    "I developed one issue fully rather than listing several."
+   ],
+   "q2": [
+    "I compared each t value with the critical value of 2.00 and said which ages were significant.",
+    "I described how the gap between cities changes from age 5 to age 11.",
+    "I used the SDs and the overlap of the ranges, not only the means.",
+    "I mentioned that both cities showed the same age trend in abstract traits.",
+    "I did not claim that every Abu Dhabi child is more relational than every London child.",
+    "My conclusion links the pattern of results to the claim and is appropriately cautious."
+   ],
+   "q3": [
+    "I referred to specific details of source 3 (handwritten notes, one researcher, a teacher at the school, interviews at school, English only, 25 minutes).",
+    "For each problem I suggested a specific way to improve credibility, such as recording, member checking, researcher or methodological triangulation, or reflexivity.",
+    "I explained why each improvement would make the findings more believable, not just named it.",
+    "I used the quotes or themes (for example Parents 4 and 12) as evidence.",
+    "I wrote in connected paragraphs, not a numbered list."
+   ],
+   "q4": [
+    "I used at least three of sources 2 to 5 and evaluated each, not just described it.",
+    "I discussed both a cultural explanation and a universal developmental explanation.",
+    "I questioned what \"culture\" means in the claim (nationality, family values or language) using source 5.",
+    "I included accurate own knowledge such as Markus and Kitayama or cultural frame switching.",
+    "I used within-culture variation to avoid stereotyping national groups.",
+    "My conclusion gives a clear judgement on \"to what extent\"."
+   ]
+  }
+ },
+ {
+  "id": "cult-hr",
+  "extension": "Culture",
+  "context": "Human relationships",
+  "areaOfInquiry": "The role of culture and strategies for cross-cultural communication",
+  "title": "Talking across cultures: communication training in multicultural teams",
+  "claim": "cross-cultural communication training improves working relationships in multicultural teams",
+  "sources": [
+   {
+    "n": 1,
+    "kind": "quantitative",
+    "method": "Survey",
+    "title": "Communication difficulties in Dubai workplaces",
+    "text": [
+     "A human resources consultancy surveyed 600 employees at 15 companies in Dubai. Employees were asked which communication difficulties they had experienced with colleagues in the previous month. Figure 1 shows the results for employees in mixed teams (five or more nationalities) and in teams where most members shared one nationality."
+    ],
+    "figure": {
+     "type": "stacked",
+     "title": "Figure 1: Communication difficulties reported in the previous month, by team type",
+     "categories": [
+      "Mixed teams",
+      "Mostly one-nationality teams"
+     ],
+     "series": [
+      {
+       "name": "Language misunderstandings",
+       "values": [
+        40,
+        17
+       ]
+      },
+      {
+       "name": "Different meeting styles",
+       "values": [
+        34,
+        14
+       ]
+      },
+      {
+       "name": "Direct versus indirect feedback",
+       "values": [
+        37,
+        11
+       ]
+      },
+      {
+       "name": "No difficulties",
+       "values": [
+        22,
+        58
+       ]
+      }
+     ],
+     "xLabel": "Team type",
+     "yLabel": "Percentage of employees (%)",
+     "yMin": 0,
+     "yMax": 140
+    },
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 2,
+    "kind": "quantitative",
+    "method": "Field experiment",
+    "title": "Communication training in a Dubai logistics company",
+    "text": [
+     "Researchers worked with a logistics company in Dubai. Twelve multicultural teams (96 employees, 8 per team, from 21 nationalities) were randomly allocated by team. Six teams took part in four 90-minute training sessions on cross-cultural communication, covering styles of giving feedback, checking understanding and turn-taking in meetings. The other six teams were placed on a waiting list.",
+     "Before the training and three months after it, every employee completed a 10-item working relationships scale (1 = very poor, 7 = excellent). Managers recorded the number of formal complaints about conflict between colleagues.",
+     "Change scores were compared with an independent t-test: t(94) = 4.33, p < 0.001 (critical value 1.99 at p = 0.05)."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 1: Working relationships and conflict complaints",
+     "headers": [
+      "Measure",
+      "Training teams (n = 48)",
+      "Waiting-list teams (n = 48)"
+     ],
+     "rows": [
+      [
+       "Relationship score before: mean (SD)",
+       "4.1 (0.9)",
+       "4.2 (1.0)"
+      ],
+      [
+       "Relationship score after three months: mean (SD)",
+       "5.0 (0.8)",
+       "4.3 (1.0)"
+      ],
+      [
+       "Mean change (SD)",
+       "+0.9 (0.8)",
+       "+0.1 (1.0)"
+      ],
+      [
+       "Employees whose score improved",
+       "37 of 48",
+       "20 of 48"
+      ],
+      [
+       "Conflict complaints in the three months before",
+       "14",
+       "13"
+      ],
+      [
+       "Conflict complaints in the three months after",
+       "6",
+       "12"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 3,
+    "kind": "qualitative",
+    "method": "Semi-structured interviews",
+    "title": "Nurses' experiences of a communication workshop in Abu Dhabi",
+    "text": [
+     "A hospital in Abu Dhabi ran a two-day cross-cultural communication workshop for nursing staff. Three months later, the nurse educator who had designed and delivered the workshop invited attendees to share their experiences for a report to hospital managers. Twelve nurses volunteered: from the Philippines (5), India (4), Jordan (2) and the UAE (1). Nurses who had not attended the workshop were not interviewed.",
+     "The educator interviewed each nurse in the training office, in English, for about 20 minutes. Interviews were audio-recorded and transcribed. She coded the transcripts herself, using the five topics covered in the workshop as her coding categories, and grouped the coded material into the themes below."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": [
+     "Theme 1: Learning to ask rather than assume",
+     "Theme 2: Understanding why some colleagues avoid saying \"no\" directly",
+     "Theme 3: Speaking up to senior staff",
+     "Theme 4: Language barriers that the workshop could not fix"
+    ],
+    "quotes": [
+     {
+      "who": "Nurse 3 (Philippines, 29)",
+      "text": "Before, if a colleague went quiet, I thought she was upset with me. Now I ask, \"Is this okay for you?\" and usually it is fine."
+     },
+     {
+      "who": "Nurse 6 (India, 41)",
+      "text": "The part about indirect answers was useful. Some of us say \"I will try\" when we mean \"I cannot\". Now we are clearer with each other."
+     },
+     {
+      "who": "Nurse 8 (Jordan, 35)",
+      "text": "It is still hard to question a senior doctor. The workshop told us to speak up, but the way the ward works has not changed."
+     },
+     {
+      "who": "Nurse 11 (Philippines, 26)",
+      "text": "When patients' families speak quickly in Arabic, I still need a colleague to help. Two days of training does not change that."
+     }
+    ],
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 4,
+    "kind": "quantitative",
+    "method": "Correlational study",
+    "title": "Cultural intelligence, informal contact and working relationships",
+    "text": [
+     "Researchers surveyed 520 employees in 40 multicultural teams at banks, hotels and construction firms in Abu Dhabi and Dubai. Employees completed a cultural intelligence questionnaire (awareness of cultural differences and ability to adapt to them) and reported how often they had informal contact with colleagues of other nationalities, such as sharing lunch, playing team sports or joining colleagues' national day celebrations. They rated the quality of their working relationships (1 to 7) and reported whether they had ever attended formal cross-cultural training."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 2: Relationships between variables (n = 520)",
+     "headers": [
+      "Variables",
+      "Result",
+      "p"
+     ],
+     "rows": [
+      [
+       "Cultural intelligence and relationship quality",
+       "r = 0.38",
+       "< 0.001"
+      ],
+      [
+       "Frequency of informal contact and relationship quality",
+       "r = 0.46",
+       "< 0.001"
+      ],
+      [
+       "Cultural intelligence and frequency of informal contact",
+       "r = 0.41",
+       "< 0.001"
+      ],
+      [
+       "Relationship quality: attended training (n = 214) vs never attended (n = 306)",
+       "M = 5.0 (SD 1.1) vs M = 4.9 (SD 1.2)",
+       "0.33"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 5,
+    "kind": "quantitative",
+    "method": "Field experiment",
+    "title": "A communication session for student project teams in Doha",
+    "text": [
+     "Researchers at a university in Doha, Qatar studied 48 student project teams of four or five students working on an eight-week business project. Teams were classed as high diversity (members from four or more nationalities, 26 teams) or low diversity (22 teams). Within each type, half the teams were randomly allocated to a 90-minute session on communication styles, after which each team wrote a short agreement on how it would communicate (for example how to disagree and how quickly to reply to messages). The other teams had a 90-minute session on project planning.",
+     "In week 8, students rated relationships in their team (1 = very poor, 7 = excellent). The difference between sessions was significant for high-diversity teams (p = 0.02) but not for low-diversity teams (p = 0.76)."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 3: Mean team relationship rating in week 8 (SD)",
+     "headers": [
+      "Team type",
+      "Communication session",
+      "Planning session"
+     ],
+     "rows": [
+      [
+       "High diversity (13 teams per session)",
+       "5.4 (0.7)",
+       "4.6 (0.9)"
+      ],
+      [
+       "Low diversity (11 teams per session)",
+       "5.3 (0.8)",
+       "5.2 (0.8)"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   }
+  ],
+  "questions": [
+   {
+    "n": 1,
+    "source": 1,
+    "marks": 3,
+    "text": "Explain one issue that limits the interpretation of the data in source 1."
+   },
+   {
+    "n": 2,
+    "source": 2,
+    "marks": 6,
+    "text": "Analyse the findings from source 2 and state a conclusion linked to the claim that cross-cultural communication training improves working relationships in multicultural teams."
+   },
+   {
+    "n": 3,
+    "source": 3,
+    "marks": 6,
+    "kind": "bias",
+    "text": "Discuss how the researcher could avoid bias in source 3."
+   },
+   {
+    "n": 4,
+    "marks": 15,
+    "text": "To what extent can we conclude that cross-cultural communication training improves working relationships in multicultural teams? In your answer, use your own knowledge and at least three of sources 2 to 5."
+   }
+  ],
+  "markscheme": {
+   "q1": {
+    "issues": [
+     "Figure 1 is a stacked bar labelled as percentages, but the segments for mixed teams add up to 133%, because employees could report more than one difficulty; stacking overlapping categories makes the bar look like parts of a whole when it is not.",
+     "Because the categories overlap, the reader cannot tell how many employees in mixed teams had any difficulty at all; the height of the stack overstates how widespread the problems are.",
+     "The two bars are not comparable: the mostly one-nationality bar adds up to exactly 100% while the mixed-team bar adds up to 133%, so the difference in bar height reflects multiple answers as well as more difficulties.",
+     "The y-axis runs to 140% for a percentage measure, which signals that the stacked format is inappropriate; a grouped bar chart for each difficulty would show the data accurately.",
+     "The number of employees in each type of team is not stated (only 600 in total), so percentages cannot be converted into numbers of people.",
+     "It is unclear how \"mixed\" and \"mostly one-nationality\" teams were defined beyond the label, so some teams may not fit either group."
+    ]
+   },
+   "q2": {
+    "analysis": [
+     "Before training the groups were similar (4.1 vs 4.2, SDs 0.9 and 1.0), so later differences are unlikely to reflect starting differences.",
+     "After three months training teams scored 5.0 compared with 4.3 for waiting-list teams; the mean change was +0.9 for training teams and only +0.1 for waiting-list teams.",
+     "t(94) = 4.33 exceeds the critical value of 1.99, so the larger improvement in the training group is significant (p < 0.001).",
+     "37 of 48 (77%) training employees improved compared with 20 of 48 (42%) waiting-list employees, but the SD of change (0.8) shows that some trained employees did not improve.",
+     "Conflict complaints fell from 14 to 6 in training teams while waiting-list teams stayed similar (13 to 12), although these are small numbers.",
+     "Allocation was by team (12 teams), so employees in the same team are not independent of each other; the effective sample is smaller than 96."
+    ],
+    "conclusion": [
+     "The findings support the claim: randomly allocated training teams showed a significantly larger improvement in working relationships (+0.9 vs +0.1) and fewer conflict complaints than waiting-list teams.",
+     "The conclusion should be limited to the three-month period, one company and self-reported relationship scores, so the source supports a short-term improvement rather than a lasting change.",
+     "Because the waiting-list teams received nothing, part of the improvement could reflect attention or expectations rather than the content of the training."
+    ]
+   },
+   "q3": {
+    "points": [
+     "Researcher bias: the educator designed and delivered the workshop and then evaluated it, so she may interpret answers favourably; an independent researcher with no stake in the workshop should collect and analyse the data.",
+     "Confirmation bias in analysis: coding with the five workshop topics as categories (deductive coding) means only material that fits the workshop is likely to be found; inductive coding, a second coder and an audit trail would reduce this.",
+     "Participant bias: nurses were told their accounts were for a report to managers and were interviewed by the trainer in the training office, which may encourage socially desirable, positive answers; anonymity, a neutral location and a researcher unconnected to the hospital would reduce this.",
+     "Sampling bias: only 12 volunteers who had attended were interviewed, so nurses with negative experiences or who did not attend are missing; purposive sampling including non-attendees and a range of views would give a fuller picture.",
+     "Language: interviews were only in English, which may limit what some nurses can express; offering interviews in nurses' preferred languages would reduce bias towards the most fluent speakers.",
+     "Reflexivity: the educator should record and report how her role and expectations might shape the interviews and analysis.",
+     "Negative cases such as Nurses 8 and 11 should be reported in full, and member checking could confirm that the themes reflect what the nurses meant."
+    ]
+   },
+   "q4": {
+    "sources": [
+     "Source 2 provides strong support: a field experiment with random allocation by team found significantly greater improvement after training (+0.9 vs +0.1) and fewer complaints; but it covers only three months, one company and a waiting-list control with no alternative activity.",
+     "Source 3 suggests training helped nurses ask rather than assume and understand indirect answers, but also that hierarchy and language barriers remained; the evidence is likely biased because the trainer interviewed volunteers for a report to managers.",
+     "Source 4 challenges the claim: having attended training was not linked to better relationships (5.0 vs 4.9, p = 0.33), whereas informal contact (r = 0.46) and cultural intelligence (r = 0.38) were; but it is correlational and does not measure the quality or timing of training.",
+     "Source 5 suggests a short communication session helps high-diversity teams (5.4 vs 4.6) but not low-diversity teams (5.3 vs 5.2), so training may matter mainly where cultural differences are greatest; but participants were students on an eight-week project, not long-term colleagues."
+    ],
+    "discussion": [
+     "Experimental versus correlational evidence: sources 2 and 5 show that training can cause improvement, while source 4 suggests that in everyday workplaces training on its own is not associated with better relationships, perhaps because its quality varies.",
+     "Moderating factors: source 5 (team diversity) and source 3 (hierarchy, language) suggest training works under some conditions and not others.",
+     "Alternative strategies: source 4 suggests informal contact may be as important as or more important than formal training, linking to the contact hypothesis.",
+     "Duration: all experimental evidence is short term (three months, eight weeks), so it is not clear whether improvements last.",
+     "Measurement: most evidence is self-report of relationship quality, which may be affected by expectations; complaint counts in source 2 offer some behavioural evidence.",
+     "Cultural generalisations in training content: teaching \"direct\" versus \"indirect\" styles can help, but can also encourage stereotypes about nationalities if within-culture variation is ignored."
+    ],
+    "ownKnowledge": [
+     "Hall's distinction between high-context and low-context communication, often used as the basis for cross-cultural communication training.",
+     "Hofstede's power distance dimension, relevant to the difficulty of speaking up to senior staff (source 3).",
+     "Allport's contact hypothesis: contact between groups reduces prejudice under conditions such as equal status, shared goals and institutional support, relevant to the informal contact findings in source 4.",
+     "Cultural intelligence (Earley and Ang) as an individual capability that may develop through training and through experience.",
+     "Social identity theory (Tajfel and Turner): nationality-based in-groups within teams may affect communication, and a shared team identity may reduce this."
+    ]
+   }
+  },
+  "checklists": {
+   "q1": [
+    "I noticed that the segments in the mixed-teams bar add up to more than 100%.",
+    "I explained that employees could report more than one difficulty, so a stacked bar of percentages is misleading.",
+    "I explained what this stops the reader concluding (for example how many employees had any difficulty).",
+    "I used figures from the chart (for example 40 + 34 + 37 + 22 = 133%).",
+    "I wrote about the presentation of the data, not about the consultancy's sampling or motives."
+   ],
+   "q2": [
+    "I compared the before scores to show the groups started at a similar level.",
+    "I used the change scores and compared t(94) = 4.33 with the critical value of 1.99.",
+    "I used the SDs or the numbers who improved (37 of 48 vs 20 of 48), not just the means.",
+    "I commented on the complaint numbers and noted they are small.",
+    "I did not claim the training will improve relationships in every team or for years.",
+    "My conclusion is explicitly linked to the findings and the claim."
+   ],
+   "q3": [
+    "I identified specific sources of bias in source 3: the trainer as researcher, the report to managers, the training office, volunteers only, English only and coding by workshop topics.",
+    "I named the type of bias each time (researcher, confirmation, participant or sampling bias).",
+    "For each bias I gave a specific way the researcher could avoid it and explained why it would work.",
+    "I referred to Nurses 8 and 11 or to the themes as evidence.",
+    "I wrote in developed paragraphs, not a numbered list."
+   ],
+   "q4": [
+    "I used at least three of sources 2 to 5 and evaluated each one.",
+    "I contrasted the experimental evidence (sources 2 and 5) with the correlational evidence (source 4).",
+    "I discussed when training seems to work and when it does not (diversity, hierarchy, language).",
+    "I brought in accurate own knowledge such as Hall, Hofstede or the contact hypothesis.",
+    "I avoided describing any nationality as having a single communication style.",
+    "I reached a reasoned conclusion on \"to what extent\"."
+   ]
+  }
+ },
+ {
+  "id": "cult-lc",
+  "extension": "Culture",
+  "context": "Learning and cognition",
+  "areaOfInquiry": "The role of bilingualism on other cognitive processes",
+  "title": "Two languages, one mind: bilingualism and cognitive control",
+  "claim": "being bilingual improves cognitive control",
+  "sources": [
+   {
+    "n": 1,
+    "kind": "quantitative",
+    "method": "Cross-sectional study",
+    "title": "English vocabulary and task switching in bilingual primary pupils",
+    "text": [
+     "Researchers tested Arabic-English bilingual children in Grades 1 to 5 at schools in Ras Al Khaimah. Each year group completed an English vocabulary test and a task-switching test in which children switched between sorting pictures by colour and by shape. Figure 1 shows the mean scores for each year group."
+    ],
+    "figure": {
+     "type": "line",
+     "title": "Figure 1: English vocabulary and task-switching accuracy by year group",
+     "categories": [
+      "Grade 1",
+      "Grade 2",
+      "Grade 3",
+      "Grade 4",
+      "Grade 5"
+     ],
+     "series": [
+      {
+       "name": "English vocabulary score",
+       "values": [
+        31,
+        44,
+        56,
+        65,
+        72
+       ]
+      }
+     ],
+     "xLabel": "Year group",
+     "yLabel": "Mean English vocabulary score (out of 100)",
+     "yMin": 0,
+     "yMax": 100,
+     "y2": {
+      "label": "Mean task-switching accuracy (%)",
+      "min": 88,
+      "max": 92,
+      "series": [
+       {
+        "name": "Task-switching accuracy",
+        "values": [
+         88.6,
+         89.4,
+         90.1,
+         90.8,
+         91.5
+        ]
+       }
+      ]
+     }
+    },
+    "table": null,
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 2,
+    "kind": "quantitative",
+    "method": "Quasi-experiment",
+    "title": "Language profile and cognitive control in 10-year-olds in Abu Dhabi",
+    "text": [
+     "Researchers in Abu Dhabi tested 90 children aged 10, grouped using a parent language questionnaire and vocabulary tests in both languages: Arabic-dominant (n = 30), balanced Arabic-English bilingual (n = 30) and English-dominant (n = 30). The groups were similar in age, sex and parents' education.",
+     "Children completed two computer tasks. In the flanker task they responded to the direction of a central arrow surrounded by arrows pointing the same or the opposite way; the interference effect is the extra time taken when the arrows do not match. In the task-switching test they switched between sorting by colour and by shape; the switch cost is the extra time taken on switch trials. Lower scores mean better cognitive control.",
+     "Groups were compared using one-way ANOVA (critical F(2, 87) = 3.10 at p = 0.05). Ranges for switch cost were 65 to 310 ms (Arabic-dominant), 48 to 262 ms (balanced) and 58 to 305 ms (English-dominant)."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 1: Cognitive control by language profile, mean (SD) in milliseconds",
+     "headers": [
+      "Measure",
+      "Arabic-dominant",
+      "Balanced bilingual",
+      "English-dominant",
+      "F(2, 87)",
+      "p"
+     ],
+     "rows": [
+      [
+       "Flanker interference effect",
+       "68 (24)",
+       "59 (22)",
+       "66 (25)",
+       "1.19",
+       "0.31"
+      ],
+      [
+       "Switch cost",
+       "182 (61)",
+       "140 (52)",
+       "175 (63)",
+       "4.38",
+       "0.02"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 3,
+    "kind": "qualitative",
+    "method": "Semi-structured interviews",
+    "title": "Managing two languages: university students in Dubai",
+    "text": [
+     "A researcher who had previously published work arguing that bilingualism benefits thinking interviewed 10 Arabic-English bilingual students (7 women, 3 men, aged 19 to 22) at one English-medium university in Dubai. Students were recruited from the researcher's own linguistics class.",
+     "Each student was interviewed once, for about 30 minutes, in English. They were asked how they decide which language to use, what happens when they switch, and whether being bilingual affects how they think. Interviews were audio-recorded and transcribed. She analysed the transcripts alone using thematic analysis and selected quotes to illustrate each theme. Participants were not shown the findings, and no task measures were collected."
+    ],
+    "figure": null,
+    "table": null,
+    "themes": [
+     "Theme 1: Constant monitoring of which language to use",
+     "Theme 2: Switching as automatic in familiar settings",
+     "Theme 3: Mental tiredness when switching under pressure",
+     "Theme 4: Feeling flexible in thinking"
+    ],
+    "quotes": [
+     {
+      "who": "Student 2 (woman, 20)",
+      "text": "I'm always checking who I'm talking to: Arabic with my grandmother, English with my lab partner, a mix with my friends."
+     },
+     {
+      "who": "Student 5 (man, 21)",
+      "text": "With friends I don't even notice I switch. It just happens in the middle of a sentence."
+     },
+     {
+      "who": "Student 7 (woman, 19)",
+      "text": "In exams I sometimes think of the word in Arabic and lose time finding it in English. It doesn't feel like an advantage then."
+     },
+     {
+      "who": "Student 9 (woman, 22)",
+      "text": "I think I see problems from more than one angle, maybe because I have two ways of saying things."
+     }
+    ],
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 4,
+    "kind": "quantitative",
+    "method": "Experiment",
+    "title": "An intensive English course and task switching in adults in Muscat",
+    "text": [
+     "Researchers in Muscat, Oman recruited 80 Arabic-speaking adults aged 25 to 45 with little previous knowledge of English. They were randomly allocated either to a 12-week intensive English course (5 hours a week) or to a 12-week general knowledge course of the same length taught in Arabic.",
+     "Before and after the courses, all participants completed a task-switching test (switch cost in milliseconds; lower means better control). Four participants left the English course and three left the general knowledge course before the end. The reduction in switch cost was significantly larger in the English course group (p = 0.01)."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 2: Switch cost in milliseconds, mean (SD)",
+     "headers": [
+      "Group",
+      "Before course",
+      "After course"
+     ],
+     "rows": [
+      [
+       "English course (n = 36)",
+       "210 (58)",
+       "176 (52)"
+      ],
+      [
+       "General knowledge course (n = 37)",
+       "205 (61)",
+       "198 (60)"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   },
+   {
+    "n": 5,
+    "kind": "quantitative",
+    "method": "Correlational study",
+    "title": "Bilingualism and cognitive control in adults in four countries",
+    "text": [
+     "An international team ran an online study with 2,400 adults aged 18 to 65 in Canada, Spain, the UAE and Singapore (600 per country). Participants were classed as bilingual if they used two or more languages every day (n = 1,020) and as monolingual otherwise (n = 1,380). All completed three cognitive control tasks at home on their own computers.",
+     "Before adjustment, bilinguals performed slightly better on all three tasks. After statistically controlling for education, household income and age, the differences were very small and not significant (Table 3; positive d values favour bilinguals). Among bilinguals, people who switched languages more often during the day had slightly smaller switch costs (r = -0.11, p < 0.001)."
+    ],
+    "figure": null,
+    "table": {
+     "caption": "Table 3: Differences between bilinguals and monolinguals (effect size d)",
+     "headers": [
+      "Task",
+      "d before adjustment",
+      "d after adjustment",
+      "p after adjustment"
+     ],
+     "rows": [
+      [
+       "Flanker interference",
+       "0.15",
+       "0.04",
+       "0.33"
+      ],
+      [
+       "Switch cost",
+       "0.19",
+       "0.06",
+       "0.15"
+      ],
+      [
+       "Working memory updating",
+       "0.12",
+       "0.02",
+       "0.63"
+      ]
+     ]
+    },
+    "themes": null,
+    "quotes": null,
+    "origin": "created",
+    "citation": ""
+   }
+  ],
+  "questions": [
+   {
+    "n": 1,
+    "source": 1,
+    "marks": 3,
+    "text": "Explain one issue that limits the interpretation of the data in source 1."
+   },
+   {
+    "n": 2,
+    "source": 2,
+    "marks": 6,
+    "text": "Analyse the findings from source 2 and state a conclusion linked to the claim that being bilingual improves cognitive control."
+   },
+   {
+    "n": 3,
+    "source": 3,
+    "marks": 6,
+    "kind": "credibility",
+    "text": "Discuss how the researcher could improve the credibility of the findings in source 3."
+   },
+   {
+    "n": 4,
+    "marks": 15,
+    "text": "To what extent can we conclude that being bilingual improves cognitive control? In your answer, use your own knowledge and at least three of sources 2 to 5."
+   }
+  ],
+  "markscheme": {
+   "q1": {
+    "issues": [
+     "Figure 1 uses two y-axes with very different scales: vocabulary runs from 0 to 100 but task-switching accuracy runs only from 88 to 92, so a rise of under 3 percentage points in accuracy is drawn even more steeply than a rise of over 40 points in vocabulary, making the two trends look closely matched.",
+     "Because the right-hand axis is truncated and the scales are chosen independently, the point where the two lines cross has no meaning; changing either scale would move or remove it.",
+     "The figure invites the reader to link vocabulary growth with cognitive control, but the visual similarity of the lines is created by the axis choices rather than by the size of the changes.",
+     "The sample size for each year group is not given, so the reader cannot judge how reliable each mean is.",
+     "No measure of variability is shown, so small changes in accuracy (for example 90.1% to 90.8%) cannot be judged.",
+     "Each point is a different year group, so the lines show differences between cohorts, not change in the same children, although the line format suggests a single trend over time."
+    ]
+   },
+   "q2": {
+    "analysis": [
+     "For switch cost, balanced bilinguals had the lowest mean (140 ms) compared with Arabic-dominant (182 ms) and English-dominant (175 ms) children, and F(2, 87) = 4.38 exceeds the critical value of 3.10, so the difference between groups is significant (p = 0.02).",
+     "For the flanker interference effect, balanced bilinguals were again lowest (59 ms vs 68 and 66 ms), but F(2, 87) = 1.19 is below 3.10 (p = 0.31), so there is no significant difference.",
+     "SDs are large relative to the differences (52 to 63 ms for switch cost) and the ranges overlap almost completely (48 to 262 ms vs 65 to 310 and 58 to 305 ms), so many dominant-language children performed better than many balanced bilinguals.",
+     "The two dominant groups were very similar on both measures (182 vs 175; 68 vs 66), suggesting which language is dominant matters less than how balanced the two languages are.",
+     "The ANOVA shows that the groups differ but does not show which pairs of groups differ.",
+     "Groups were similar in age, sex and parents' education, which reduces some alternative explanations, but children were not randomly allocated to language profiles."
+    ],
+    "conclusion": [
+     "The findings give limited support to the claim: balanced bilinguals showed significantly smaller switch costs, but not a significantly smaller flanker interference effect, so any advantage appears specific to task switching.",
+     "Because all three groups use two languages to some degree and the overlap is large, the source suggests that degree of balance between languages, rather than bilingualism itself, is related to one aspect of cognitive control.",
+     "As a quasi-experiment, the source cannot show that balanced bilingualism causes the smaller switch cost."
+    ]
+   },
+   "q3": {
+    "points": [
+     "The researcher had already argued that bilingualism benefits thinking, so her expectations may shape questions and interpretation; reflexivity (recording and reporting her position) and peer debriefing with a researcher who holds a different view would improve credibility.",
+     "She analysed the data alone and selected quotes herself; researcher triangulation, with a second researcher coding independently and agreement being discussed, would check that themes such as \"feeling flexible in thinking\" are not just her interpretation.",
+     "Participants were her own linguistics students, who may know the bilingual advantage debate and want to please her; recruiting from other courses or using an independent interviewer would reduce this.",
+     "Participants were not shown the findings; member checking would confirm that themes, especially Theme 4, reflect what students meant.",
+     "Each interview was one 30-minute session in English only; repeated interviews and allowing students to answer in Arabic, English or a mix would give fuller accounts of how they actually use both languages.",
+     "No task measures were collected; methodological triangulation with cognitive control tasks or language-use diaries would check whether students' descriptions match their performance.",
+     "Negative cases such as Student 7 should be reported and analysed, and the report could state how many students contributed to each theme."
+    ]
+   },
+   "q4": {
+    "sources": [
+     "Source 2 offers partial support: balanced bilinguals had significantly smaller switch costs, but there was no significant difference on the flanker task and the overlap was large; it is a quasi-experiment, so other differences between the groups could explain the result.",
+     "Source 3 suggests bilinguals constantly monitor and switch languages, a plausible route to better control, but also reports tiredness and lost time; the credibility of the findings is weakened by the researcher's prior position and her own students as participants.",
+     "Source 4 offers causal support: randomly allocated adults learning English reduced switch cost more (210 to 176 ms) than controls (205 to 198 ms); but the change was short term, on one task, and an intensive course may train attention in ways not specific to becoming bilingual.",
+     "Source 5 challenges the claim: a large sample in four countries found small advantages that disappeared after controlling for education, income and age (d = 0.02 to 0.06, not significant), although frequent switching was weakly linked to smaller switch costs (r = -0.11); online testing at home reduces control over conditions."
+    ],
+    "discussion": [
+     "Task specificity: sources 2, 4 and 5 suggest any effect is mostly on task switching rather than cognitive control in general.",
+     "Confounding variables: source 5 shows that apparent advantages can reflect education and income, which matters in a setting like the UAE where language profile and schooling are linked.",
+     "Defining bilingualism: sources 2 and 5 suggest how balanced people are and how often they switch may matter more than simply knowing two languages.",
+     "Experimental versus correlational evidence: source 4 is the only source that manipulates language learning, but its sample and duration are limited, while the large correlational source 5 has more statistical power but cannot show cause.",
+     "Publication bias and replication: the wider literature includes many small studies showing an advantage and larger studies that do not, so the strength of the evidence should be weighed, not just the number of studies.",
+     "Costs as well as benefits: source 3 (Student 7) reminds us that bilingualism can involve slower word retrieval, so \"improves\" may be too simple."
+    ],
+    "ownKnowledge": [
+     "Bialystok and colleagues' research reporting a bilingual advantage on conflict tasks such as the Simon task, particularly in older adults.",
+     "Paap and Greenberg's research, which did not find a bilingual advantage in executive function across several tasks, contributing to the replication debate.",
+     "Green's inhibitory control model, which proposes that bilinguals inhibit the language not in use, giving a theoretical reason to expect an effect on cognitive control.",
+     "De Bruin, Treccani and Della Sala's analysis suggesting publication bias in favour of studies showing a bilingual advantage.",
+     "The unity and diversity model of executive functions (Miyake and colleagues), which separates shifting, inhibition and updating, helping explain why effects may appear on some tasks but not others."
+    ]
+   }
+  },
+  "checklists": {
+   "q1": [
+    "I identified that the two lines use different y-axes with very different scales (0 to 100 vs 88 to 92).",
+    "I explained how the truncated right-hand axis makes a small change in accuracy look as large as, or larger than, the change in vocabulary.",
+    "I explained that the crossing of the lines is created by the axis choices, not by the data.",
+    "I used values from the figure (for example 88.6% to 91.5%) to support my point.",
+    "I wrote about how the data are presented, not about weaknesses in the study's design."
+   ],
+   "q2": [
+    "I compared both F values with the critical value of 3.10 and said which measure was significant.",
+    "I compared the means for all three groups on both measures.",
+    "I used the SDs and the overlap of the ranges to show how much the groups overlapped.",
+    "I noted that the two dominant groups were very similar.",
+    "I did not claim that bilingualism causes better control, since this is a quasi-experiment.",
+    "My conclusion is explicitly linked to the findings and states how far they support the claim."
+   ],
+   "q3": [
+    "I referred to specific details of source 3 (the researcher's earlier position, her own students, one 30-minute interview in English, analysis alone, no member checking, no task data).",
+    "For each problem I suggested a specific improvement (reflexivity, researcher triangulation, member checking, methodological triangulation or negative case analysis).",
+    "I explained why each improvement would make the findings more credible.",
+    "I used a quote or theme, such as Student 7, as evidence.",
+    "I wrote in developed paragraphs rather than a numbered list."
+   ],
+   "q4": [
+    "I used at least three of sources 2 to 5 and evaluated each one.",
+    "I distinguished between effects on task switching and on cognitive control in general.",
+    "I evaluated the role of confounding variables such as education and income (source 5).",
+    "I included accurate own knowledge, such as Bialystok's research, Paap and Greenberg, or publication bias.",
+    "I considered how bilingualism is defined (balance, frequency of switching).",
+    "My conclusion answers \"to what extent\" and follows from my evaluation."
+   ]
+  }
+ }
+]

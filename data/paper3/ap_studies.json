@@ -1,0 +1,1690 @@
+[
+ {
+  "kind": "AAQ",
+  "id": "critical-thinking-ai",
+  "title": "Critical Thinking and Artificial Intelligence (AI)",
+  "tag": "Thinking and technology",
+  "citation": "Gerlich, M. (2025). AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking. Societies, 15(6). https://doi.org/10.3390/soc15010006",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Artificial intelligence (AI) tools have become increasingly common in everyday life. People use AI to find information, solve problems, make decisions, and complete tasks. While these tools can make tasks easier and faster, researchers have raised questions about how relying on AI may affect the way people think. One possible concern is cognitive offloading, which occurs when people use external tools to handle mental tasks that they could otherwise complete themselves. For example, a person might use an AI tool to remember information, summarize a complicated topic, or solve a problem rather than working through the task independently."
+   ],
+   [
+    "p",
+    "One cognitive ability that may be affected by cognitive offloading is critical thinking. Critical thinking involves analyzing and evaluating information, considering different possibilities, and using evidence to make reasonable decisions. When people frequently rely on AI to complete these types of tasks, they may have fewer opportunities to practice these skills themselves. Researchers investigated whether the amount of AI tool use was related to cognitive offloading and critical thinking. The study also examined whether cognitive offloading was related to critical thinking."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The study gathered 666 participants from the United Kingdom, who were recruited online through various social media platforms to ensure a broad societal representation. The sample featured a diverse mix of educational backgrounds, ranging from high school graduates to individuals with doctoral degrees, as well as participants from a variety of professional fields."
+   ],
+   [
+    "p",
+    "For analytical purposes, the participants were divided into three specific age brackets: a younger group (17\u201325 years), a middle-aged group (26\u201345 years), and an older group (46 years and older)."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "When participants were signing up for the study, researchers made sure their names and identities would be kept secure and would not be published, allowing participants to honestly self-report their behaviors without the fear of judgment or exposure."
+   ],
+   [
+    "p",
+    "To begin the investigation, participants were given a structured questionnaire with 23 prompts designed to capture their habits and cognitive abilities. The questionnaire used a 6-point Likert scale to measure:"
+   ],
+   [
+    "li",
+    "How often AI tools were utilized"
+   ],
+   [
+    "li",
+    "How heavily they relied on digital devices for memory and problem-solving (cognitive offloading)"
+   ],
+   [
+    "li",
+    "How they utilized critical thinking skills in everyday scenarios"
+   ],
+   [
+    "p",
+    "After collecting these initial numerical responses, the researchers selected a smaller subset of 50 participants for more detailed, one-on-one conversations. During these discussions, participants elaborated on their daily routines, explaining how AI influenced their problem-solving and decision-making. These conversations were transcribed word-for-word and systematically coded to uncover overarching patterns and themes about cognitive dependence."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "After gathering the survey data, the researchers calculated the relationship between the variables  (represented as r) to determine how the different habits and traits of the participants interacted with one another."
+   ],
+   [
+    "p",
+    "The qualitative follow-up interviews provided real-world context to these numbers. Younger participants expressed a high dependence on AI for routine and complex tasks, openly admitting they felt they were losing their ability to think deeply. However, older participants preferred traditional, independent problem-solving to keep their cognitive skills sharp. Participants across all age groups expressed concerns that AI reliance was diminishing their ability to think critically and solve problems independently, with younger participants particularly concerned that easy access to AI reduced their inclination to engage in deep thinking."
+   ]
+  ],
+  "figures": 1
+ },
+ {
+  "kind": "AAQ",
+  "id": "handwriting-typing",
+  "title": "Handwriting vs. Typing",
+  "tag": "Encoding and note-taking",
+  "citation": "Frangou, S.-M., Wikgren, J., Sintonen, S., Kairaluoma, L., & Vasari, P. (2019). The effect of writing modality on recollection in children and adolescents. Research in Learning Technology, 27, Article 2239. https://doi.org/10.25304/rlt.v27.2239",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "As computers and touchscreen devices become more common in schools, it is important to understand how different writing methods influence memory."
+   ],
+   [
+    "p",
+    "Researchers wanted to determine whether recording information by hand, on a laptop, or on a touchscreen device affected how well students remembered that information later. The researchers predicted that the writing method might act as an encoding process, affecting how strongly information is stored in memory."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The study included two groups of Finnish students:"
+   ],
+   [
+    "li",
+    "The first group consisted of 63 children, aged 10\u201311 (37 girls and 26 boys) recruited from a single school."
+   ],
+   [
+    "li",
+    "The second group included 43 adolescents, aged 16 (22 girls and 21 boys), recruited from a single school."
+   ],
+   [
+    "p",
+    "All participants were fluent Finnish speakers and had previous experience using keyboards and touchscreen devices. The study was approved by the University of Lapland Research Ethics Committee and the local school board, and permission was obtained from participants and their guardians before the data collection process began."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "The researchers used three conditions:"
+   ],
+   [
+    "li",
+    "Handwriting with pen and paper"
+   ],
+   [
+    "li",
+    "Typing on a laptop keyboard"
+   ],
+   [
+    "li",
+    "Typing on a touchscreen device (iPad for children, mobile phone for adolescents)"
+   ],
+   [
+    "p",
+    "Participants listened to short stories and took notes by writing each story using one of the three methods. The order of the stories and writing methods was randomized so that no condition had an advantage."
+   ],
+   [
+    "p",
+    "To measure the participants\u2019 memory, they were asked to recall as many details as possible from each story one week later. Researchers used a scoring guide that listed the important details contained in each story (such as people, places, actions, and events). Participants received one point for every correct detail they remembered. The total number of details recalled served as their memory performance score."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Figure 1 shows the results from the 10- and 11-year-old students. Graph A shows the mean time students spent writing in each condition. Findings suggest that handwriting took longer than typing on a laptop or touchscreen device. When it came to memory, students recalled more story details after handwriting than after typing on a laptop or touchscreen device (Graph B)."
+   ],
+   [
+    "p",
+    "Note: The means in Figure 1 combine the results of both 10 and 11-year-olds. Researchers noted that the handwriting advantage was primarily found among the 11-year-olds."
+   ],
+   [
+    "p",
+    "For the 16-year-olds, handwriting again took longer but yielded the highest recall scores. Students remembered significantly more information from stories they had handwritten than from stories they had typed on a laptop."
+   ],
+   [
+    "p",
+    "Researchers concluded that handwriting often led to better memory performance than typing, particularly among older children and adolescents.  They suggested that handwriting may encourage deeper processing of information, helping students store information more effectively in long-term memory."
+   ],
+   [
+    "p",
+    "However, because digital devices are an important part of modern education, the researchers emphasized that students should continue learning both handwriting and keyboarding skills. They also noted that larger studies are needed before making broad conclusions about all students."
+   ]
+  ],
+  "figures": 2
+ },
+ {
+  "kind": "AAQ",
+  "id": "laptop-multitasking",
+  "title": "Laptop Multitasking",
+  "tag": "Attention and technology",
+  "citation": "Sana, F., Weston, T., & Cepeda, N. J. (2013). Laptop multitasking hinders classroom learning for both users and nearby peers. Computers & Education, 62, 24-31. https://doi.org/10.1016/j.compedu.2012.10.003",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Today, personal computers and smartphones provide a compelling source of classroom distraction. Survey data estimates that nearly all incoming college freshmen own a laptop, and a majority of them bring their laptops to class. Because of this, the issue of digital multitasking has become a growing concern in education. This study investigated the effect of laptop multitasking in a classroom setting, not just on the students using the laptops, but also on the peers sitting near them."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "Participants were undergraduate students enrolled in an introductory psychology course at a university and came from many different college majors. They were recruited using an online portal, which explained that the study involved listening to a class lecture and filling out a few questionnaires. The study was conducted in two parts with two different sets of participants:"
+   ],
+   [
+    "li",
+    "Part 1: The Effect of Personal Multitasking: This part included 44 students (25 female, 19 male) with a mean age of 19. Four students were removed from the final results when researchers realized they had already taken the class and knew the lecture material."
+   ],
+   [
+    "li",
+    "Part 2: The Effect of a Multitasking Neighbor: This part included 39 new students (26 female, 13 male) with a mean age of 20. One participant was excluded because of prior familiarity with the lecture content. Additionally, researchers recruited 36 \"confederates\" (undercover actors working for the researchers) to help with the study."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Each group participated in only one part of the study. For both parts, students were asked to attend a 45-minute university-style lecture and take notes. A researcher sat at the back of the classroom during the presentation to track seat locations, monitor screen activities, and ensure instructions were followed."
+   ],
+   [
+    "p",
+    "Part 1: Personal Multitasking. Half of the participants were randomly assigned to a \"multitasking\" group, and the other half to a \"non-multitasking\" group. The multitasking students were instructed to take notes on their laptops, but also to complete a series of non-lecture-related online tasks whenever they wanted during the lecture. These tasks were designed to mimic common internet activities, such as checking email, searching for entertainment, or browsing websites unrelated to the lecture. Their test results were then compared to those of the non-multitasking students, who were instructed to simply pay attention and take notes."
+   ],
+   [
+    "p",
+    "Part 2: When a Neighbor Multitasks. A new group of participants took part in a similar lecture, but this time, all of the real participants were asked to take notes using paper and pencil. However, they were unknowingly split into two environments:"
+   ],
+   [
+    "li",
+    "Figure A: Distraction-Free: Some of the students were seated so they could not see anyone else's laptop screen."
+   ],
+   [
+    "li",
+    "Figure B: In View of a Multitasking Neighbor: Others were seated directly behind the confederates, who were completing unrelated online tasks that were visible to students seated behind them."
+   ],
+   [
+    "p",
+    "Figure A                                                                                         Figure B"
+   ],
+   [
+    "p",
+    "After the lectures, all participants completed a comprehension test. Learning was measured using 20 multiple-choice questions evaluating simple knowledge (basic retention of facts) and 20 questions evaluating application of knowledge (measuring how well students could apply what they learned )."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Researchers first compared the average proportion of correct answers between the different groups (a scale of 0 to 1, where 1.0 means 100% correct). They then used a statistical test called an ANOVA (Analysis of Variance) to determine whether the differences were unlikely to have occurred by chance.  The findings demonstrate that students who multitasked and students seated behind a multitasking classmate both earned lower comprehension scores than students who were not exposed to laptop multitasking."
+   ],
+   [
+    "p",
+    "Figure 1 compares the mean comprehension scores of students who multitasked with those of students who focused only on the lecture. Figure 2 compares students seated behind a multitasking neighbor with those seated in distraction-free areas."
+   ],
+   [
+    "p",
+    "In light of this evidence, what should we recommend to educators as a means of managing laptop use in the classroom?"
+   ],
+   [
+    "p",
+    "One suggestion is for teachers to openly discuss the consequences of laptop use with their students at the beginning of a course. Teachers are in a unique position to inform students about the negative educational outcomes of laptop misuse, not just for themselves, but for the peers sitting behind them."
+   ],
+   [
+    "p",
+    "Another suggestion is for instructors to carefully consider whether laptops are necessary in courses where technology is not essential for learning. One could easily argue that courses where information is presented through textbooks, lectures, and basic slides do not require a laptop to the same extent as courses that feature specialized computer software or hands-on digital activities."
+   ]
+  ],
+  "figures": 3
+ },
+ {
+  "kind": "AAQ",
+  "id": "learning-videos",
+  "title": "Learning With Videos: TikTok or YouTube?",
+  "tag": "Short-form video and memory",
+  "citation": "Wei, M., Li, Y., Ni, H., Li, Z., Liu, J., & Dong, G.-H. (2026). Learning via short videos impairs memory accuracy and reduces brain synchrony. Communications Psychology. Advance online publication. https://doi.org/10.1038/s44271-026-00476-x",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Researchers have become increasingly interested in whether short videos can be used as effective learning tools. Short videos are popular because they are fast-paced, visually engaging, and easy to watch. Some studies have found that they can increase interest and motivation, but other research suggests that constantly switching between brief video clips may make it harder to process and subsequently remember information."
+   ],
+   [
+    "p",
+    "In this 2026 study, researchers wanted to compare how well people learned from multiple short videos compared to a long video containing the same information. They predicted that participants who learned from short videos would remember less information on an immediate test and would forget more information by the following day than participants who learned from a longer video."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The study included 185 college students from China (78 males and 107 females) with a mean age of 20.62 years (SD = 1.91). Before taking part, participants were informed about the study, agreed to participate in writing, and received financial compensation after completing the study."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Before the study began, participants completed a short questionnaire about their age, gender, grade level, and their typical use of smartphones and short-video apps. They also completed a survey that measured how dependent they were on short-video social media."
+   ],
+   [
+    "p",
+    "The researchers prepared two versions of the learning materials. Participants were randomly assigned to one of two groups."
+   ],
+   [
+    "li",
+    "Group 1 Long-Form Video: One group watched a 10-minute video that presented information about travel destinations in one continuous video."
+   ],
+   [
+    "li",
+    "Group 2 Short-Form Videos: The other group watched a 10-minute series of five to seven short videos covering the same type of information. Each short video lasted between 30 seconds and 2.5 minutes."
+   ],
+   [
+    "p",
+    "To make the comparison as fair as possible, both versions contained nearly the same amount of spoken information, used the same language and subtitles, had a similar emotional tone, and featured lesser-known travel locations to reduce the chance that participants already knew the material."
+   ],
+   [
+    "p",
+    "Before watching the videos, participants were told that they would be tested on what they learned afterward. This instruction encouraged them to pay close attention, trying to remember the information."
+   ],
+   [
+    "p",
+    "Immediately after viewing the videos, participants demonstrated their memory of the information by completing a 10-question multiple-choice memory test. Each question had four answer choices, and only one answer was correct based on the information presented in the video. The researchers defined memory accuracy as the proportion of questions answered correctly on this immediate test."
+   ],
+   [
+    "p",
+    "Participants also rated how much effort they had put into remembering the information while watching the videos by using a 9-point scale, where 1 meant they made very little effort and 9 meant they tried very hard to remember the material."
+   ],
+   [
+    "p",
+    "At the same time the following day, participants completed a second online memory test that used a different set of 10 questions covering the same video content. The researchers calculated each participant's forgetting rate by subtracting the delayed test score from the immediate test score and dividing that difference by the immediate test score. A higher forgetting rate indicated that a participant remembered less information after one day. Participants who reported reviewing or intentionally memorizing the video content before the delayed test were not included in the final data analysis."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Participants who watched the single longer video remembered more information immediately after learning than those who watched the series of short videos. They also forgot less information after one day."
+   ],
+   [
+    "p",
+    "These differences were statistically significant (p < .001), meaning these results were unlikely to have occurred by chance. The researchers suggested that the frequent switching of short video clips may make it more difficult for people to process and store information for long-term memory, even when they are trying to learn."
+   ]
+  ],
+  "figures": 1
+ },
+ {
+  "kind": "AAQ",
+  "id": "meaningful-processing",
+  "title": "Meaningful Processing",
+  "tag": "Levels of processing",
+  "citation": "Hyde, T. S., & Jenkins, J. J. (1973). Recall for words as a function of semantic, graphic, and syntactic orienting tasks. Journal of Verbal Learning and Verbal Behavior, 12(5), 471-480. https://doi.org/10.1016/S0022-5371(73)80027-1",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "In 1973, psychologists Thomas Hyde and James Jenkins wanted to determine whether the way we process information as we encode it affects the way we remember it later, such as thinking about the meaning of words (semantic features) rather than nonsemantic features such as letters, grammar, or other surface characteristics."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The researchers recruited 242 adult volunteers, most of whom were university students, to participate in a laboratory study."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Participants were randomly assigned to one of several different word-processing tasks. Each group required participants to think about a list of words in a different way, ranging from focusing on the words' meanings to focusing on nonsemantic features, like letters and grammatical structure."
+   ],
+   [
+    "p",
+    "Those who used semantic processing methods were asked to do the following meaning-based tasks:"
+   ],
+   [
+    "li",
+    "Pleasant\u2013Unpleasant Task: Participants decided whether each word had a pleasant or unpleasant meaning."
+   ],
+   [
+    "li",
+    "Frequency of Usage Task: Participants estimated how frequently each word was used in everyday language."
+   ],
+   [
+    "p",
+    "Other participants completed nonsemantic processing tasks, which focused on features of the words rather than their meaning. For example:"
+   ],
+   [
+    "li",
+    "Letter Checking Task: Participants examined specific letters in each word."
+   ],
+   [
+    "li",
+    "Sentence Frame Task: Participants decided whether each word fit grammatically into a sentence frame."
+   ],
+   [
+    "p",
+    "Researchers measured memory performance by counting how many words each participant correctly recalled from the original list after completing the assigned task."
+   ],
+   [
+    "p",
+    "When the study concluded, participants were given a short explanation of how their role in the study supported the overall goal of better understanding how the way people process information affects memory."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "The results showed a clear difference between the two types of processing. Participants who completed the nonsemantic processing tasks recalled a mean of about 8\u20139 words, whereas participants who completed the semantic processing tasks recalled a mean of about 15\u201317 words."
+   ],
+   [
+    "p",
+    "Hyde and Jenkins concluded that memory depends heavily on how information is processed during learning. Participants who thought about the meaning of words remembered far more information than participants who focused on nonsemantic features."
+   ],
+   [
+    "p",
+    "The findings also supported later theories suggesting that deeper, meaning-based processing leads to stronger long-term memory."
+   ]
+  ],
+  "figures": 1
+ },
+ {
+  "kind": "AAQ",
+  "id": "stress-performance",
+  "title": "Prevent Stress from Hijacking Your Performance",
+  "tag": "Stress and memory",
+  "citation": "Smith, A. M., Floerke, V. A., & Thomas, A. K. (2016). Retrieval practice protects memory against acute stress. Science, 354, 1046-1048. https://doi.org/10.1126/science.aah5067",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Acute stress comes from specific, immediate events like public speaking or taking a major exam. Acute stress causes the body to release cortisol, a hormone that can temporarily interfere with the retrieval of previously learned information."
+   ],
+   [
+    "p",
+    "Researchers in this study hypothesized that the way a person studies could protect against this stress-induced forgetting. Specifically, they believed that the method of retrieval practice, which is the act of actively recalling information or taking practice tests, would build stronger memories than simply rereading the material. They predicted that since retrieval practice creates such resilient memory pathways, individuals would be protected against the negative effects of acute stress."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The study involved 120 participants from Tufts University in Massachusetts. All of the participants were young adult university students, recruited from an undergraduate psychology subject pool."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "To test their hypothesis, the researchers had participants complete a learning phase and a testing phase separated by 24 hours. During the initial learning phase, participants studied one list consisting of either 30 concrete nouns or 30 pictures representing nouns. Following this initial exposure, the 120 participants were randomly assigned to two distinct groups:"
+   ],
+   [
+    "li",
+    "Restudying (Revisiting/Rereading): Half of the participants (60 individuals) reviewed the items by simply looking at them again on the screen for multiple timed periods."
+   ],
+   [
+    "li",
+    "Retrieval Practice: The other half (60 individuals) engaged in timed practice tests where they had to freely recall and type out as many items as they could remember, without receiving any feedback on their accuracy."
+   ],
+   [
+    "p",
+    "Twenty-four hours later, all participants returned to the lab to test their memory of the material they learned. To see how stress would affect their memory of the material, researchers then randomly assigned participants within each study-method group to either the stress condition or the control condition. They randomly assigned half of the participants from each learning group to be subjected to a highly stressful activity: requiring them to give an unexpected impromptu speech and solve math problems in front of two judges, three peers, and a video camera. To confirm this activity actually caused the intended stress, the researchers measured physical signs of stress, such as cortisol levels. The other half of the participants completed a simple, time-matched, non-stressful control task."
+   ],
+   [
+    "p",
+    "Then, participants were asked to demonstrate their memory of the learned material through an assessment that prompted them to recall as many words or images as they could accurately remember from the list they had studied the previous day."
+   ],
+   [
+    "p",
+    "The researchers tested the participants' memory twice: once immediately after the activities began, and then again 25 minutes later, when the physiological stress response and cortisol levels are known to peak."
+   ],
+   [
+    "p",
+    "After completing the memory assessments, researchers thanked the participants for their time and shared how participation in the study supported their research on whether a particular study method can influence memory performance under stress."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "The data revealed that the participants\u2019 study method significantly impacted how well their memory held up under stress."
+   ],
+   [
+    "p",
+    "Among the students who used the restudy method, stress had a negative impact on their memory performance. However, for the participants who used retrieval practice as their study method, acute stress had virtually no negative effect on their memory performance. In fact, stressed individuals in the retrieval practice group successfully recalled an average of about 11 out of 30 items, which was comparable to (and even slightly higher than) the 10 items recalled by their non-stressed counterparts."
+   ],
+   [
+    "p",
+    "The researchers concluded that acute stress impairs memory performance when standard study methods are used, but retrieval practice appears to strengthen memories so they remain easier to retrieve during stressful situations. Therefore, using retrieval practice as a method of study may help protect memories from the negative effects of acute stress."
+   ]
+  ],
+  "figures": 1
+ },
+ {
+  "kind": "AAQ",
+  "id": "phone-nearby",
+  "title": "Studying with a Phone Nearby",
+  "tag": "Attention and technology",
+  "citation": "Paretta, L. T., & Catalano, A. (2013). What students really do in the library: An observational study. The Reference Librarian, 54(2), 157-167.",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Many high school and college students go to the library when they want to get serious work done. They believe the quiet, academic environment is the perfect place to focus and retain information. However, with smartphones and laptops constantly at their fingertips, researchers wanted to know if this physical space actually promotes studying, or if it just provides a quiet place for digital distractions."
+   ],
+   [
+    "p",
+    "To find out what students actually do when they go to the library, researchers designed a study to secretly watch and track behavior in the real world. The goal was to compare how often students engaged in actual academic work versus off-task behaviors, and to see if having a cell phone nearby changed what they did."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The combined data from these research efforts tracked a large sample of collegiate students. The first round (Paretta & Catalano, 2013) included 730 college students, and the expanded follow-up (Catalano et al., 2014) tracked an additional 2,773 students. The participants were all enrolled in higher education and were located across four different academic college libraries (including universities and community colleges). Due to the design of the study, the researchers did not interrupt the students to ask for specific ages, genders, or majors. Instead, the sample simply included any college student who happened to be sitting in the public study areas, computer labs, or quiet zones of the libraries during the data collection periods."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "To get an authentic look at study habits, the researchers had to make sure the students did not know they were being watched. If students knew they were part of a study, they might have altered their behavior. To prevent this, the researchers disguised themselves as regular library patrons. They sat in the open study commons, brought their own books or laptops, and blended into the environment."
+   ],
+   [
+    "p",
+    "While sitting there, the researchers used a technique called \"seating sweeps.\" At random times, they discreetly scanned the room and documented what the surrounding students were doing at that moment."
+   ],
+   [
+    "p",
+    "They categorized each student's current action into one of three categories:"
+   ],
+   [
+    "li",
+    "Study behaviors: like typing a paper, reading a book, or reviewing flashcards"
+   ],
+   [
+    "li",
+    "Non-study behaviors: like scrolling social media, online shopping, or talking"
+   ],
+   [
+    "li",
+    "Miscellaneous behaviors: actions that did not clearly fit into either category"
+   ],
+   [
+    "p",
+    "The miscellaneous category was used to keep the researchers from spending too much time determining where a behavior might fit. If it was not immediately clear, it was coded as miscellaneous and would be categorized later after closer review. These behaviors might have been actions like moving papers around on the desk, grabbing an item from a backpack, switching tables, playing an unknown game, etc.; miscellaneous behaviors were later analyzed and separated into study and non-study behaviors"
+   ],
+   [
+    "p",
+    "Researchers also recorded the physical location of the student's cell phone, specifically noting if the device was out of sight or visible to the student."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "The researchers compiled all the recorded behaviors to see how students actually spent their time in the library. When they sorted every single observed action, including all the individual miscellaneous behaviors, into big-picture categories, they found that roughly 60% of the total recorded behaviors were ultimately study-related, while 40% were non-study behaviors."
+   ],
+   [
+    "p",
+    "To see exactly what specific habits made up those numbers, the data showed the following breakdown of individual actions:"
+   ],
+   [
+    "p",
+    "When analyzing the physical presence of cell phones, the data revealed that simply having a device in sight significantly increased the probability of off-task behavior. To calculate exactly how strongly a visible phone predicted distraction, researchers ran a statistical test called a logistic regression, which generates an \"odds ratio.\""
+   ],
+   [
+    "p",
+    "The results showed that the physical location of a student\u2019s mobile device, whether visible on a desk or put away in a bag, was the single strongest predictor of academic focus. Furthermore, while students in designated \"quiet study\" or computer areas were the most likely to engage in actual academic work, this was only true provided their phones were not readily available."
+   ],
+   [
+    "p",
+    "The grouped bar graph below is a conceptual representation of the odds ratios, visually demonstrating how both physical location and phone visibility predict a student's behavior."
+   ]
+  ],
+  "figures": 2
+ },
+ {
+  "kind": "AAQ",
+  "id": "spacing-effect",
+  "title": "The Spacing Effect",
+  "tag": "Spacing and memory",
+  "citation": "Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin, 132(3), 354-380. https://doi.org/10.1037/0033-2909.132.3.354",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "In 2006, researchers Nicholas J. Cepeda, Harold Pashler, Edward Vul, John T. Wixted, and Doug Rohrer published a large review of research on learning and memory. Since previous studies comparing cramming and spacing study sessions had used different procedures and produced varying results, the researchers combined findings from many studies to determine how spacing study sessions influences long-term memory."
+   ],
+   [
+    "p",
+    "Their goal was to examine whether distributed practice (spacing), in which study sessions are separated by periods of time, improves memory more than massed practice (cramming), in which studying occurs in one closely grouped session."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The researchers analyzed data from 317 separate studies that were reported across 184 published research articles. Across these studies, the researchers identified 839 comparisons between distributed practice and massed practice conditions. Most participants completed verbal learning and memory tasks in school or laboratory settings. Studies involving clinical populations were excluded from the review."
+   ],
+   [
+    "p",
+    "Since researchers analyzed previously published studies, they did not directly collect personal information about participants."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "The studies included in this comparison had to contain several similar features such as measurable and statistical data related to:"
+   ],
+   [
+    "li",
+    "the amount of time between study sessions,"
+   ],
+   [
+    "li",
+    "the length of time between the final study session and the later memory test,"
+   ],
+   [
+    "li",
+    "and performance on recall or recognition tasks, such as the number of words, facts, or paired associates participants correctly remembered on later memory tests."
+   ],
+   [
+    "p",
+    "To compare the results of these different studies and determine if the spacing of the study sessions had an impact, and the size of that impact, they used a measure called effect size. Effect size is a statistical measure that shows how large the difference is between two groups. Larger effect sizes indicate a greater advantage for one condition over another."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "When the researchers combined the results of hundreds of comparisons, they found an overall pattern showing that distributed practice generally produced better memory performance than massed practice."
+   ],
+   [
+    "p",
+    "The researchers found that participants generally remembered more information when study sessions were spread out over time than when the same amount of studying was completed in one closely grouped session."
+   ],
+   [
+    "p",
+    "The effect size results shown in Table 3 illustrate the magnitude of this advantage. Participants who spread their studying across multiple sessions typically remembered more information than participants who completed the same amount of studying in a single session."
+   ],
+   [
+    "p",
+    "The researchers also found that the advantage of distributed practice increased as more time passed before the final memory test. When memory was tested within one day of studying, the difference between distributed practice and cramming was relatively small. However, as the delay before the test increased, the benefit of distributed practice became substantially larger."
+   ],
+   [
+    "p",
+    "The researchers concluded that spacing study sessions improves long-term retention across a variety of learning situations. Their findings provide strong evidence that studying over time is generally more effective than cramming when the goal is to remember information for longer periods."
+   ]
+  ],
+  "figures": 3
+ },
+ {
+  "kind": "AAQ",
+  "id": "testing-effect",
+  "title": "The Testing Effect",
+  "tag": "Memory and study strategies",
+  "citation": "Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249-255.",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Many students believe that rereading notes or textbooks is one of the best ways to study because the material begins to feel more familiar over time. However, cognitive psychologists have questioned whether repeatedly reviewing information is as effective as actively attempting to retrieve it from memory. Researchers Henry Roediger III and Jeffrey Karpicke conducted a study to compare rereading with retrieval practice, also known as the testing effect. They predicted that repeated retrieval practice would lead to stronger long-term memory of the material than repeated rereading."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The participants included 180 undergraduate students from Washington University in St. Louis who were between the ages of 18 and 24. Students in an introductory psychology course were invited to participate. They were given information about the research and chose whether to take part."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Participants studied short prose passages containing scientific information. One passage focused on sea otters, while another focused on the sun. Each passage contained approximately 250 words divided into individual \u201cidea units\u201d that researchers later used to score participants\u2019 memory recall accuracy."
+   ],
+   [
+    "p",
+    "Participants were randomly assigned to one of three study conditions:"
+   ],
+   [
+    "h3",
+    "Repeated Study (SSSS)"
+   ],
+   [
+    "p",
+    "Participants reviewed the passage during four separate study periods. Each study period consisted of reading the passage multiple times."
+   ],
+   [
+    "h3",
+    "Mixed Study-and-Test (SSST)"
+   ],
+   [
+    "p",
+    "Participants reviewed the material using three separate periods of reading and one session of \u201cfree recall\u201d in which they tested their memory by writing down as much information as they could without looking back at the passage."
+   ],
+   [
+    "h3",
+    "Repeated Retrieval Practice (STTT)"
+   ],
+   [
+    "p",
+    "Participants read the passage once, then completed three separate \u201cfree-recall\u201d tests, in which they practiced remembering the information in multiple sessions, each time writing as much information as they could recall from the passage without feedback from the researchers."
+   ],
+   [
+    "h3",
+    "Memory Performance Test"
+   ],
+   [
+    "p",
+    "To measure their memories at the end of one week, the researchers gave the participants a final test, which asked them to record all the details they remembered about the passage. Then, the researchers scored the assessments by counting the number of correct \u201cidea units\u201d participants recalled from the original passage and calculated the average percentage of idea units they correctly remembered."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "The results showed that retrieval practice produced stronger long-term retention than repeated rereading."
+   ],
+   [
+    "p",
+    "The researchers concluded that actively retrieving information from memory strengthens long-term learning more effectively than repeatedly rereading information."
+   ]
+  ],
+  "figures": 1
+ },
+ {
+  "kind": "AAQ",
+  "id": "mirror-phantom-limb",
+  "title": "Mirrors and Phantom Limbs",
+  "tag": "Pain and the brain (Topic 1.6)",
+  "citation": "Adapted from: Ramachandran, V. S., & Rogers-Ramachandran, D. (1996). Synaesthesia in phantom limbs induced with mirrors. Proceedings of the Royal Society of London B, 263(1369), 377-386. https://doi.org/10.1098/rspb.1996.0058. Adapted for classroom practice. Not an official College Board item.",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Some people who lose an arm or hand keep feeling it as if it were still there. This is called a phantom limb. Phantom limbs can be painful, and some patients feel the missing hand locked in a clenched position that they cannot open. The researchers wanted to test whether giving patients a visual image of the missing limb could change what the phantom feels like. The researchers predicted that if patients saw a mirror reflection of their intact hand in the place where the phantom was felt, the brain would receive visual input matching the missing hand. They expected this to bring back feelings of movement and touch in the phantom and to ease painful spasms."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "Ten patients who had lost an arm or hand took part. They were aged 23 to 73. All of them still felt the missing arm or hand as if it were there. Patients were recruited from clinical settings, including referrals from an orthopaedics department, rather than chosen at random."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "A small mirror was placed upright inside an open cardboard box. Each patient put their intact hand on one side of the mirror and looked at its reflection, which appeared to be in the same place as the missing hand. First, patients tried to move both hands in matching ways with their eyes closed. They then repeated the movements with their eyes open, watching the reflection. The researchers also touched the intact hand, mostly with a cotton bud, and asked what the patient felt in the missing hand. Felt movement was measured by asking the patient to report whether the phantom hand felt as if it was moving while the reflection moved. An assistant wrote down what each patient said, or the session was videotaped."
+   ],
+   [
+    "p",
+    "Practice note: this paragraph was added for classroom practice and does not come from the original paper. Before testing began, each patient was told what the mirror procedure involved, and each agreed to take part."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Six of the ten patients felt the phantom hand move when they moved their intact hand and watched the reflection."
+   ],
+   [
+    "li",
+    "Spasms: five patients had painful clenching spasms in the phantom hand. In four of them, the spasms eased when the mirror helped them to open the phantom hand. Opening was not possible without the mirror."
+   ],
+   [
+    "li",
+    "Touch: in three patients, touching the intact hand produced precisely located touch sensations in the phantom."
+   ],
+   [
+    "p",
+    "Remember that this was a small study with ten patients and no control group, and that the results rely on what patients said they felt."
+   ]
+  ],
+  "figures": 0
+ },
+ {
+  "kind": "AAQ",
+  "id": "aaq-hidden-objects-infants",
+  "title": "What Do Young Infants Expect About Hidden Objects?",
+  "tag": "Cognitive development in infancy (Topic 3.4)",
+  "citation": "Baillargeon, R. (1987). Object permanence in 3.5- and 4.5-month-old infants. Developmental Psychology, 23(5), 655-664. Adapted for classroom practice. Not an official College Board item.",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Young infants cannot talk or reach well, so researchers use clever methods to learn what they know. One influential theory said that very young infants do not realise that a hidden object still exists. Infants usually look longer at surprising events. The researcher hypothesised that infants who know a hidden object still exists will look longer at an impossible event than at a possible event."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "Twenty-four healthy, full-term infants took part. Their ages ranged from 4 months 2 days to 5 months 2 days (mean 4 months 14 days). The researcher found families through birth announcements in a local newspaper. Five more infants were left out for fussiness, drowsiness or equipment failure. Half were placed in an experimental condition and half in a control condition."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Before testing, parents completed consent forms. Each parent held the infant on their lap about 65 cm from a display. The display held a flat screen that rotated back and forth through a 180 degree arc."
+   ],
+   [
+    "li",
+    "Habituation: each infant watched the screen rotate until interest fell (looking time dropped by at least 50% on three trials in a row)."
+   ],
+   [
+    "li",
+    "Experimental condition: a box was placed in the path of the screen. In the possible event, the screen stopped at the box, after 112 degrees. In the impossible event, the box was secretly removed and the screen rotated the full 180 degrees, as if passing through the box."
+   ],
+   [
+    "li",
+    "Control condition: the same two screen movements, but no box was ever placed behind the screen."
+   ],
+   [
+    "p",
+    "Looking time was the number of seconds an infant looked at the display. Two observers watched through peepholes and pressed a button whenever the infant was looking."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Experimental condition: infants looked at the impossible event for a mean of 29.2 seconds (SD = 20.6) and at the possible event for a mean of 17.7 seconds (SD = 13.1), F(1, 126) = 14.48, p < .0005."
+   ],
+   [
+    "p",
+    "Control condition: infants looked at the 180 degree movement for a mean of 15.1 seconds (SD = 9.3) and at the 112 degree movement for a mean of 16.2 seconds (SD = 12.3). This was not significant, F(1, 126) = 0.12."
+   ],
+   [
+    "p",
+    "The researcher concluded that infants of this age seemed to expect the hidden box to still be there, which challenges the older theory. The researcher warned that looking time is an indirect measure."
+   ]
+  ],
+  "figures": 0
+ },
+ {
+  "kind": "AAQ",
+  "id": "aaq-hurry-and-helping",
+  "title": "Does Being in a Hurry Change Whether We Help?",
+  "tag": "Helping behavior and situations (Topic 4.3)",
+  "citation": "Darley, J. M., & Batson, C. D. (1973). From Jerusalem to Jericho: A study of situational and dispositional variables in helping behavior. Journal of Personality and Social Psychology, 27(1), 100-108. Adapted for classroom practice. Not an official College Board item.",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Many people believe that kind thoughts lead to kind actions. Others believe the situation matters more than character. This study tested what makes a person stop to help a stranger. The researchers predicted that people who had just thought about helping would be no more likely to help than others. They hypothesised that people in a hurry would be less likely to offer help than people who are not in a hurry."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "Forty-seven students at Princeton Theological Seminary, a college that trains people for religious work, were scheduled to take part. Seven were removed: three because the procedure had been leaked to them and four because they suspected the real purpose. This left 40 participants. Their ages were not reported."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Each participant was told the study was about the careers of seminary students. They prepared a short talk to be recorded in another building. There were two independent variables."
+   ],
+   [
+    "li",
+    "Topic of the talk: jobs for seminary graduates, or a well-known story about a traveller who stopped to help an injured stranger."
+   ],
+   [
+    "li",
+    "Hurry: low (told they had a few minutes to spare), intermediate (told the assistant was ready for them), or high (told they were already late and must get moving)."
+   ],
+   [
+    "p",
+    "Helping was scored from 0 to 5. A score of 0 meant the participant did not notice that the man might need help. A score of 1 meant noticing but offering no aid. Scores of 2 to 5 counted as offering aid, such as helping indirectly or stopping to ask if he needed help."
+   ],
+   [
+    "p",
+    "On the way, each participant passed a man slumped in a doorway with his head down. He was a confederate, an actor working for the researchers. He coughed and groaned. Afterwards, the experimenter gave a full debriefing that explained the true purpose of the study, the deception used and the reasons for it. Participants were then paid."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "By hurry, 63% of the low hurry group offered aid, compared with 45% of the intermediate group and 10% of the high hurry group (F(2, 34) = 3.56, p < .05)."
+   ],
+   [
+    "p",
+    "By talk topic, 53% of the helping story group offered aid, compared with 29% of the jobs group. This was not statistically significant."
+   ],
+   [
+    "p",
+    "The researchers concluded that being in a hurry strongly affected helping, while thinking about helping did not."
+   ]
+  ],
+  "figures": 0
+ },
+ {
+  "kind": "AAQ",
+  "id": "aaq-stress-and-colds",
+  "title": "Does Stress Make Us More Likely to Catch a Cold?",
+  "tag": "Stress and illness (Topic 5.1)",
+  "citation": "Cohen, S., Tyrrell, D. A. J., & Smith, A. P. (1991). Psychological stress and susceptibility to the common cold. New England Journal of Medicine, 325(9), 606-612. Adapted for classroom practice. Not an official College Board item.",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Many people feel that they catch more colds when they are stressed. Before this study, it was not known whether psychological stress lowers the body's resistance to infection. The researchers hypothesised that people with higher psychological stress would be more likely to become infected, and to develop a cold, after being exposed to a cold virus."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "There were 420 healthy adult volunteers aged 18 to 54. They lived in Britain and volunteered for research at a common cold research unit in Salisbury, England. None had a long-term or current illness or took regular medicine. Pregnant women were not allowed to take part."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "First, the researchers measured each person's stress with three questionnaires. They did not assign anyone to a stress level."
+   ],
+   [
+    "li",
+    "Life events: the number of major negative events in the past 12 months."
+   ],
+   [
+    "li",
+    "Perceived stress: a 10 item scale on how stressful people judged their lives to be."
+   ],
+   [
+    "li",
+    "Negative mood: a 15 item scale about unpleasant feelings during the past week."
+   ],
+   [
+    "li",
+    "Each score was ranked from 1 to 4 and the three ranks were added to give a stress index from 3 (lowest stress) to 12 (highest stress)."
+   ],
+   [
+    "p",
+    "Volunteers then lived in quarantine for two days before and seven days after exposure. Of the 420 volunteers, 394 were given nose drops with a low dose of one of five cold viruses. The other 26 were given salt water (saline) drops."
+   ],
+   [
+    "p",
+    "Infection meant that the virus was found after exposure, or that antibodies against it rose by a clear amount. A clinical cold meant infection plus a doctor rating the cold symptoms as at least mild, a score of 2 or more on a 0 to 4 scale."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Among the 394 who received a virus, 82% became infected and 38% (148 people) developed a clinical cold. None of the 26 people who received saline developed a cold."
+   ],
+   [
+    "p",
+    "As the stress index increased, the infection rate rose from about 74% to about 90%, and the rate of clinical colds rose from about 27% to about 47%. The link remained after the researchers checked other factors, such as health habits and personality. Among infected people, stress was not reliably linked to getting a cold (p = .24)."
+   ],
+   [
+    "p",
+    "The researchers concluded that higher stress is linked to a greater risk of infection. They noted that the effect was modest."
+   ]
+  ],
+  "figures": 0
+ },
+ {
+  "kind": "AAQ",
+  "id": "aaq-exercise-attention-teens",
+  "title": "Does a Bike Ride Boost Attention and Memory in Young Teens?",
+  "tag": "Exercise, attention and working memory (Unit 1: Biological bases of behavior)",
+  "citation": "van den Berg, V., Saliasi, E., Jolles, J., de Groot, R. H. M., Chinapaw, M. J. M., & Singh, A. S. (2018). Exercise of varying durations: No acute effects on cognitive performance in adolescents. Frontiers in Neuroscience, 12, Article 672. https://doi.org/10.3389/fnins.2018.00672",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Many students feel that a short burst of exercise helps them concentrate afterwards. This study tested the short-term effect of one exercise session on the attention and working memory of young adolescents. The researchers also asked whether the length of the exercise matters. They hypothesized that one session of moderate to vigorous exercise would improve attention and working memory, or at least not harm them."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "In total, 119 adolescents aged 11 to 14 took part. The researchers invited a convenience sample of three elementary schools and one secondary school. School staff identified students with a condition that affects memory or concentration, and these students were left out of the analysis. Some students missed a session or had technical problems, so data from 99 students (attention task) and 92 students (memory task) were analyzed. A parent or caregiver gave written informed consent, and so did students aged 12 or older. A medical ethics committee in Amsterdam, the Netherlands, approved the study protocol."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "This was a crossover experiment. Each student did two sessions one week apart: an exercise session and a sitting (control) session, in counterbalanced order. Students were randomly placed in a 10, 20 or 30 minute group, and both of their sessions lasted that long."
+   ],
+   [
+    "li",
+    "Exercise: cycling on an exercise bike at moderate to vigorous intensity (40 to 60% of heart rate reserve)."
+   ],
+   [
+    "li",
+    "Control: sitting and working on puzzles and worksheets."
+   ],
+   [
+    "p",
+    "Before and after each session, students did two computer tasks:"
+   ],
+   [
+    "li",
+    "Selective attention: the Attention Network Test, which measures alerting, orienting and conflict control using reaction time and accuracy."
+   ],
+   [
+    "li",
+    "Working memory: a letter n-back task, where students decided whether the letter on screen matched the one shown 0, 1 or 2 letters earlier. It was measured as the percentage of correct answers (accuracy) and the reaction time in milliseconds (ms)."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "On the n-back task, mean accuracy after the session was 84.9% following exercise and 84.7% following sitting. Mean reaction time was 501.4 ms after exercise and 497.0 ms after sitting. These differences were not statistically significant (accuracy p = 0.240; reaction time p = 0.119). Exercise also had no significant effect on the three attention measures (for example, p = 0.880 for alerting reaction time), and session length made no difference (p = 0.476 for accuracy)."
+   ],
+   [
+    "p",
+    "The researchers concluded that exercise neither improved nor harmed attention and working memory. They noted that the exercise and sitting sessions may not have been different enough."
+   ]
+  ],
+  "figures": 0
+ },
+ {
+  "kind": "AAQ",
+  "id": "aaq-children-helping-decisions",
+  "title": "Help a Friend or Do the Right Thing? How Children Decide",
+  "tag": "Moral and social development in childhood (Unit 3: Topic 3.6)",
+  "citation": "Schuhmacher, N., Rack, N., Beckmann, L., & K\u00e4rtner, J. (2023). Is helping always the preferred decision? Preschool- and elementary school-aged children's helping decisions in complex social situations. Frontiers in Developmental Psychology, 1, Article 1278034. https://doi.org/10.3389/fdpys.2023.1278034",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "What if helping means doing something wrong, such as helping a friend take an object that belongs to someone else? This study asked how children aged 4 to 8 decide in these situations, and whether it matters if the person asking is a friend or a stranger. The researchers hypothesized that children would be less likely to say a character should help when helping would be immoral than when it would be moral."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The researchers tested 152 children aged 4 to 8 in Germany (mean age 6.5 years). Data from 147 children were analyzed. Most children (120) came from a university database of families interested in child research and received a 5 euro voucher. The other 32 were recruited through an online platform for children's studies. The authors describe the sample as European, urban and middle-class. Parents gave written informed consent and were told that taking part was voluntary. The researchers state that there was no deception."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "This was an online experiment. Each child heard four picture stories read by an animated dog called Luna. In each story, one child could not reach an object and another child could. Two factors were varied:"
+   ],
+   [
+    "li",
+    "Outcome: in moral stories the object belonged to the child asking for help. In immoral stories it belonged to another child, and the child asking wanted to take it home."
+   ],
+   [
+    "li",
+    "Relationship: the child asking for help was the helper's best friend or a stranger."
+   ],
+   [
+    "p",
+    "Every child saw all four combinations. Luna asked children for consent in a child-friendly way, and they could continue or stop. Children then clicked one of two pictures to show what the helper should do: hand over the object (help) or walk away (not help). The helping decision was the percentage of children choosing the help picture."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "In the moral stories, 97% of children said the helper should help a friend and 91% said to help a stranger. In the immoral stories, only 19% said to help a friend and 16% a stranger (p < 0.001). For immoral stories, about 25% of younger (preschool age) children said to help, compared with 13% (friend) and 7% (stranger) of older (elementary school age) children."
+   ],
+   [
+    "p",
+    "The authors concluded that children do not always prefer to help: rules about other people's property can matter more than loyalty to a friend. Children were not asked to explain their choices."
+   ]
+  ],
+  "figures": 0
+ },
+ {
+  "kind": "AAQ",
+  "id": "aaq-teen-sport-social-support",
+  "title": "Who Keeps Teens Playing Sport? Coaches, Teammates and Friends",
+  "tag": "Health behavior and social support (Unit 5: Topic 5.1)",
+  "citation": "Spruijtenburg, G. E., van Abswoude, F., Platvoet, S. W. J., de Niet, M., & Steenbergen, B. (2025). The key roles of teammates, coaches, and instrumental support in adolescent sports participation: A one-year prospective study. Frontiers in Sports and Active Living, 7, Article 1499693. https://doi.org/10.3389/fspor.2025.1499693",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Playing sport is a healthy habit. Teenagers can get support to play from parents, siblings, friends, teammates, coaches and PE teachers. This study asked which of these sources of support go with more hours of organized sport each week. The researchers hypothesized that more support from parents, peers and coaches would be related to more weekly hours of organized sport."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The study took place in secondary schools in the Netherlands. Eight schools the researchers already knew were invited (a convenience sample), and five agreed. Information letters were sent to 1,127 first-year students and their parents. In total, 530 students received parental consent and also gave their own written consent. Only 294 students had complete data in all years and formed the sample. Their mean age was 13.5 years (SD = 0.47) and about 89% were native Dutch. In the first year, 88% played organized sport, compared with a national average of 63%. The ethics committee of the Faculty of Social Sciences at Radboud University approved the study."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "This was a longitudinal survey. Students filled in questionnaires at school in Year 2 and again one year later in Year 3."
+   ],
+   [
+    "li",
+    "Organized sport: students listed up to three sports played in a club, fitness centre or under supervision, and the hours per week for each. Hours were added together, and non-players scored zero."
+   ],
+   [
+    "li",
+    "Social support: 14 questions such as \"Who encourages you to exercise or play sports?\" For each, students ticked everyone who applied from seven people (father, mother, siblings, friends, teammates, coach, PE teacher). A person's score was the number of questions (0 to 14) where they were ticked."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Students played a mean of 3.8 hours of organized sport per week in Year 2 (SD = 2.8) and 4.1 hours in Year 3 (SD = 3.0). A statistical model included all seven sources of support at once. More coach support was linked to more hours of sport (B = 0.17, p < 0.001). B = 0.17 means that each extra point of coach support went with about 0.17 more hours per week, or about 10 minutes. Teammate support was also linked to more hours (B = 0.12, p < 0.05), but PE teacher support was linked to fewer hours (B = -0.15, p < 0.01)."
+   ],
+   [
+    "p",
+    "The authors concluded that teammates and coaches are important. They noted that students reported for themselves, that only 294 of 530 students stayed in the study, and that the study cannot show cause and effect."
+   ]
+  ],
+  "figures": 0
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-outside-information:Source A:",
+  "title": "Source A: Does touch change how loud a quiet sound seems?",
+  "tag": "Unit 1 and Unit 2: Sensation, perception and memory (Topics 1.6, 2.6 and 2.7)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Sound and touch have something in common. Both can arrive as fast pulses. The researchers asked whether feeling a vibration could change how loud a very quiet sound seems."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "Nine adults with normal hearing took part. They agreed to take part before testing began."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Each person wore headphones. Quiet background noise played all the time. On every trial the person heard a steady reference tone and then a probe tone. The person set the level of the probe tone so that it sounded as loud as the reference tone. On some trials the person also touched a small tube with the fingers of one hand. The tube vibrated in time with the probe tone. On the other trials the person did not touch the tube. The two kinds of trial took turns. The researchers recorded the probe tone level that the person chose. A lower level means that less sound was needed to match the reference tone."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "When people touched the tube, they chose a probe tone that was on average 12% lower in level (p < 0.01). The quiet sound seemed louder to them when they felt the vibration, even though the sound itself had not changed. The researchers concluded that touch helps normal-hearing people to hear quiet sounds. The study had only nine people, and the task was done in a laboratory with an artificial tube."
+   ]
+  ],
+  "citation": "Source: Sch\u00fcrmann, M., Caetano, G., Jousm\u00e4ki, V., & Hari, R. (2004). Hands help hearing: Facilitatory audiotactile interaction at low sound-intensity levels. Journal of the Acoustical Society of America, 115(2), 830-832. https://doi.org/10.1121/1.1639909 Adapted for classroom practice. Not an official College Board item."
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-outside-information:Source B:",
+  "title": "Source B: Students recall words that they never heard",
+  "tag": "Unit 1 and Unit 2: Sensation, perception and memory (Topics 1.6, 2.6 and 2.7)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "The researchers asked whether a list of related words could lead people to remember a word that was never on the list."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "Thirty-six undergraduate students at a US university took part. They were tested together in a class meeting."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "The students heard six lists of 12 words, read aloud at about one word every 1.5 seconds. All 12 words in a list were closely linked in meaning to one key word that was not read. For example, one list went with \"sleep\", but \"sleep\" itself was never said. After each list, the students wrote down the words they remembered. At the end, they saw 42 words. Twelve had been read aloud. Thirty had not: six key words, 12 weakly related words and 12 unrelated words. Students rated each word from 1 (sure it is new) to 4 (sure it is old). A rating of 3 or 4 counted as \"old\"."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Students wrote down 65% of the words that were read. They wrote down the unread key word in 40% of lists. On the final test, they called 86% of the words that were read \"old\". They called 84% of the key words \"old\", although none had been read. Only 21% of the weakly related words and 2% of the unrelated words were called \"old\". The top rating of 4 was given to 58% of the key words and 75% of the words that were read. The task used word lists, not real events."
+   ]
+  ],
+  "citation": "Source: Roediger, H. L., III, & McDermott, K. B. (1995). Creating false memories: Remembering words not presented in lists. Journal of Experimental Psychology: Learning, Memory, and Cognition, 21(4), 803-814. Adapted for classroom practice. Not an official College Board item."
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-outside-information:Source C:",
+  "title": "Source C: Does a smell help people recall what they learned?",
+  "tag": "Unit 1 and Unit 2: Sensation, perception and memory (Topics 1.6, 2.6 and 2.7)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "The researchers tested whether smelling the same odor when learning and when remembering would help people to recall new material one week later."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "There were 131 university students. They were volunteers with a mean age of 21.5 years (range 18 to 53). They were randomly assigned to four groups. All of them gave written consent."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Everyone wore nose plugs in both sessions. Some plugs smelled of menthol and others had no smell. Group 1 had the menthol smell when learning and when remembering. Group 2 had it only when learning. Group 3 had it only when remembering. Group 4 never had it. In the first session, everyone read a short story for 2 minutes and copied a complex drawing. They also did a word-fragment task. They wrote the story and redrew the figure straight away. They did the tasks again one week later. The redrawing was scored out of 36 points."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "One week later, Group 1 recalled more of the story than Group 2 (p = .023) and more than Group 4 (p = .04). The groups did not differ in how well they redrew the figure (p = .91). Across all groups, redrawing scores fell from 26.53 straight away to 22.75 after one week. A third task, which used word fragments, also showed no difference between groups. The researchers noted that the odorless plugs worn by the other groups might also have acted as a setting that people connected with learning."
+   ]
+  ],
+  "citation": "Source: Sorokowska, A., Nord, M., Stefanczyk, M. M., & Larsson, M. (2022). Odor-based context-dependent memory: Influence of olfactory cues on declarative and nondeclarative memory indices. Learning & Memory, 29(5), 136-141. https://doi.org/10.1101/lm.053562.121 Adapted for classroom practice. Not an official College Board item."
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-daily-positive-feelings:Source A:",
+  "title": "Source A: Money and daily feelings in a large phone survey",
+  "tag": "Unit 5: Positive psychology and well-being (Topic 5.2), with Unit 3 (Topic 3.6)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Many people believe that more money brings a happier life. The researchers used answers from a large phone survey to ask how income is linked to daily feelings and to how people judge their life overall."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "There were more than 450,000 adults who live in the United States. They were interviewed by phone in 2008 and 2009. About 1,000 interviews were done each day, and people were called in all 50 states."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "People gave their household income. They answered yes or no questions about the day before, such as whether they felt enjoyment, worry, sadness or a lot of stress. These answers gave a score for emotional well-being. People also rated their life on a ladder from 0 (the worst possible life) to 10 (the best possible life). The average ladder score was 6.76."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Emotional well-being rose as income rose, up to about $75,000 a year. Above that amount it did not rise further. Ladder scores kept rising as income rose, even above $120,000. People with low incomes had both low ladder scores and low emotional well-being. The authors wrote that more money does not necessarily buy more happiness, but less money is linked to emotional pain. The survey shows links, not causes. It covered only people in the United States."
+   ]
+  ],
+  "citation": "Source: Kahneman, D., & Deaton, A. (2010). High income improves evaluation of life but not emotional well-being. Proceedings of the National Academy of Sciences. https://doi.org/10.1073/pnas.1011492107 Adapted for classroom practice. Not an official College Board item."
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-daily-positive-feelings:Source B:",
+  "title": "Source B: Daily feelings in people aged 18 to 94",
+  "tag": "Unit 5: Positive psychology and well-being (Topic 5.2), with Unit 3 (Topic 3.6)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Some people expect old age to be a sad time. The researchers asked how everyday emotions change across adult life."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "At the start, 184 adults aged 18 to 94 took part. They lived in the San Francisco Bay area and were found by a research firm. They said their health was as good as or better than most people their age. More people joined at later rounds."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Each person carried a pager for one week. The pager went off five times a day at random times between 9 a.m. and 9 p.m. Each time, the person rated 19 emotions, 8 positive and 11 negative, from 1 (not at all) to 7 (extremely). The week of testing was repeated about every five years, between 1993 and 2005. A positive emotional experience score was how often a person felt positive emotions minus how often they felt negative emotions."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "The score rose with age until about age 64 and then levelled off. At no point in adult life did the levels fall back to the more negative levels of young adults. Older adults also reported fewer sudden swings in emotion. The sample was healthy and came from one region. The authors said that health and emotional life cannot be fully separated."
+   ]
+  ],
+  "citation": "Source: Carstensen, L. L., Turan, B., Scheibe, S., Ram, N., Ersner-Hershfield, H., Samanez-Larkin, G. R., Brooks, K. P., & Nesselroade, J. R. (2011). Emotional experience improves with age: Evidence based on over 10 years of experience sampling. Psychology and Aging, 26(1), 21-33. https://doi.org/10.1037/a0021285 Adapted for classroom practice. Not an official College Board item."
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-daily-positive-feelings:Source C:",
+  "title": "Source C: Does a meditation course raise positive feelings?",
+  "tag": "Unit 5: Positive psychology and well-being (Topic 5.2), with Unit 3 (Topic 3.6)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Can people learn to feel more positive in daily life? The researchers tested a course that teaches people to send kind wishes to themselves and to others."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "There were 202 employees of one company in the United States. They were randomly assigned to a meditation course (102) or a wait-list group (100). A total of 139 finished the study as planned (67 and 72). Their mean age was 41 years."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "The course had six 60-minute group sessions over 7 weeks. Participants were also asked to practise at home. The wait-list group took the same course about two months after the study ended. Everyone filled in a web report each day for about nine weeks. They rated how strongly they felt positive emotions."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "In the meditation group, the ratings of positive emotions rose across the weeks, by 0.03 points a week. In the wait-list group they did not change reliably (-0.008 points a week, p = .31). People who spent more time meditating also reported more positive emotions. The researchers then repeated the analysis with the larger group of 195 people who started. The difference between the two groups was no longer reliable (p = .17). The authors said the course may only help people who complete enough of the training."
+   ]
+  ],
+  "citation": "Source: Fredrickson, B. L., Cohn, M. A., Coffey, K. A., Pek, J., & Finkel, S. M. (2008). Open hearts build lives: Positive emotions, induced through loving-kindness meditation, build consequential personal resources. Journal of Personality and Social Psychology, 95(5), 1045-1062. https://doi.org/10.1037/a0013262 Adapted for classroom practice. Not an official College Board item."
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-nature-stress-mood:Source A:",
+  "title": "Source A: Short nature breaks in daily life and a stress chemical in saliva",
+  "tag": "Unit 5: Stress, coping and health (Topic 5.1)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Many people live in cities and spend little time in green places. The body releases cortisol when it is under stress, and cortisol can be measured in saliva. Cortisol normally falls across the day. This study asked whether short nature experiences in daily life lower cortisol, and how long they need to be."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "Thirty-six adults living near Ann Arbor, Michigan, USA, gave usable data. Ages ranged from 22 to 68, with an average of 45.8 years. All were volunteers who wanted to spend more time outdoors in green spaces. They were recruited by email and flyers."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "The study lasted eight weeks. Participants chose when, where and how long to have a nature experience. They aimed for at least three a week, each at least 10 minutes long, sitting or walking outdoors. On four occasions they gave a saliva sample just before and just after a nature experience. The researchers compared the drop in cortisol during the experience with the normal drop across the day."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Across 110 nature experiences, cortisol fell by 21.3% per hour, on top of the normal fall of 11.7% per hour. Experiences of about 21 to 30 minutes gave an 18.5% drop, large enough to rule out chance. Shorter experiences gave smaller drops (8.3% for 7 to 14 minutes and 3.7% for 15 to 20 minutes), which were not large enough to rule out chance. The authors noted that the sample was small and people chose to take part."
+   ]
+  ],
+  "citation": "Source: Hunter, M. R., Gillespie, B. W., & Chen, S. Y.-P. (2019). Urban nature experiences reduce stress in the context of daily life based on salivary biomarkers. Frontiers in Psychology, 10, 722. https://doi.org/10.3389/fpsyg.2019.00722"
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-nature-stress-mood:Source B:",
+  "title": "Source B: Green space on campus and anxiety in university students",
+  "tag": "Unit 5: Stress, coping and health (Topic 5.1)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Many university students feel anxious. Parks, trees and gardens on campus may help students feel calmer. This study asked whether students with more green space around them report lower anxiety. It also asked whether how students see and use the green space matters."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The researchers analysed 654 valid questionnaires from university students on campuses in Nanjing, China. All students were over 18, and 82.3% were aged 18 to 20. Students completed the questionnaire online in October and November 2022."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Anxiety was measured with a 7-question scale with scores from 0 to 21. A higher score meant more anxiety. The average score was 7.09. Greenness was measured with satellite images, where higher values meant more plant cover. It was measured for the whole campus and for the area within 300 metres of each student's dormitory or classroom building. Students also rated how pleasant and green their campus felt, and how often they used it."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Both satellite measures were linked to lower anxiety (p = 0.045 and p = 0.023). However, the link was weak. The authors noted that their models explained only about 5% of the differences in anxiety scores. Students' ratings of their campus green space had a stronger link with anxiety (r = -0.317). Students who used green space more often also had lower anxiety (r = -0.145). The data were collected at one point in time, so cause and effect cannot be shown. Other factors, such as sleep quality, were not measured."
+   ]
+  ],
+  "citation": "Source: Diao, W., Li, S., Zhao, B., & Zhang, F. (2024). Estimation of mediators in the associations between campus green spaces and students' anxiety: a case study in Nanjing. Frontiers in Psychology, 15, 1396548. https://doi.org/10.3389/fpsyg.2024.1396548"
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-nature-stress-mood:Source C:",
+  "title": "Source C: A nature walk compared with a city walk and mood",
+  "tag": "Unit 5: Stress, coping and health (Topic 5.1)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Earlier research suggested that time in nature may help people feel better and think better. This study compared a walk in a natural area with a walk in a busy city area. It measured students' mood before and after the walk."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "One hundred undergraduate students at the University of Utah, USA, took part. They were aged 18 to 46, with an average age of 23.36 years. They were recruited through a course."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "All students first did a 10-minute proofreading task to tire their attention. They then completed a mood questionnaire that gave a positive mood score and a negative mood score. Students were randomly assigned to a 30-minute walk in a natural area (50 students) or in a downtown area (50 students). Both routes were flat, paved and the same length. After the walk, students completed the mood questionnaire again."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Positive mood rose in both groups. In the nature group it rose from 25.03 to 30.0, and in the city group it rose from 24.88 to 27.65. Negative mood fell in both groups. In the nature group it fell from 12.61 to 11.29, and in the city group it fell from 13.27 to 11.82. The change over time was significant for both scores (p < 0.001). The difference between the two groups was not significant (p > 0.348). The authors said there was no indoor or no-walk comparison group, so exercise or a break could explain the better mood."
+   ]
+  ],
+  "citation": "Source: Scott, E. E., Crabtree, K. W., McDonnell, A. S., LoTemplio, S. B., McNay, G. D., & Strayer, D. L. (2023). Measuring affect and complex working memory in natural and urban environments. Frontiers in Psychology, 14, 1039334. https://doi.org/10.3389/fpsyg.2023.1039334"
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-helping-wellbeing:Source A:",
+  "title": "Source A: Children packing items for others and how happy they feel",
+  "tag": "Unit 4: Social psychology, helping others (Topic 4.3)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Some programs let children help others in real life. This study asked whether children feel happier after helping. It also asked whether helping a child who is similar to you feels better than helping a less similar child. The researchers predicted that happiness would rise after helping, and that the rise would be biggest for a similar child."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "Two hundred and thirty-eight children took part (257 were enrolled, and some were excluded). They were aged 5 to 12, with an average age of 8.65 years. They visited Cradles to Crayons warehouses in Boston, Chicago or Philadelphia, USA, between June 2018 and August 2019, with a school class, a sports team or a parent-led group."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "At the warehouse, children packed items such as shoes, books and art supplies for another child. Each child was randomly assigned to pack for a child similar to themselves or for a less similar child. Children rated how happy they felt on a six-point scale, from 'really not happy' to 'really happy'. They did this once before and once after packing."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "Happiness rose from an average of 5.18 before packing to 5.63 after packing (p < 0.001). The rise happened in both groups. Packing for a similar child did not give a bigger rise than packing for a less similar child (p = 0.389). The authors noted a limit: there was no control group, so the rise in happiness could have other explanations."
+   ]
+  ],
+  "citation": "Source: Proulx, J. D. E., Van de Vondervoort, J. W., Hamlin, J. K., Helliwell, J. F., & Aknin, L. B. (2023). Are real-world prosociality programs associated with greater psychological well-being in primary school-aged children? International Journal of Environmental Research and Public Health, 20(5), 4403. https://doi.org/10.3390/ijerph20054403"
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-helping-wellbeing:Source B:",
+  "title": "Source B: A letter game that helped a charity and how people felt",
+  "tag": "Unit 4: Social psychology, helping others (Topic 4.3)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "Does knowing that your own actions help other people make you feel better? The researchers predicted that people whose task helped a charity would report higher well-being than people whose task did not. This summary describes the second of three similar experiments."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "The study had 445 adults, aged 18 to 71, with an average age of 37. They were recruited through an online work website. The country was not named. This summary compares two of the three groups: the neutral group (158 people) and the positive impact group (154 people)."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "Everyone played a 4-minute online game that involved pressing the correct keyboard buttons. In both groups, people earned 1 cent for every correct letter for themselves. The neutral group received no other instructions. The positive impact group was told that the Red Cross would also earn 1 cent for every fourth keystroke. After the game, all people rated their feelings on scales. Higher scores meant stronger feelings."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "The positive impact group scored higher than the neutral group on satisfaction from helping (3.30 compared with 2.17) and on how meaningful the activity felt (3.10 compared with 2.43). The gap in positive mood was small (3.26 compared with 3.12). Anxiety scores were slightly lower in the positive impact group (1.69 compared with 1.82). A similar pattern appeared in the other two experiments. The authors noted that feelings were measured only by self-report."
+   ]
+  ],
+  "citation": "Source: Martela, F., & Ryan, R. M. (2021). If giving money to the Red Cross increases well-being, does taking money from the Red Cross increase ill-being? Evidence from three experiments. Journal of Research in Personality, 93, 104114. https://doi.org/10.1016/j.jrp.2021.104114"
+ },
+ {
+  "kind": "EBQ",
+  "id": "ebq-helping-wellbeing:Source C:",
+  "title": "Source C: Three weeks of kind acts compared with other daily activities",
+  "tag": "Unit 4: Social psychology, helping others (Topic 4.3)",
+  "blocks": [
+   [
+    "h2",
+    "Introduction"
+   ],
+   [
+    "p",
+    "During the COVID-19 pandemic, researchers tested whether doing kind acts for others could protect people's well-being. They predicted that people who did kind acts would report more happiness, a stronger sense that their life is valuable, and lower anxiety."
+   ],
+   [
+    "h2",
+    "Participants"
+   ],
+   [
+    "p",
+    "In total, 1,234 adults from the United States and Canada were randomly assigned to a group. They were recruited through an online work website in early 2021. Data from 1,052 people were analysed."
+   ],
+   [
+    "h2",
+    "Method"
+   ],
+   [
+    "p",
+    "The study lasted three weeks. On the first three days of each week, the kind acts group did at least one kind act for others each day. The enjoyable acts group did a personally enjoyable act each day. The neutral group tracked their daily activities. All people reported their activities and completed questionnaires on happiness, anxiety and how valuable their life felt, each week."
+   ],
+   [
+    "h2",
+    "Results and Discussion"
+   ],
+   [
+    "p",
+    "In the tests planned in advance, the kind acts group did not differ from the other groups on any outcome. Only 38% of people asked to make extra effort in the kind acts group said they often or always did so. A second analysis, not planned in advance, looked only at people who said they often or always went beyond their normal behaviour. Among these people, the kind acts group had lower anxiety (p = 0.017) and a stronger sense of a valuable life (p = 0.005) than the neutral group, but did not differ from the enjoyable acts group. The authors warned that this result needs to be repeated."
+   ]
+  ],
+  "citation": "Source: Miles, A., Andiappan, M., Upenieks, L., & Orfanidis, C. (2022). Using prosocial behavior to safeguard mental health and foster emotional well-being during the COVID-19 pandemic: A registered report of a randomized trial. PLOS ONE, 17(7), e0272152. https://doi.org/10.1371/journal.pone.0272152"
+ }
+]
