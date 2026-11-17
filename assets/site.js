@@ -219,39 +219,37 @@
         'cognitive models of one mental health disorder',
         'cultural differences in mental health',
         'environmental factors in mental health disorders',
-        'changes in the prevalence of one health problem',
-        'the role of social learning in one health problem',
-        'the role of stress in one health problem',
-        'one biological treatment for one mental health disorder',
-        'one psychological treatment for one mental health disorder',
-        'prevention or treatment strategies for one health problem'
+        'the prevalence of one or more health problems',
+        'social learning and one health problem',
+        'stress and one health problem',
+        'one biological treatment for one disorder',
+        'one psychological treatment for one disorder',
+        'prevention and/or treatment for one health problem'
       ],
       'human development':[
-        'the role of brain maturation in development',
-        'critical periods in development',
-        'neuroplasticity in development',
+        'brain development',
         'sociocultural factors in development',
         'stage theories and continuous models of development',
         'theory of mind',
-        'attachment and the development of self',
+        'attachment',
         'the enculturation of social norms',
-        'peer influence on the development of self',
-        'the role of childhood experiences in the development of self'
+        'peer influence',
+        'the role of childhood experiences'
       ],
       'human relationships':[
-        'acculturation strategies',
+        'acculturation',
         'compliance techniques',
-        'conformity in groups',
+        'conformity',
         'cultural dimensions',
         'social identity theory',
         'social learning in groups',
         'chemical messengers in interpersonal relationships',
         'cognitive explanations of interpersonal relationships',
         'communication in interpersonal relationships',
-        'strategies for improving interpersonal relationships'
+        'strategies for improving relationships'
       ],
       'learning and cognition':[
-        'cognitive biases in decision-making',
+        'cognitive biases',
         'classical and operant conditioning',
         'the dual processing model',
         'schema theory',
@@ -260,7 +258,7 @@
         'cognitive models of one cognitive process',
         'cultural factors in one cognitive process',
         'environmental influences on one cognitive process',
-        'strategies to improve one cognitive process'
+        'the potential for improving one cognitive process'
       ]
     };
     var T={

@@ -294,15 +294,51 @@
 "C": [
 {
 "context": "Health and well-being",
+"question": "In the context of health and well-being, evaluate the extent to which research into one or more biological explanations of one mental health disorder can establish causality.",
+"area": "Biological explanations",
+"concept": "causality"
+},
+{
+"context": "Health and well-being",
+"question": "One claim in health and well-being psychology is that biological explanations of mental health disorders reduce personal responsibility. Discuss this claim with reference to one biological explanation of one mental health disorder.",
+"area": "Biological explanations",
+"concept": "responsibility"
+},
+{
+"context": "Health and well-being",
 "question": "One claim in health and well-being psychology is that cognitive models help explain how mental health disorders change over time. Discuss this claim with reference to one or more cognitive models of a mental health disorder.",
 "area": "Cognitive models",
 "concept": "change"
 },
 {
 "context": "Health and well-being",
+"question": "In the context of health and well-being, discuss the challenges of measuring the thinking described in one or more cognitive models of a mental health disorder.",
+"area": "Cognitive models",
+"concept": "measurement"
+},
+{
+"context": "Health and well-being",
+"question": "In the context of health and well-being, evaluate the role of bias in explaining cultural differences in the prevalence of one or more mental health disorders.",
+"area": "Cultural differences",
+"concept": "bias"
+},
+{
+"context": "Health and well-being",
+"question": "To what extent can differences in the prevalence of mental health disorders between cultures be explained by problems of measurement?",
+"area": "Cultural differences",
+"concept": "measurement"
+},
+{
+"context": "Health and well-being",
 "question": "In the context of health and well-being, discuss the importance of perspective when explaining cultural differences in the prevalence of one or more mental health disorders.",
 "area": "Cultural differences",
 "concept": "perspective"
+},
+{
+"context": "Health and well-being",
+"question": "In the context of health and well-being, discuss the extent to which research on environmental factors can establish causality in one or more mental health disorders.",
+"area": "Environmental factors",
+"concept": "causality"
 },
 {
 "context": "Health and well-being",
@@ -318,6 +354,18 @@
 },
 {
 "context": "Health and well-being",
+"question": "One claim in health and well-being psychology is that changes in the prevalence of a health problem often reflect changes in measurement rather than changes in behaviour. Discuss this claim with reference to one or more health problems.",
+"area": "Prevalence of health problems",
+"concept": "measurement"
+},
+{
+"context": "Health and well-being",
+"question": "In the context of health and well-being, to what extent can social learning explain how one or more health problems change over time?",
+"area": "Social learning and health",
+"concept": "change"
+},
+{
+"context": "Health and well-being",
 "question": "One claim in health and well-being psychology is that social learning places responsibility for a health problem on the individual rather than on their environment. Discuss this claim with reference to one or more health problems.",
 "area": "Social learning and health",
 "concept": "responsibility"
@@ -330,9 +378,27 @@
 },
 {
 "context": "Health and well-being",
+"question": "In the context of health and well-being, evaluate the extent to which research can establish that stress causes one or more health problems.",
+"area": "Stress and health",
+"concept": "causality"
+},
+{
+"context": "Health and well-being",
+"question": "One claim in health and well-being psychology is that the success of a biological treatment tells us about the causality of a mental health disorder. Discuss this claim with reference to one or more biological treatments for one disorder.",
+"area": "Biological treatment for one disorder",
+"concept": "causality"
+},
+{
+"context": "Health and well-being",
 "question": "In the context of health and well-being, evaluate the responsibility of psychologists when selecting a biological treatment for one or more mental health disorders.",
 "area": "Biological treatment for one disorder",
 "concept": "responsibility"
+},
+{
+"context": "Health and well-being",
+"question": "In the context of health and well-being, evaluate the ways psychologists measure the effectiveness of one or more psychological treatments for one disorder.",
+"area": "Psychological treatment for one disorder",
+"concept": "measurement"
 },
 {
 "context": "Health and well-being",
@@ -347,10 +413,34 @@
 "concept": "change"
 },
 {
+"context": "Health and well-being",
+"question": "One claim in health and well-being psychology is that responsibility for preventing a health problem lies more with society than with the individual. Discuss this claim with reference to one or more prevention and/or treatment strategies for one health problem.",
+"area": "Prevention and/or treatment for one health problem",
+"concept": "responsibility"
+},
+{
 "context": "Human development",
 "question": "In the context of human development, evaluate the extent to which brain maturation can be considered a cause of psychological development.",
 "area": "Brain development",
 "concept": "causality"
+},
+{
+"context": "Human development",
+"question": "One claim in human development psychology is that brain development sets limits on how much behaviour can change. Discuss this claim with reference to brain development.",
+"area": "Brain development",
+"concept": "change"
+},
+{
+"context": "Human development",
+"question": "In the context of human development, evaluate one or more ways psychologists measure brain development.",
+"area": "Brain development",
+"concept": "measurement"
+},
+{
+"context": "Human development",
+"question": "In the context of human development, evaluate the role of bias in research on sociocultural factors in development.",
+"area": "Sociocultural factors in development",
+"concept": "bias"
 },
 {
 "context": "Human development",
@@ -360,15 +450,51 @@
 },
 {
 "context": "Human development",
+"question": "In the context of human development, to what extent do stage theories explain change in development better than continuous models?",
+"area": "Stage theories and continuous models",
+"concept": "change"
+},
+{
+"context": "Human development",
+"question": "In the context of human development, discuss the challenges of measuring development when testing stage theories and continuous models.",
+"area": "Stage theories and continuous models",
+"concept": "measurement"
+},
+{
+"context": "Human development",
 "question": "In the context of human development, evaluate one or more strategies used by developmental psychologists to measure the theory of mind.",
 "area": "Theory of mind",
 "concept": "measurement"
 },
 {
 "context": "Human development",
+"question": "One claim in human development psychology is that a single perspective cannot explain how theory of mind develops. Discuss this claim with reference to research on theory of mind.",
+"area": "Theory of mind",
+"concept": "perspective"
+},
+{
+"context": "Human development",
 "question": "In the context of human development, discuss the role of bias in research into the role of attachment in the development of the self.",
 "area": "Attachment",
 "concept": "bias"
+},
+{
+"context": "Human development",
+"question": "In the context of human development, to what extent can attachment be measured accurately across cultures?",
+"area": "Attachment",
+"concept": "measurement"
+},
+{
+"context": "Human development",
+"question": "In the context of human development, discuss the responsibility of psychologists when research on attachment is used to advise parents and carers.",
+"area": "Attachment",
+"concept": "responsibility"
+},
+{
+"context": "Human development",
+"question": "In the context of human development, evaluate what research on the enculturation of social norms shows about change in the developing self.",
+"area": "Enculturation of social norms",
+"concept": "change"
 },
 {
 "context": "Human development",
@@ -380,6 +506,24 @@
 "context": "Human development",
 "question": "In the context of human development, to what extent can peer influence be considered a cause of behaviour in the development of the self?",
 "area": "Peer influence",
+"concept": "causality"
+},
+{
+"context": "Human development",
+"question": "In the context of human development, evaluate the challenges of measuring peer influence on the development of self.",
+"area": "Peer influence",
+"concept": "measurement"
+},
+{
+"context": "Human development",
+"question": "One claim in human development psychology is that peer influence on the self is best understood from more than one perspective. Discuss this claim with reference to peer influence.",
+"area": "Peer influence",
+"concept": "perspective"
+},
+{
+"context": "Human development",
+"question": "In the context of human development, to what extent can research establish that childhood experiences cause differences in the development of self?",
+"area": "Role of childhood experiences",
 "concept": "causality"
 },
 {
@@ -396,6 +540,24 @@
 },
 {
 "context": "Human relationships",
+"question": "In the context of human relationships, evaluate the ways in which psychologists measure acculturation.",
+"area": "Acculturation",
+"concept": "measurement"
+},
+{
+"context": "Human relationships",
+"question": "One claim in human relationships psychology is that acculturation cannot be understood from the perspective of the individual alone. Discuss this claim with reference to acculturation.",
+"area": "Acculturation",
+"concept": "perspective"
+},
+{
+"context": "Human relationships",
+"question": "In the context of human relationships, evaluate the extent to which research on compliance techniques can establish causality.",
+"area": "Compliance techniques",
+"concept": "causality"
+},
+{
+"context": "Human relationships",
 "question": "One claim in the psychology of human relationships is that the use of compliance techniques raises questions of responsibility. Discuss this claim with reference to one or more compliance techniques.",
 "area": "Compliance techniques",
 "concept": "responsibility"
@@ -408,9 +570,39 @@
 },
 {
 "context": "Human relationships",
+"question": "In the context of human relationships, to what extent has research shown that conformity in groups changes over time and across cultures?",
+"area": "Conformity",
+"concept": "change"
+},
+{
+"context": "Human relationships",
+"question": "In the context of human relationships, discuss the role of bias in research on cultural dimensions.",
+"area": "Cultural dimensions",
+"concept": "bias"
+},
+{
+"context": "Human relationships",
+"question": "In the context of human relationships, evaluate the strategies psychologists use to measure one or more cultural dimensions.",
+"area": "Cultural dimensions",
+"concept": "measurement"
+},
+{
+"context": "Human relationships",
 "question": "One claim in human relationships psychology is that a single perspective cannot fully explain cross-cultural differences in behaviour. Discuss this claim with reference to one or more cultural dimensions.",
 "area": "Cultural dimensions",
 "concept": "perspective"
+},
+{
+"context": "Human relationships",
+"question": "In the context of human relationships, discuss the role of bias in research on social identity theory.",
+"area": "Social identity theory",
+"concept": "bias"
+},
+{
+"context": "Human relationships",
+"question": "In the context of human relationships, discuss the extent to which social identity theory can be applied to change group behaviour.",
+"area": "Social identity theory",
+"concept": "change"
 },
 {
 "context": "Human relationships",
@@ -420,9 +612,21 @@
 },
 {
 "context": "Human relationships",
+"question": "One claim in human relationships psychology is that people who act as models in a group carry responsibility for the behaviour others learn from them. Discuss this claim with reference to social learning.",
+"area": "Social learning",
+"concept": "responsibility"
+},
+{
+"context": "Human relationships",
 "question": "In the context of human relationships, evaluate the role of bias in biological research into the role of chemical messengers in interpersonal relationships.",
 "area": "Chemical messengers",
 "concept": "bias"
+},
+{
+"context": "Human relationships",
+"question": "In the context of human relationships, evaluate the extent to which research can establish that chemical messengers cause changes in interpersonal relationships.",
+"area": "Chemical messengers",
+"concept": "causality"
 },
 {
 "context": "Human relationships",
@@ -432,9 +636,39 @@
 },
 {
 "context": "Human relationships",
+"question": "One claim in the psychology of human relationships is that a single perspective is not enough to explain why interpersonal relationships last. Discuss this claim with reference to cognitive explanations.",
+"area": "Cognitive explanations",
+"concept": "perspective"
+},
+{
+"context": "Human relationships",
+"question": "In the context of human relationships, to what extent can research show that patterns of communication cause changes in interpersonal relationships?",
+"area": "Communication/language",
+"concept": "causality"
+},
+{
+"context": "Human relationships",
+"question": "In the context of human relationships, evaluate the challenges of measuring communication in interpersonal relationships.",
+"area": "Communication/language",
+"concept": "measurement"
+},
+{
+"context": "Human relationships",
 "question": "One claim in human relationships psychology is that communication cannot be understood from a single perspective. Discuss this claim with reference to the role of communication or language in interpersonal relationships.",
 "area": "Communication/language",
 "concept": "perspective"
+},
+{
+"context": "Human relationships",
+"question": "In the context of human relationships, discuss the extent to which strategies for improving relationships can bring about change.",
+"area": "Strategies for improving relationships",
+"concept": "change"
+},
+{
+"context": "Human relationships",
+"question": "In the context of human relationships, evaluate how the effectiveness of one or more strategies for improving relationships can be measured.",
+"area": "Strategies for improving relationships",
+"concept": "measurement"
 },
 {
 "context": "Human relationships",
@@ -450,9 +684,21 @@
 },
 {
 "context": "Learning and cognition",
+"question": "In the context of learning and cognition, evaluate the challenges of measuring one or more cognitive biases in decision-making.",
+"area": "Cognitive biases",
+"concept": "measurement"
+},
+{
+"context": "Learning and cognition",
 "question": "In the context of learning and cognition, discuss how conditioning explains change in behaviour.",
-"area": "Conditioning, classical and operant",
+"area": "Conditioning (classical and operant)",
 "concept": "change"
+},
+{
+"context": "Learning and cognition",
+"question": "In the context of learning and cognition, discuss the responsibility of psychologists when operant conditioning is applied to change behaviour.",
+"area": "Conditioning (classical and operant)",
+"concept": "responsibility"
 },
 {
 "context": "Learning and cognition",
@@ -462,9 +708,39 @@
 },
 {
 "context": "Learning and cognition",
+"question": "One claim in learning and cognition psychology is that the dual processing model needs other perspectives to explain decision-making. Discuss this claim with reference to the dual processing model.",
+"area": "Dual processing model",
+"concept": "perspective"
+},
+{
+"context": "Learning and cognition",
+"question": "One claim in learning and cognition psychology is that schemas bias the way people process information. Discuss this claim with reference to schema theory.",
+"area": "Schema theory",
+"concept": "bias"
+},
+{
+"context": "Learning and cognition",
+"question": "In the context of learning and cognition, discuss the challenges of measuring schemas.",
+"area": "Schema theory",
+"concept": "measurement"
+},
+{
+"context": "Learning and cognition",
+"question": "In the context of learning and cognition, to what extent can research on social learning theory establish causality?",
+"area": "Social learning theory",
+"concept": "causality"
+},
+{
+"context": "Learning and cognition",
 "question": "In the context of learning and cognition, evaluate the responsibility individuals hold for behaviour learned through social learning theory.",
 "area": "Social learning theory",
 "concept": "responsibility"
+},
+{
+"context": "Learning and cognition",
+"question": "In the context of learning and cognition, evaluate the role of bias in research on biological factors in one or more cognitive processes.",
+"area": "Biological factors in cognitive processes",
+"concept": "bias"
 },
 {
 "context": "Learning and cognition",
@@ -480,39 +756,45 @@
 },
 {
 "context": "Learning and cognition",
+"question": "One claim in learning and cognition psychology is that a cognitive perspective alone is enough to understand a cognitive process. Discuss this claim with reference to one or more cognitive models of one cognitive process.",
+"area": "Cognitive models",
+"concept": "perspective"
+},
+{
+"context": "Learning and cognition",
+"question": "In the context of learning and cognition, evaluate the challenges of measuring the role of cultural factors in one cognitive process.",
+"area": "Cultural factors in cognitive processes",
+"concept": "measurement"
+},
+{
+"context": "Learning and cognition",
 "question": "One claim in learning and cognition psychology is that cultural perspectives are essential to understanding cognitive processes. Discuss this claim with reference to one or more cultural factors in cognitive processes.",
 "area": "Cultural factors in cognitive processes",
 "concept": "perspective"
 },
 {
-"context": "Human relationships",
-"question": "In the context of human relationships, discuss the role of bias in research on social identity theory.",
-"area": "Social identity theory",
-"concept": "bias"
-},
-{
-"context": "Human relationships",
-"question": "In the context of human relationships, evaluate the extent to which research can establish that chemical messengers cause changes in interpersonal relationships.",
-"area": "Chemical messengers",
+"context": "Learning and cognition",
+"question": "In the context of learning and cognition, evaluate the extent to which research can establish that one or more environmental factors cause changes in one cognitive process.",
+"area": "Environmental influences on cognitive processes",
 "concept": "causality"
 },
 {
-"context": "Human relationships",
-"question": "In the context of human relationships, discuss the extent to which strategies for improving relationships can bring about change.",
-"area": "Strategies for improving relationships",
-"concept": "change"
-},
-{
-"context": "Human relationships",
-"question": "In the context of human relationships, evaluate the ways in which psychologists measure acculturation.",
-"area": "Acculturation",
+"context": "Learning and cognition",
+"question": "To what extent can the influence of environmental factors on one cognitive process be measured validly?",
+"area": "Environmental influences on cognitive processes",
 "concept": "measurement"
 },
 {
-"context": "Human relationships",
-"question": "One claim in the psychology of human relationships is that a single perspective is not enough to explain why interpersonal relationships last. Discuss this claim with reference to cognitive explanations.",
-"area": "Cognitive explanations",
-"concept": "perspective"
+"context": "Learning and cognition",
+"question": "In the context of learning and cognition, to what extent can one or more strategies bring about lasting change in one cognitive process?",
+"area": "Potential for improving a cognitive process",
+"concept": "change"
+},
+{
+"context": "Learning and cognition",
+"question": "One claim in learning and cognition psychology is that schools have a responsibility to use research on improving cognitive processes. Discuss this claim with reference to one or more strategies to improve one cognitive process.",
+"area": "Potential for improving a cognitive process",
+"concept": "responsibility"
 }
 ]
 };
@@ -532,12 +814,12 @@
       'Cover test: my answer would not make sense without the scenario.'
     ]; },
     C: function(q){ return [
-      'I answered the question I chose, and the command term it uses.',
-      'My first sentence is a thesis with a position word (for example largely, partly, limited).',
-      'I used ' + q.concept + ' as a lens in every paragraph, not just in the last line.',
-      'Each paragraph has the five moves: concept defined, specific detail, why it matters, limitation or counterpoint, link back.',
-      'I asked "so what?" of every point.',
-      'My conclusion matches my thesis and the arguments above it.'
+      'I answered the question I chose, in the way its command term asks (evaluate, discuss or to what extent).',
+      'My introduction ends with a thesis: a position word (largely, partly, to a limited extent) and a condition (but mainly when...).',
+      'Each body paragraph starts with a reason that uses the word ' + q.concept + ', not with the name of a study.',
+      'Inside each paragraph: specific evidence, why it matters for ' + q.concept + ', one more question, and a limitation.',
+      'One paragraph weighs my points against each other and says which matters more, and why.',
+      'My conclusion answers in the question\u2019s own words, names the conditions, and matches my thesis.'
     ]; }
   };
   function pick(a){ return a[Math.floor(Math.random() * a.length)]; }
