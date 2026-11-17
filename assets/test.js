@@ -205,7 +205,7 @@
         [2, 3, 4, 5].map(function(n){ return window.P3CHART.source(p3src(set3, n)); }).join('') + '</details>';
     }
     if(S.paper === '1' && S.mode === 'full'){
-      intro = '<div class="callout c-tip"><strong class="tag">Instructions</strong><p>Section A: answer both questions. Section B: answer both questions. Section C: answer one question. Suggested times: about 20, 25 and 40 minutes, with 5 minutes to check.</p></div>';
+      intro = '<div class="callout c-tip"><strong class="tag">Instructions</strong><p>Section A: answer both questions. Section B: answer both questions. Section C: answer one question. Suggested times: about 20, 30 and 40 minutes (10 per Section A question, 15 per Section B question).</p></div>';
     }
     $('qwrap').innerHTML = intro + S.questions.map(function(q, i){
       var head = q.heading ? '<div class="t-qhead">' + esc(q.heading) + '</div>' : '';

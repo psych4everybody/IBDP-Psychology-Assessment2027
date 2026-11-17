@@ -26,7 +26,32 @@
 "q": [
 "Describe/Explain one brain imaging technique in relation to one example of human behaviour."
 ],
-"study": "Sharot et al. (2007); Scoville & Milner (1957)"
+"study": "Sharot et al. (2007); Corkin et al. (1997)"
+},
+{
+"approach": "Biological approach",
+"term": "Chemical Messengers",
+"q": [
+"Describe/Explain how one chemical messenger plays a role in one human behaviour."
+],
+"study": "Kosfeld et al. (2005)"
+},
+{
+"approach": "Biological approach",
+"term": "Diathesis-Stress Model",
+"q": [
+"Describe/Explain the diathesis-stress model with reference to one example of human behaviour."
+],
+"study": "Caspi et al. (2003)"
+},
+{
+"approach": "Biological approach",
+"term": "Genetic Inheritance",
+"q": [
+"Describe/Explain the extent to which one human behaviour may be inherited.",
+"Describe/Explain the role of genetic inheritance in one example of human behaviour."
+],
+"study": "Kendler et al. (2006)"
 },
 {
 "approach": "Biological approach",
@@ -34,7 +59,7 @@
 "q": [
 "Describe/Explain how localization of function is used to explain one human behaviour."
 ],
-"study": "Scoville & Milner (1957); Kuhl et al. (1992)"
+"study": "Scoville & Milner (1957)"
 },
 {
 "approach": "Biological approach",
@@ -44,6 +69,14 @@
 "Describe/Explain the role of neuroplasticity in human development."
 ],
 "study": "Maguire et al. (2000); Kuhl et al. (2003); Merzenich et al. (1996)"
+},
+{
+"approach": "Biological approach",
+"term": "Neurotransmission",
+"q": [
+"Describe/Explain the process of neurotransmission with reference to one example of human behaviour."
+],
+"study": "Antonova et al. (2011)"
 },
 {
 "approach": "Cognitive approach",
@@ -111,11 +144,51 @@
 },
 {
 "approach": "Sociocultural approach",
+"term": "Cognitive Dissonance",
+"q": [
+"Describe/Explain the role of cognitive dissonance in one example of human behaviour."
+],
+"study": "Festinger & Carlsmith (1959)"
+},
+{
+"approach": "Sociocultural approach",
+"term": "Compliance Techniques",
+"q": [
+"Describe/Explain one compliance technique with reference to one example of human behaviour."
+],
+"study": "Freedman & Fraser (1966); Cialdini et al. (1978)"
+},
+{
+"approach": "Sociocultural approach",
+"term": "Conformity",
+"q": [
+"Describe/Explain conformity with reference to one example of human behaviour."
+],
+"study": "Asch (1951); Bond & Smith (1996)"
+},
+{
+"approach": "Sociocultural approach",
+"term": "Cultural Dimensions",
+"q": [
+"Describe/Explain one cultural dimension with reference to one example of human behaviour."
+],
+"study": "Hofstede (1980); Gerlach & Eriksson (2021)"
+},
+{
+"approach": "Sociocultural approach",
 "term": "Emic Approach",
 "q": [
 "Describe/Explain the value of the emic approach when investigating one human behaviour."
 ],
-"study": "Berry (1966)"
+"study": "Corsaro (1985)"
+},
+{
+"approach": "Sociocultural approach",
+"term": "Enculturation",
+"q": [
+"Describe/Explain how enculturation shapes one example of human behaviour."
+],
+"study": "Fagot (1978)"
 },
 {
 "approach": "Sociocultural approach",
@@ -127,19 +200,27 @@
 },
 {
 "approach": "Sociocultural approach",
+"term": "Models of Acculturation",
+"q": [
+"Describe/Explain one model of acculturation with reference to the experience of people living in another culture."
+],
+"study": "Berry (1997)"
+},
+{
+"approach": "Sociocultural approach",
+"term": "Social Identity Theory",
+"q": [
+"Describe/Explain social identity theory with reference to one example of human behaviour."
+],
+"study": "Tajfel et al. (1971)"
+},
+{
+"approach": "Sociocultural approach",
 "term": "Social Learning Theory",
 "q": [
 "Describe/Explain social learning theory with reference to one example of human behaviour."
 ],
 "study": "Bandura, Ross & Ross (1961)"
-},
-{
-"approach": "Sociocultural approach",
-"term": "Enculturation",
-"q": [
-"Describe/Explain how enculturation shapes one example of human behaviour."
-],
-"study": "Fagot (1978)"
 }
 ],
 "B": [
@@ -210,7 +291,7 @@
 "n": 12,
 "context": "Human development",
 "term": "Theory of Mind",
-"scenario": "Four-year-old Saeed watches his older sister hide a toy car in a blue box while their cousin Fatima is out of the room. When Fatima returns, Saeed confidently predicts that she will look for the toy car in the blue box, even though the toy has since been moved to a red box without Fatima’s knowledge. Saeed’s older sister, who is seven, predicts that Fatima will mistakenly look in the red box.",
+"scenario": "Four-year-old Saeed and his seven-year-old sister watch their cousin Fatima put a toy car in a blue box before she leaves the room. While Fatima is away, their aunt moves the car to a red box. When Fatima comes back, Saeed confidently predicts that she will look in the red box, where the car really is. His sister predicts that Fatima will look in the blue box, because that is where Fatima last saw it.",
 "question": "With reference to the scenario above, explain the difference in theory of mind development shown by Saeed and his sister."
 },
 {
@@ -289,6 +370,27 @@
 "term": "Prevention and Treatment for Health Problems",
 "scenario": "Amna’s school introduced a programme to help students reduce problematic gaming. Each week, students set one small, specific goal, such as a fixed stop time on weekday evenings, and met briefly with a mentor who pointed out their progress so far rather than focusing only on remaining setbacks. After two months, Amna reported feeling far more confident that she could manage her own gaming time, even during stressful weeks.",
 "question": "With reference to the scenario above, explain the prevention strategy used in Amna’s school programme."
+},
+{
+"n": 22,
+"context": "Human relationships",
+"term": "Conformity",
+"scenario": "On her first day in a new school, Reem joins a table of classmates at lunch. The group quickly agrees that a new cafe near the school is \"the best in Sharjah\". Reem has been there and thought it was ordinary, but when someone asks her, she agrees with the group. A week later, when one classmate admits she also found the cafe disappointing, Reem feels able to say what she really thinks.",
+"question": "With reference to the scenario above, explain the role of conformity in Reem's behaviour."
+},
+{
+"n": 23,
+"context": "Human relationships",
+"term": "Compliance Techniques",
+"scenario": "A charity that runs a food bank in Dubai first asks residents of a building to sign a short online pledge to \"reduce food waste this Ramadan\". Two weeks later, volunteers knock on the doors of the residents who signed and ask if they would donate a box of groceries and help pack boxes for one evening. Most of the residents who signed the pledge agree, while far fewer of the residents who were not asked to sign it agree.",
+"question": "With reference to the scenario above, explain how a compliance technique was used to change the residents' behaviour."
+},
+{
+"n": 24,
+"context": "Human relationships",
+"term": "Social Identity Theory",
+"scenario": "Two Grade 10 classes at a school in Abu Dhabi are put into competing \"houses\" for a sports week, each with its own colour and chant. By the end of the week, students describe their own house as \"more organised and friendlier\", sit only with their own house at lunch, and criticise the other house's players on the class group chat, even though many of them were friends before the week began.",
+"question": "With reference to the scenario above, explain how social identity theory accounts for the students' behaviour."
 }
 ],
 "C": [
@@ -462,7 +564,7 @@
 },
 {
 "context": "Human development",
-"question": "In the context of human development, evaluate one or more strategies used by developmental psychologists to measure the theory of mind.",
+"question": "In the context of human development, to what extent can researchers accurately measure theory of mind in children from different cultures?",
 "area": "Theory of mind",
 "concept": "measurement"
 },
@@ -840,7 +942,7 @@
   }
   function secB(){
     return twoDistinct(DATA.B, 'context').map(function(s, i){
-      var q = { type: 'B', label: 'Section B, question ' + (i + 3), marks: 6, minutes: 13, term: s.term,
+      var q = { type: 'B', label: 'Section B, question ' + (i + 3), marks: 6, minutes: 15, term: s.term,
         heading: 'Context: ' + s.context, scenario: s.scenario, question: s.question };
       q.checklist = CHECK.B(q); return q;
     });
@@ -856,8 +958,8 @@
   var MODES = {
     full: { label: 'Full paper', minutes: 90, build: function(){ return secA().concat(secB(), [secC()]); } },
     A:    { label: 'Section A only', minutes: 20, build: secA },
-    B:    { label: 'Section B only', minutes: 25, build: secB },
-    C:    { label: 'Section C only', minutes: 45, build: function(){ return [secC()]; } }
+    B:    { label: 'Section B only', minutes: 30, build: secB },
+    C:    { label: 'Section C only', minutes: 40, build: function(){ return [secC()]; } }
   };
   window.P1BANK = { DATA: DATA, MODES: MODES, CHECK: CHECK, paperName: 'Paper 1', totalMarks: 35 };
 })();

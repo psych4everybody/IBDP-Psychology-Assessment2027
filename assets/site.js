@@ -162,7 +162,7 @@
       q=q.replace('Describe/Explain',verb)+' [4]';
       saOut.innerHTML='<span class="small">'+esc(r.dataset.approach)+'</span>'+esc(q);
       saOut.classList.add('on');
-      saAns.innerHTML='<p><b>Recommended study:</b> '+esc(r.dataset.study)+'</p><p><b>Key vocabulary:</b> '+esc(r.dataset.vocab)+'</p><p class="small">Check your glue sentence: does it say why the study demonstrates '+esc(r.dataset.term.toLowerCase())+'?</p>';
+      saAns.innerHTML='<p><b>One good example (a study):</b> '+esc(r.dataset.study)+'</p><p><b>Key vocabulary:</b> '+esc(r.dataset.vocab)+'</p><p class="small">Check your glue sentence: does it say why your example (a study or a realistic situation) demonstrates '+esc(r.dataset.term.toLowerCase())+'?</p>';
       saReveal.hidden=false; saReveal.open=false;
     });
   }

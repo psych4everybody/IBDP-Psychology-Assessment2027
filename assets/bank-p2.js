@@ -7,17 +7,17 @@
   var PRACTICALS = {
     experiment: {
       name: 'experiment', a: 'an experiment', topic: 'memory recall after a short wait',
-      q1Type: 'I named the type of experiment we used (true experiment, two conditions, independent samples) and said what that meant in practice.',
+      q1Type: 'I named the type of experiment we used (true or quasi, depending on how participants were put into groups; two conditions; independent samples) and said what that meant in practice.',
       q1Detail: 'I gave one real detail: the IV (30-second wait or immediate recall) and the DV (words correctly recalled out of 20).',
       q1Record: 'I said how the data were recorded and processed (written recall, counted and compared between groups).',
       q1Ethics: 'I described the ethics we actually followed (consent, right to withdraw, debrief, anonymised scores).'
     },
     observation: {
       name: 'observation', a: 'an observation', topic: 'how people use devices in everyday settings',
-      q1Type: 'I named the type of observation we used (naturalistic, covert, non-participant) and explained each word.',
+      q1Type: 'I named the type of observation we used (naturalistic, non-participant, structured; overt at home, covert in the cafe) and explained each term.',
       q1Detail: 'I gave one real detail: what counted as "one use" and that we recorded in 15-minute blocks.',
       q1Record: 'I said how behaviour was recorded (tally of uses, total duration, approximate age band).',
-      q1Ethics: 'I described the ethics we followed (no consent possible because covert, so everyday settings only, no names, no images, age bands only).'
+      q1Ethics: 'I described the ethics we followed (family permission at home; covert only in a public cafe where people expect to be seen; no names, no images, age bands only).'
     },
     interview: {
       name: 'interview', a: 'an interview', topic: 'how Grade 12 students cope with the stress of university applications',
@@ -53,7 +53,7 @@
       'I defined behaviour categories clearly enough that another observer would record the same thing.',
       'I said where and when, and whether I use time sampling or event sampling.',
       'I said how behaviour is recorded and included an inter-rater reliability check with two observers.',
-      'I included ethics: public settings only, no names or images, and a justification for any covert design.'
+      'I included ethics: covert only in public places where people expect to be seen, consent anywhere else, no names or images.'
     ],
     interview: [
       'I named the type of interview with a reason (for example semi-structured, so core questions stay consistent).',
@@ -62,8 +62,17 @@
       'I gave two example questions that are open and not leading.',
       'I described recording and transcription, checked against the audio.',
       'I described the analysis (coding into categories or content analysis) and the ethics (consent, recording, withdrawal, codes, deletion, debrief).'
+    ],
+    survey: [
+      'I wrote an aim on the topic of the practical named, and said what the questionnaire measures.',
+      'I described the sample: target population, sampling technique, reason and number.',
+      'I named the item types (closed items such as a Likert-type scale, and any open items) and gave two example items that are clear and not leading.',
+      'I said how the questionnaire is given out (paper or online) and how answers are scored or coded.',
+      'I included a pilot to check that the items are understood.',
+      'I included ethics: consent, anonymity, right to withdraw, no sensitive questions.'
     ]
   };
+  var ALT = { survey: { name: 'survey/questionnaire', a: 'a survey/questionnaire' } };
 
   var STUDIES = [
     {
@@ -122,8 +131,9 @@
   ];
 
   function pick(a){ return a[Math.floor(Math.random() * a.length)]; }
-  function others(m){ return METHODS.filter(function(x){ return x !== m; }); }
-  function art(m){ return PRACTICALS[m].a; }
+  function others(m){ return METHODS.filter(function(x){ return x !== m; }).concat(['survey']); }
+  function art(m){ return (PRACTICALS[m] || ALT[m]).a; }
+  function nm(m){ return (PRACTICALS[m] || ALT[m]).name; }
   function joinConcepts(list){
     if(list.length < 2) return list.join('');
     return list.slice(0, -1).join(', ') + ' and/or ' + list[list.length - 1];
@@ -131,7 +141,7 @@
 
   function q1(m){
     var p = PRACTICALS[m];
-    return { type: 'Q1', marks: 4, minutes: 8, label: 'Q1 Describe',
+    return { type: 'Q1', marks: 4, minutes: 10, label: 'Q1 Describe',
       question: 'Describe how you used ' + p.a + ' in your class practical and its aim and procedure.',
       checklist: [
         'I started with our practical, not a general definition of the method.',
@@ -145,7 +155,7 @@
   function q2(m, c){
     c = c || pick(CONCEPTS);
     var p = PRACTICALS[m];
-    return { type: 'Q2', marks: 4, minutes: 8, label: 'Q2 Explain a concept', concept: c,
+    return { type: 'Q2', marks: 4, minutes: 10, label: 'Q2 Explain a concept', concept: c,
       question: 'Explain the concept of ' + c + ' in relation to the ' + p.name + ' in your class practical.',
       checklist: [
         'I wrote about the ' + p.name + ', the practical the question named.',
@@ -157,10 +167,10 @@
   }
   function q3(m, o){
     o = o || pick(others(m));
-    return { type: 'Q3', marks: 6, minutes: 12, label: 'Q3 Compare and contrast', other: o,
+    return { type: 'Q3', marks: 6, minutes: 10, label: 'Q3 Compare and contrast', other: o,
       question: 'Compare and contrast the research methodology of the ' + PRACTICALS[m].name + ' used in your class practical with the research methodology of ' + art(o) + '.',
       checklist: [
-        'Every point names both the ' + PRACTICALS[m].name + ' and the ' + o + '.',
+        'Every point names both the ' + PRACTICALS[m].name + ' and the ' + nm(o) + '.',
         'I included at least one similarity.',
         'I included at least two differences.',
         'I used at least one real detail from our ' + PRACTICALS[m].name + ' practical.',
@@ -172,7 +182,7 @@
     o = o || pick(others(m));
     var list = DESIGN[o].slice();
     list.unshift('I designed ' + art(o) + ', not my ' + PRACTICALS[m].name + ' again.');
-    return { type: 'Q4', marks: 6, minutes: 13, label: 'Q4 Design', other: o,
+    return { type: 'Q4', marks: 6, minutes: 10, label: 'Q4 Design', other: o,
       question: 'Design ' + art(o) + ' to investigate the same topic you investigated in your ' + PRACTICALS[m].name + ' class practical.',
       topicHint: 'Topic of your ' + PRACTICALS[m].name + ' practical: ' + PRACTICALS[m].topic + '.',
       checklist: list };

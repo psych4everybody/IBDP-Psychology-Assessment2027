@@ -13,7 +13,7 @@ Live site: https://psych4everybody.github.io/IBDP-Psychology-Assessment2027/
 | `paper2.html` | Paper 2: the class practicals, Section A Q1 to Q4, Section B on an unseen study, a practice set and exam-day checklist |
 | `paper3.html` | Paper 3 (HL): Q1 to Q4 guidance from the guide, teacher support material and IB-marked samples, a spot-the-graph-issue self-test, and twelve practice sets (three extensions in each of four contexts) with booklet, examiner notes and checklists |
 | `worksheets.html` | Worksheets hub: 31 chapters across cognition and learning (CL), human development (HD), and health and well-being (HW) |
-| `ws-cl-01.html` to `ws-hw-11.html` | One page per chapter: goals, warm-up, reading with two key studies, self-check, concept workout and exam practice (the three class practical chapters, CL-11, HD-09 and HW-11, have Paper 2 Section A practice instead of a workout). Generated with `tools/build_worksheets.py` |
+| `ws-cl-01.html` to `ws-hw-11.html` | One page per chapter: goals, warm-up, reading with its key studies, self-check, concept workout and exam practice (the three class practical chapters, CL-11, HD-09 and HW-11, have Paper 2 Section A practice instead of a workout). Generated with `tools/build_worksheets.py` |
 | `test.html` | Test conditions for all three papers: random paper or section, offline gate, full screen, timer, locked answers, required checklist review, PDF download once back online |
 | `assets/bank-p1.js` | Paper 1 question pool for the test page (generated from the P1ABC Revision Guide) |
 | `assets/bank-p2.js` | Paper 2 question pool, checklists and generators (random question tool and test page) |

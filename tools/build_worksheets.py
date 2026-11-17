@@ -55,11 +55,15 @@ PARAPHRASED_LO = {
     "HW-11": "How interviews work as a research method, using our class practical.",
 }
 
+# Area of study labels: column 1 of the guide's context tables, never a subheading alone (audit, Nov 2026).
+PRACTICAL_METHOD = {'CL-11': 'experiment', 'HD-09': 'observation', 'HW-11': 'interview'}
+AREA_FIX = {'CL-01': 'conditioning (classical and operant), in thinking and learning', 'CL-02': 'social learning theory, in thinking and learning', 'CL-03': 'schema theory, in thinking and learning', 'CL-04': 'dual processing model, in thinking and learning', 'CL-05': 'cognitive biases, in thinking and learning', 'CL-06': 'cognitive models, in cognitive processes (memory)', 'CL-07': 'biological factors in cognitive processes (memory)', 'CL-08': 'cultural factors in cognitive processes (memory)', 'CL-09': 'environmental influences on cognitive processes (memory)', 'CL-10': 'potential for improving a cognitive process (memory)', 'HW-09': 'psychological treatment for one disorder (prevention and treatment)', 'HR-09': 'communication/language (interpersonal relationships)'}
+
 # Our own plain-language checklists. Deliberately not the IB markband wording.
 EARNS = {
     "P1A": [
         "I explain the term accurately, with enough detail to show I understand it, not just a one-line definition.",
-        "I give one example of real human behaviour.",
+        "I give one example of human behaviour: a study, or a realistic everyday or hypothetical situation.",
         "I explain how the example shows the term, so the link is clear, not just stated.",
         "I leave out study details: Section A does not need them.",
     ],
@@ -194,6 +198,7 @@ def convert(src, code):
     grey = body.find("p", class_="grey")
     m = re.match(r"Area of study:\s*([^.]*)\.", text(grey))
     area = m.group(1) if m else ""
+    area = AREA_FIX.get(code, area)
     lo = PARAPHRASED_LO.get(code, "")
 
     lo_td = body.find("td", class_="lo")
@@ -322,7 +327,7 @@ def convert(src, code):
     <p class="lede">You will be able to {goal}</p>
     <ul class="checklist" data-key="{code}-goals">{goal_items}</ul>
     <p class="progress"></p>
-    <p class="small">Area of study: {area}. In plain words: {lo[:1].lower() + lo[1:]}</p>
+    <p class="small">{("Class practical: the " + PRACTICAL_METHOD[code] + " (the research method set for this context)") if code in PRACTICAL_METHOD else ("Area of study: " + area)}. In plain words: {lo[:1].lower() + lo[1:]}</p>
     <p class="small"><b>Where this appears in the exams:</b> {exam_map}</p>
     <div class="chips">{chip_html}</div>
   </section>''']
