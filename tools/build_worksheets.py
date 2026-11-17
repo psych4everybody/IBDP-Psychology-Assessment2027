@@ -20,9 +20,39 @@ import re
 import sys
 from bs4 import BeautifulSoup, NavigableString
 
-# Our own wording of each area of study's learning objective (not the guide's).
+# Our own wording of each chapter's learning objective (not the guide's).
 PARAPHRASED_LO = {
-    "attachment": "How the bond between a young child and their caregivers may shape the way a sense of self develops.",
+    "CL-01": "How classical and operant conditioning explain learning, and how operant conditioning can be used to change behaviour.",
+    "CL-02": "How learning by watching others works, and how it can be used to change behaviour.",
+    "CL-03": "How mental frameworks (schemas) shape what we think, remember and do.",
+    "CL-04": "How useful the idea of two kinds of thinking, fast and slow, is for understanding thinking and decisions.",
+    "CL-05": "How cognitive biases affect the decisions people make.",
+    "CL-06": "Why psychologists build models of cognitive processes, and how two models of memory compare.",
+    "CL-07": "How biological factors affect memory.",
+    "CL-08": "How culture affects memory.",
+    "CL-09": "How the environment around us might affect memory.",
+    "CL-10": "Strategies that can improve memory and learning.",
+    "CL-11": "How an experiment works as a research method, using our class practical.",
+    "HD-01": "How the maturing brain, critical periods and neuroplasticity shape development.",
+    "HD-02": "How well stage theories and continuous models explain development.",
+    "HD-03": "How social and cultural factors influence development.",
+    "HD-04": "What theory of mind tells us about development and thinking.",
+    "HD-05": "How the bond between a young child and their caregivers may shape the way a sense of self develops.",
+    "HD-06": "How learning the social norms of a culture helps shape a sense of self.",
+    "HD-07": "How peers influence the developing sense of self.",
+    "HD-08": "How experiences in childhood can shape the developing self.",
+    "HD-09": "How observation works as a research method, using our class practical.",
+    "HW-01": "Biological explanations of depression.",
+    "HW-02": "How useful cognitive models are for understanding depression.",
+    "HW-03": "Why rates of depression differ between cultures and groups, and how cultures differ in their approach to mental health.",
+    "HW-04": "How factors in a person's environment help explain depression.",
+    "HW-05": "What explains changes over time in how common social media addiction is, and differences between groups.",
+    "HW-06": "How learning from others helps explain social media addiction.",
+    "HW-07": "How stress plays a part in social media addiction.",
+    "HW-08": "How biological treatments for depression work, and how well they work.",
+    "HW-09": "How psychological treatments for depression work, and how well they work.",
+    "HW-10": "How well strategies to prevent or treat social media addiction work.",
+    "HW-11": "How interviews work as a research method, using our class practical.",
 }
 
 # Our own plain-language checklists. Deliberately not the IB markband wording.
@@ -38,6 +68,29 @@ EARNS = {
         "Every point I make uses a detail from the scenario, not a general description.",
         "I develop each link: I say what happens in the scenario, which part of the theory explains it, and why.",
         "I cover the whole scenario, including every person or behaviour the question points to.",
+    ],
+    "Q1": [
+        "I name the method and its type (for example a true experiment, a naturalistic observation or a semi-structured interview).",
+        "I state the aim of our practical.",
+        "I describe the procedure in order, with enough detail that someone could repeat it.",
+        "I use research methods terms correctly (for example operationalised variables, sampling, consent).",
+    ],
+    "Q2": [
+        "I explain what the concept means in research, accurately.",
+        "I link it to specific features of our practical, not to research in general.",
+        "I explain the effect: how it helped or limited what our practical could show.",
+    ],
+    "Q3": [
+        "I give at least one similarity and at least one difference.",
+        "Each point is explained, not just listed: I say why the two methods are alike or different.",
+        "I tie each point to our practical and to the other method.",
+        "I use research methods terms correctly throughout.",
+    ],
+    "Q4": [
+        "My design uses the method named in the question, on the same topic as our practical.",
+        "I give an aim and enough procedure (participants, sampling, materials, steps) for someone to carry it out.",
+        "I explain key choices, such as how responses would be recorded and analysed, and one ethical step.",
+        "I use research methods terms correctly.",
     ],
 }
 
@@ -69,7 +122,10 @@ class Builder:
     def slot(self, letter, rows=2):
         n = self.counts.get(letter, 0) + 1
         self.counts[letter] = n
-        tag = f"{self.code}-{letter}{n}"
+        if re.fullmatch(r"Q\d", letter):
+            tag = f"{self.code}-{letter}" + ("" if n == 1 else "bcdefg"[n - 2])
+        else:
+            tag = f"{self.code}-{letter}{n}"
         return (f'<div class="slot" style="--rows:{rows}"><span class="slot-code">{tag}</span>'
                 f'<span class="slot-note">Answer in your answer sheet under this number.</span></div>')
 
@@ -110,6 +166,17 @@ def blank_cells_table(el):
     return bool(tds) and all(not text(t[1]) for t in tds)
 
 
+SAFEGUARD = ('<section class="card" id="rd-care"><div class="callout c-tip"><strong class="tag">Looking after yourself</strong>'
+             '<p>If anything in this chapter feels close to home, talk to the school counsellor or another adult you trust.</p></div></section>')
+
+
+def add_safeguard(cards, code):
+    """Health and well-being chapters always end the reading with the counsellor note."""
+    if code.startswith("HW-") and not any("Looking after yourself" in c for c in cards):
+        cards.append(SAFEGUARD)
+    return cards
+
+
 def convert(src, code):
     soup = BeautifulSoup(open(src, encoding="utf-8").read(), "html.parser")
     body = soup.body
@@ -127,8 +194,7 @@ def convert(src, code):
     grey = body.find("p", class_="grey")
     m = re.match(r"Area of study:\s*([^.]*)\.", text(grey))
     area = m.group(1) if m else ""
-    key = area.split("(")[0].strip().lower()
-    lo = PARAPHRASED_LO.get(key, "")
+    lo = PARAPHRASED_LO.get(code, "")
 
     lo_td = body.find("td", class_="lo")
     goal_p = lo_td.find("p")
@@ -157,7 +223,7 @@ def convert(src, code):
             cur = {"key": keyname, "label": label, "els": []}
             sections.append(cur)
             continue
-        if el.name == "table" and el.find("td", class_="ai"):
+        if el.name == "table" and el.find("td", class_="ai") and "Using AI" in el.get_text():
             cur = {"key": "AI", "label": "AI", "els": [el]}
             sections.append(cur)
             continue
@@ -187,7 +253,11 @@ def convert(src, code):
                 flush()
                 buf, heading = [], text(el)
                 t = heading.lower()
-                qtype = "P1A" if "section a" in t else "P1B" if "section b" in t else "P1C" if "section c" in t else None
+                mq = re.search(r"paper 2, section a, question (\d)", t)
+                if mq:
+                    qtype = "Q" + mq.group(1)
+                else:
+                    qtype = "P1A" if "section a" in t else "P1B" if "section b" in t else "P1C" if "section c" in t else None
                 continue
             if el.name == "h3":
                 buf.append(f"<h3>{inner(el)}</h3>")
@@ -201,18 +271,20 @@ def convert(src, code):
                 continue
             if is_box(el):
                 rows = len(el.find_all("p")) or 2
-                lt = {"P1A": "A", "P1B": "B", "P1C": "P"}.get(qtype, letter) if exam else letter
+                lt = ({"P1A": "A", "P1B": "B", "P1C": "P"}.get(qtype) or qtype or letter) if exam else letter
                 buf.append(b.slot(lt, min(rows, 6)))
                 continue
             if blank_cells_table(el):
                 labels = "".join(f"<li>{inner(r.find_all('td')[0])}</li>" for r in el.find_all("tr") if len(r.find_all("td")) == 2)
-                lt = "P" if exam else letter
+                lt = (qtype if (qtype or "").startswith("Q") else "P") if exam else letter
                 buf.append(f'<ul class="slot-list">{labels}</ul>' + b.slot(lt, 4))
                 continue
             if el.name == "table":
                 td = el.find("td")
                 cls = (td.get("class") or []) if td else []
-                if "real" in cls:
+                if "lo" in cls:
+                    buf.append(f'<div class="callout c-tip"><strong class="tag">Looking after yourself</strong>{inner(td)}</div>')
+                elif "real" in cls:
                     buf.append(f'<div class="callout c-tip">{inner(td)}</div>')
                 elif "weak" in cls:
                     buf.append(f'<div class="frame">{inner(td)}</div>')
@@ -261,7 +333,7 @@ def convert(src, code):
     topics.append(("start", "Start", title, hook, start))
 
     if "CORE CONTENT" in by_key:
-        topics.append(("read", "Read", "Read", "Read this before the lesson.", render(by_key["CORE CONTENT"]["els"], "X", "rd")))
+        topics.append(("read", "Read", "Read", "Read this before the lesson.", add_safeguard(render(by_key["CORE CONTENT"]["els"], "D", "rd"), code)))
     if "CHECK YOURSELF" in by_key:
         c = render(by_key["CHECK YOURSELF"]["els"], "C", "ck", split_h3=False)
         c[0] = c[0].replace('<section class="card" id="ck-1">',
@@ -273,7 +345,8 @@ def convert(src, code):
         topics.append(("workout", "Workout", f"Concept workout: {concept}", "Five rungs, in order. The guiding questions point the way; they do not give you the answer.",
                        render(s["els"], "R", "wo")))
     if "EXAM PRACTICE" in by_key:
-        topics.append(("exam", "Exam practice", "Exam practice", "Paper 1 practice for this chapter.", render(by_key["EXAM PRACTICE"]["els"], "X", "ex", exam=True)))
+        sub = "Paper 2 Section A practice on our class practical." if "CONCEPT WORKOUT" not in by_key else "Paper 1 practice for this chapter."
+        topics.append(("exam", "Exam practice", "Exam practice", sub, render(by_key["EXAM PRACTICE"]["els"], "X", "ex", exam=True)))
     more = []
     if "AI" in by_key:
         td = by_key["AI"]["els"][0].find("td", class_="ai")
