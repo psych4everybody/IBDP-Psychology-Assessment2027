@@ -276,30 +276,30 @@
 {
 "n": 5,
 "context": "Human development",
-"term": "Peer Influence",
+"term": "Social Identity Theory",
 "scenario": "Marco was a reserved student known among classmates for his interest in reading and strategy games. In his second year of secondary school, he joined a group of friends who were passionate about environmental advocacy and regularly attended community events. Within months, Marco began describing environmental issues as \"a core part of who I am,\" started attending weekend events, and began viewing his earlier hobbies as a less meaningful use of time.",
-"question": "With reference to the scenario above, explain the role of peer influence in Marco's development of self."
+"question": "With reference to the scenario above, explain how social identity theory may account for the change in Marco's sense of who he is."
 },
 {
 "n": 11,
 "context": "Human development",
-"term": "Attachment",
+"term": "Schema Theory",
 "scenario": "As an infant, Maryam consistently sought out her mother for comfort when distressed, was easily soothed upon her mother’s return after brief separations, and explored her environment confidently when her mother was present. As a young adult, Maryam is described by friends as someone who forms close relationships easily, trusts the people close to her, and is comfortable both relying on others and being relied upon.",
-"question": "With reference to the scenario above, explain how attachment theory accounts for Maryam’s relational patterns in adulthood."
+"question": "With reference to the scenario above, explain how schema theory may account for Maryam's relationships in adulthood."
 },
 {
 "n": 12,
 "context": "Human development",
-"term": "Theory of Mind",
+"term": "Cognitive Models",
 "scenario": "Four-year-old Saeed and his seven-year-old sister watch their cousin Fatima put a toy car in a blue box before she leaves the room. While Fatima is away, their aunt moves the car to a red box. When Fatima comes back, Saeed confidently predicts that she will look in the red box, where the car really is. His sister predicts that Fatima will look in the blue box, because that is where Fatima last saw it.",
-"question": "With reference to the scenario above, explain the difference in theory of mind development shown by Saeed and his sister."
+"question": "With reference to the scenario above, explain how a cognitive model could account for the difference between Saeed's and his sister's predictions."
 },
 {
 "n": 6,
 "context": "Health and well-being",
-"term": "Biological Explanations of MDD",
+"term": "Genetic Inheritance",
 "scenario": "Layla, a 28-year-old graphic designer, has always known that her maternal aunt experienced a severe depressive episode in her early thirties that required treatment. After a major client project she led collapsed publicly, Layla’s sleep became fragmented, she lost interest in activities she had previously enjoyed, and she described a persistent flatness in her mood that did not lift over several months.",
-"question": "With reference to the scenario above, explain the role of biological factors in Layla’s depressive symptoms."
+"question": "With reference to the scenario above, explain the role of genetic inheritance in Layla's depressive symptoms."
 },
 {
 "n": 7,
@@ -311,65 +311,65 @@
 {
 "n": 13,
 "context": "Health and well-being",
-"term": "Cognitive Models of MDD",
+"term": "Cognitive Models",
 "scenario": "Hessa, a 30-year-old architect, was passed over for a promotion she had expected to receive. Since then she has come to believe that she is fundamentally unskilled at her job, interprets her colleagues’ silence in meetings as proof that they have lost respect for her, and has stopped applying for new projects because she is convinced any attempt will end in failure.",
-"question": "With reference to the scenario above, explain how Beck’s cognitive triad may account for Hessa’s pattern of thinking."
+"question": "With reference to the scenario above, explain how a cognitive model may account for Hessa's pattern of thinking."
 },
 {
 "n": 14,
 "context": "Health and well-being",
-"term": "Cultural Differences in MDD",
+"term": "Enculturation",
 "scenario": "Yousef has been feeling persistently exhausted, has lost his appetite, and complains often of headaches and stomach pain, but he has not mentioned feeling sad or hopeless to his family or his doctor. His family has encouraged him to rest more and eat better, attributing his condition entirely to physical strain from his new job, and has not suggested he speak to a mental health professional.",
-"question": "With reference to the scenario above, explain how cultural differences may account for the way Yousef’s symptoms have been expressed and interpreted."
+"question": "With reference to the scenario above, explain how enculturation may account for the way Yousef's symptoms have been expressed and interpreted."
 },
 {
 "n": 15,
 "context": "Health and well-being",
-"term": "Environmental Factors in MDD",
+"term": "Social Learning Theory",
 "scenario": "Mansoor’s closest friend was diagnosed with depression six months ago. Since then, Mansoor has noticed his own mood becoming steadily lower, even though nothing significant has changed in his own life circumstances. He has begun describing his days using the same language his friend uses, and has started withdrawing from the same social activities his friend stopped attending.",
-"question": "With reference to the scenario above, explain the role of environmental factors in Mansoor’s declining mood."
+"question": "With reference to the scenario above, explain how social learning theory may account for Mansoor's declining mood."
 },
 {
 "n": 16,
 "context": "Health and well-being",
-"term": "Prevalence of Health Problems",
+"term": "Validity",
 "scenario": "Shaikha, a school counsellor, compares two reports on screen-time-related health problems. Her own school’s report, using a strict clinical interview to identify cases, found that 4 percent of students showed signs of problematic use. A neighbouring school’s report, using a brief ten-item self-report questionnaire with a low cutoff score, found that 22 percent of students showed signs of problematic use.",
-"question": "With reference to the scenario above, explain why these two schools might report such different rates of problematic use."
+"question": "With reference to the scenario above, explain how the validity of the two schools' measurement tools could account for their different rates of problematic use."
 },
 {
 "n": 17,
 "context": "Health and well-being",
-"term": "Social Learning and Health",
+"term": "Social Learning Theory",
 "scenario": "Abdulla’s older cousin frequently posts videos of himself unboxing new gadgets, and receives enthusiastic comments and views within minutes of posting. At family gatherings, relatives often bring up how impressive his cousin’s online following has become. Abdulla, who previously had little interest in posting online, has started filming similar videos of his own and checks the view count repeatedly throughout the day.",
-"question": "With reference to the scenario above, explain the role of social learning in Abdulla’s behaviour."
+"question": "With reference to the scenario above, explain how social learning theory may account for Abdulla's behaviour."
 },
 {
 "n": 18,
 "context": "Health and well-being",
-"term": "Stress and Health",
+"term": "Operant Conditioning",
 "scenario": "During a period of intense pressure at work, Lulwa found herself spending long stretches of time browsing an online shopping app, often without buying anything. She described the experience as the only part of her day when she did not feel like she was being evaluated by someone else, and noted that she frequently lost track of how much time had passed.",
-"question": "With reference to the scenario above, explain the role of stress in Lulwa’s behaviour."
+"question": "With reference to the scenario above, explain the role of operant conditioning in Lulwa's behaviour."
 },
 {
 "n": 19,
 "context": "Health and well-being",
-"term": "Biological Treatment for MDD",
+"term": "Neurotransmission",
 "scenario": "Tariq’s doctor has prescribed an SSRI for his depression. Tariq’s brother, who read an online article claiming antidepressants barely outperform a placebo, has urged him to stop taking the medication immediately. Tariq’s doctor explains that the picture from the complete research record is more nuanced than the article suggests, and that Tariq’s own symptom severity is relevant to the decision.",
-"question": "With reference to the scenario above, explain the considerations relevant to evaluating the effectiveness of Tariq’s biological treatment."
+"question": "With reference to the scenario above, explain how Tariq's medication is thought to work, using the process of neurotransmission."
 },
 {
 "n": 20,
 "context": "Health and well-being",
-"term": "Psychological Treatment for MDD",
+"term": "Schema Theory",
 "scenario": "In therapy, Nasser’s psychologist has been helping him notice the moment he assumes a friend’s brief reply to a text message means the friendship is ending. Together they review the actual history of the friendship and write down evidence that contradicts this assumption each time it appears, gradually replacing the assumption with a more balanced interpretation.",
-"question": "With reference to the scenario above, explain how Nasser’s psychologist is using cognitive behavioural therapy to address his pattern of thinking."
+"question": "With reference to the scenario above, explain how schema theory can be used to understand what Nasser's psychologist is doing."
 },
 {
 "n": 21,
 "context": "Health and well-being",
-"term": "Prevention and Treatment for Health Problems",
+"term": "Social Learning Theory",
 "scenario": "Amna’s school introduced a programme to help students reduce problematic gaming. Each week, students set one small, specific goal, such as a fixed stop time on weekday evenings, and met briefly with a mentor who pointed out their progress so far rather than focusing only on remaining setbacks. After two months, Amna reported feeling far more confident that she could manage her own gaming time, even during stressful weeks.",
-"question": "With reference to the scenario above, explain the prevention strategy used in Amna’s school programme."
+"question": "With reference to the scenario above, explain how social learning theory could account for the change in Amna's confidence."
 },
 {
 "n": 22,
