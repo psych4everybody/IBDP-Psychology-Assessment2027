@@ -1,0 +1,210 @@
+/* ============================================================
+   IB Psychology 2027 Revision: notebook theme (sky palette)
+   Loaded after style.css on the hub and paper pages (not the
+   test-conditions page, which stays plain like an exam screen).
+   Remove the <link> to theme.css to return to the plain look.
+   Palette: sky #9fd0ee, pale sky #e1f0f9, deep sky #2a6a92,
+   cloud #f5f8fa, butter tape #f6e2aa. Text colours meet WCAG AA.
+   ============================================================ */
+:root{
+  --paper:#edf3f7; --page:#fcfdfe;
+  --ink:#1d3a50; --navy:#1d3a50; --navy-2:#2a6a92; --muted:#44596a;
+  --sky:#9fd0ee; --sky-pale:#e1f0f9; --sky-deep:#2a6a92; --sky-ink:#1f5a80;
+  --cloud:#f5f8fa; --butter:#fbf1cd; --tape-sky:rgba(159,208,238,.85); --tape-butter:rgba(246,226,170,.9);
+  --pencil:#8a99a6; --rule:rgba(90,150,195,.22); --margin:rgba(222,120,120,.5);
+  --line:#d6e3ec; --soft:#f3f8fb; --bg:#edf3f7;
+  --teal:#2a6a92; --teal-2:#1f5a80; --teal-light:#e1f0f9;
+}
+body{font-family:'DM Sans',Arial,sans-serif;color:var(--ink);background-color:var(--paper);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35  0 0 0 0 .45  0 0 0 0 .55  0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+a{color:var(--sky-ink);}
+svg.defs{position:absolute;width:0;height:0;}
+
+/* ---------- header: sky wash on lined paper ---------- */
+header.hero{position:relative;overflow:hidden;color:var(--ink);padding:42px 20px 64px;
+  background:url(header-sky.svg) center bottom/cover no-repeat;}
+header.hero::after{content:"";position:absolute;inset:0 0 34px;pointer-events:none;z-index:1;
+  background:repeating-linear-gradient(to bottom,transparent 0 27px,rgba(40,90,130,.12) 27px 28px);}
+header.hero>*{position:relative;z-index:2;}
+.hero .eyebrow{font-family:'Jost',sans-serif;font-weight:600;letter-spacing:4px;color:#24465e;}
+.hero h1{font-family:'Fraunces',Georgia,serif;font-weight:700;letter-spacing:-.4px;color:var(--ink);text-shadow:0 0 18px rgba(240,248,253,.95);}
+.hero .subtitle{color:var(--ink);font-weight:500;text-shadow:0 0 12px rgba(240,248,253,.9);}
+.btn{font-family:'Jost',sans-serif;font-weight:600;letter-spacing:.4px;border-radius:4px;}
+.btn-primary,.btn-dark{background:var(--sky-deep);color:#fff;border-color:var(--sky-deep);}
+.btn-primary:hover,.btn-dark:hover{background:#1f5577;}
+.btn-ghost{background:rgba(252,253,254,.8);color:var(--ink);border-color:var(--sky-deep);}
+.btn-ghost:hover{background:#fff;}
+.btn-line{border-color:var(--sky-deep);color:var(--sky-deep);background:var(--page);}
+.btn-line:hover{background:var(--sky-deep);color:#fff;}
+
+/* ---------- top bar: notebook divider tabs ---------- */
+.topbar{background:rgba(237,243,247,.96);border-bottom:2px solid var(--sky);box-shadow:none;backdrop-filter:blur(4px);}
+.back-link{font-family:'Jost',sans-serif;background:var(--page);border-color:var(--line);color:var(--ink);border-radius:4px;}
+.back-link:hover{border-color:var(--sky-deep);color:var(--sky-deep);}
+.tabs a{font-family:'Jost',sans-serif;font-weight:600;letter-spacing:.3px;background:var(--cloud);color:var(--ink);
+  border:1px solid var(--line);border-bottom-width:3px;border-radius:8px 8px 2px 2px;}
+.tabs a:nth-child(even){background:var(--sky-pale);border-color:#c4dff0;}
+.tabs a:hover{background:var(--sky);border-color:var(--sky);}
+.tabs a.on{background:var(--sky-deep);color:#fff;border-color:var(--sky-deep);}
+
+/* ---------- table of contents: taped index card ---------- */
+.toc{position:relative;background:var(--sky-pale);border:none;border-radius:2px;box-shadow:0 3px 10px rgba(29,58,80,.08);padding-top:24px;}
+.toc::before{content:"";position:absolute;top:-9px;left:50%;width:76px;height:20px;transform:translateX(-50%) rotate(-3deg);background:var(--tape-butter);box-shadow:0 1px 2px rgba(0,0,0,.06);}
+.toc h2{font-family:'Caveat',cursive;font-weight:700;font-size:22px;letter-spacing:.5px;text-transform:none;color:var(--sky-ink);}
+.toc a{color:var(--muted);border-radius:3px;}
+.toc a:hover,.toc a.active{background:var(--page);color:var(--ink);border-left-color:var(--sky-deep);}
+
+/* ---------- notebook pages ---------- */
+section.card{position:relative;border:none;border-radius:3px;padding:30px 30px 28px 78px;
+  background-color:var(--page);
+  background-image:
+    radial-gradient(circle at 24px 50%,var(--paper) 0 7px,rgba(29,58,80,.16) 7.5px,transparent 9px),
+    linear-gradient(90deg,transparent 54px,var(--margin) 54px,var(--margin) 55px,transparent 55px,transparent 58px,var(--margin) 58px,var(--margin) 59px,transparent 59px),
+    repeating-linear-gradient(to bottom,transparent 0 27px,var(--rule) 27px 28px);
+  background-size:100% 104px,100% 100%,100% 100%;
+  background-repeat:repeat-y,no-repeat,repeat;
+  background-position:0 20px,0 0,0 2px;
+  box-shadow:0 1px 0 rgba(29,58,80,.04),0 6px 18px rgba(29,58,80,.08);}
+.card p,.card li{line-height:28px;}
+.card h2{font-family:'Fraunces',Georgia,serif;font-weight:700;color:var(--ink);font-size:26px;line-height:1.25;}
+.card h3{font-family:'Fraunces',Georgia,serif;font-weight:600;color:var(--ink);}
+.lede{color:var(--ink);}
+.sec-label{font-family:'Caveat',cursive;font-weight:700;font-size:23px;letter-spacing:.3px;text-transform:none;color:var(--sky-ink);}
+.small{color:var(--muted);}
+
+/* doodles in the page corner (inserted by doodles.js) */
+.card:has(.doodle) :is(.table-wrap,.grid2,.grid3,.glance,.howto,.callout,.concept-grid,.builder,details.q,.checklist,.pair,.frame,.p3-spot,.p3-list,.method,.practical){clear:both;}
+.doodle{float:right;width:140px;margin:-12px -8px 6px 18px;pointer-events:none;color:var(--sky-deep);shape-outside:margin-box;}
+.doodle svg{width:100%;height:auto;display:block;overflow:visible;}
+.doodle .ink{fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;opacity:.82;}
+.doodle svg>g{filter:url(#pencil);}
+.doodle .ink.thin{stroke-width:1.6;}
+.doodle .ink.dash{stroke-dasharray:4 6;}
+.doodle .spot{filter:url(#wcSpot);}
+
+/* ---------- index cards with washi tape ---------- */
+.mini{position:relative;background:var(--sky-pale);border:none;border-radius:2px;box-shadow:0 2px 8px rgba(29,58,80,.08);padding:20px 18px 16px;}
+.mini:nth-child(even){background:#fbf6e6;}
+.mini:nth-child(odd){transform:rotate(-.5deg);}
+.mini:nth-child(even){transform:rotate(.45deg);}
+.mini::before{content:"";position:absolute;top:-9px;left:50%;width:64px;height:18px;transform:translateX(-50%) rotate(2deg);background:var(--tape-butter);box-shadow:0 1px 2px rgba(0,0,0,.05);}
+.mini:nth-child(even)::before{background:var(--tape-sky);transform:translateX(-50%) rotate(-3deg);}
+.mini h4{font-family:'Fraunces',Georgia,serif;font-weight:600;color:var(--ink);}
+.mini p,.mini li{line-height:1.6 !important;}
+.grid2,.grid3{gap:20px;}
+
+/* step cards (how-to strips) */
+.howto .step{position:relative;background:var(--cloud);border:1px solid var(--line);border-radius:2px;box-shadow:0 2px 6px rgba(29,58,80,.06);}
+.howto .step:nth-child(even){background:#fbf6e6;border-color:#eadfbf;}
+.howto .step::after{content:"";position:absolute;top:-8px;left:50%;width:54px;height:16px;transform:translateX(-50%) rotate(-2deg);background:var(--tape-butter);}
+.howto .step:nth-child(even)::after{background:var(--tape-sky);transform:translateX(-50%) rotate(3deg);}
+.howto{padding-top:6px;}
+.howto .step b{background:var(--sky-deep);color:#fff;font-family:'Jost',sans-serif;}
+.howto h3{font-family:'Fraunces',Georgia,serif;}
+
+/* at-a-glance numbers: sticky tabs */
+.glance div{background:var(--sky-pale);border:none;border-radius:2px;box-shadow:0 2px 6px rgba(29,58,80,.07);}
+.glance div:nth-child(even){background:#fbf6e6;}
+.glance b{font-family:'Fraunces',Georgia,serif;color:var(--sky-ink);}
+
+/* sentence frames: pencil box */
+.frame{background:rgba(252,253,254,.9);border:1.5px dashed var(--pencil);border-radius:3px;}
+.blank{border-bottom-color:var(--pencil);}
+
+/* ---------- callouts: sticky notes ---------- */
+.callout{position:relative;border-radius:2px;box-shadow:0 2px 8px rgba(29,58,80,.07);}
+.callout p,.callout li{line-height:1.6 !important;}
+.callout strong.tag{font-family:'Jost',sans-serif;letter-spacing:3px;}
+.c-exam{background:var(--butter);border-left:none;padding-top:22px;}
+.c-exam::before{content:"";position:absolute;top:-8px;left:22px;width:70px;height:18px;transform:rotate(-4deg);background:var(--tape-sky);}
+.c-exam strong.tag{color:#7a4d0e;}
+.c-tip{background:var(--sky-pale);border-left:4px solid var(--sky);}
+.c-tip strong.tag{color:var(--sky-ink);}
+.c-scope{background:var(--cloud);border-left:4px solid #c4d3dd;}
+
+/* ---------- tables ---------- */
+.table-wrap{border:1px solid var(--line);border-radius:3px;background:var(--page);}
+th{background:var(--sky-deep);font-family:'Jost',sans-serif;letter-spacing:1.2px;}
+td{border-top:1px solid #e3ecf2;}
+tr:nth-child(even) td{background:#f5f9fc;}
+td.key{color:var(--ink);}
+.toggle-btn{font-family:'Jost',sans-serif;border-color:var(--sky-deep);color:var(--sky-deep);border-radius:4px;background:var(--page);}
+.toggle-btn:hover,.toggle-btn[aria-pressed="true"]{background:var(--sky-deep);color:#fff;}
+
+/* ---------- pairs, questions, checklists, builders ---------- */
+.pair{border:1.5px solid var(--line);border-radius:3px;background:var(--page);}
+.pair > div:first-child{border-right:1.5px dashed var(--pencil);}
+.pair h4{font-family:'Fraunces',Georgia,serif;}
+.pair-note{background:var(--sky-pale);}
+details.q{border:1.5px solid var(--line);border-radius:3px;background:var(--page);}
+details.q summary::after{font-family:'Jost',sans-serif;color:var(--sky-deep);border-color:var(--sky-deep);background:var(--page);border-radius:4px;}
+.checklist input{accent-color:var(--sky-deep);}
+.checklist-card .progress{font-family:'Caveat',cursive;font-size:19px;color:var(--sky-ink);}
+.builder{background:var(--cloud);border:1.5px solid var(--line);border-radius:3px;}
+.builder select{font-family:'DM Sans',sans-serif;}
+.scenario{background:#fbf6e6;border-left-color:var(--sky-deep);border-radius:2px;}
+.sa-out{border-radius:3px;}
+.method,.practical{border-radius:3px;}
+details.more{border-radius:3px;}
+.chip{font-family:'Jost',sans-serif;background:var(--cloud);border:1px solid var(--line);border-bottom-width:3px;border-radius:8px 8px 2px 2px;color:var(--ink);}
+.chip:nth-child(even){background:var(--sky-pale);border-color:#c4dff0;}
+
+/* Paper 3 sources: photocopied pages clipped into the notebook */
+.p3-source{background:#fff;border:1px solid var(--line);border-left:5px solid var(--sky-deep);border-radius:2px;box-shadow:0 2px 8px rgba(29,58,80,.07);}
+.p3-claim{background:var(--sky-deep);border-radius:2px;}
+.p3-fig{border-color:var(--line);border-radius:2px;}
+.p3-q{border-color:var(--line);border-radius:3px;}
+.card .p3-h3,.p3-h3{font-family:'Caveat',cursive;font-size:24px;color:var(--sky-ink);letter-spacing:0;}
+.p3-pick{border-radius:2px;box-shadow:0 2px 8px rgba(29,58,80,.06);}
+
+/* ---------- topic nav and footer ---------- */
+.topic-nav a{background:var(--page);border:1.5px solid var(--line);border-radius:3px;font-family:'Fraunces',Georgia,serif;font-weight:600;}
+.topic-nav a small{font-family:'Jost',sans-serif;}
+.topic-nav a:hover{border-color:var(--sky-deep);}
+footer{font-family:'Jost',sans-serif;color:#5d6f7c;}
+
+/* ---------- hub page ---------- */
+.wrap>.section-label,main .section-label{font-family:'Caveat',cursive;font-weight:700;font-size:26px;letter-spacing:.3px;text-transform:none;color:var(--ink);position:relative;width:max-content;}
+main .section-label::after{content:"";position:absolute;left:-6px;right:-10px;bottom:4px;height:10px;z-index:-1;background:var(--sky);opacity:.7;border-radius:4px;}
+ol.steps li{position:relative;background:var(--sky-pale);border:none;border-radius:2px;box-shadow:0 2px 8px rgba(29,58,80,.08);padding-top:22px;}
+ol.steps li:nth-child(2){background:#fbf6e6;}
+ol.steps li::after{content:"";position:absolute;top:-8px;left:50%;width:60px;height:17px;transform:translateX(-50%) rotate(-2deg);background:var(--tape-butter);}
+ol.steps li:nth-child(2)::after{background:var(--tape-sky);transform:translateX(-50%) rotate(3deg);}
+.paper{position:relative;border:none;border-left:none !important;border-radius:3px;padding:26px 26px 24px 78px;
+  background-color:var(--page);
+  background-image:
+    radial-gradient(circle at 24px 50%,var(--paper) 0 7px,rgba(29,58,80,.16) 7.5px,transparent 9px),
+    linear-gradient(90deg,transparent 54px,var(--margin) 54px,var(--margin) 55px,transparent 55px,transparent 58px,var(--margin) 58px,var(--margin) 59px,transparent 59px),
+    repeating-linear-gradient(to bottom,transparent 0 27px,var(--rule) 27px 28px);
+  background-size:100% 104px,100% 100%,100% 100%;
+  background-repeat:repeat-y,no-repeat,repeat;
+  background-position:0 20px,0 0,0 2px;
+  box-shadow:0 1px 0 rgba(29,58,80,.04),0 6px 18px rgba(29,58,80,.08);}
+.paper .tag{font-family:'Jost',sans-serif;font-weight:600;letter-spacing:2.5px;color:var(--sky-ink);}
+.paper h2{font-family:'Fraunces',Georgia,serif;font-weight:700;}
+.paper h2 a{color:var(--ink);}
+.paper h2 a:hover{color:var(--sky-deep);}
+.paper .desc{color:var(--muted);}
+.paper:has(.doodle) .secs{clear:both;}
+.sec{font-family:'Jost',sans-serif;background:var(--cloud);border:1px solid var(--line);border-bottom-width:3px;border-radius:8px 8px 2px 2px;color:var(--ink);}
+.sec:nth-child(even){background:var(--sky-pale);border-color:#c4dff0;}
+.sec:hover{border-color:var(--sky-deep);background:var(--sky);}
+.sec .num{color:var(--sky-ink);}
+
+/* ---------- small screens, print, motion ---------- */
+@media(max-width:640px){
+  section.card,.paper{padding:22px 16px 20px 48px;
+    background-image:
+      radial-gradient(circle at 15px 50%,var(--paper) 0 5px,rgba(29,58,80,.16) 5.5px,transparent 7px),
+      linear-gradient(90deg,transparent 32px,var(--margin) 32px,var(--margin) 33px,transparent 33px),
+      repeating-linear-gradient(to bottom,transparent 0 27px,var(--rule) 27px 28px);}
+  .doodle{width:84px;margin:-6px -4px 6px 10px;}
+  .card h2{font-size:22px;}
+  .hero h1{font-size:28px;}
+}
+@media print{
+  .doodle,header.hero::after{display:none !important;}
+  header.hero{background:#fff !important;}
+  section.card,.paper{background:#fff !important;padding-left:0;box-shadow:none;}
+}
+@media (prefers-reduced-motion:reduce){.mini{transform:none !important;}}
