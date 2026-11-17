@@ -312,9 +312,9 @@
 },
 {
 "context": "Health and well-being",
-"question": "In the context of health and well-being, discuss the challenges of measuring the thinking described in one or more cognitive models of a mental health disorder.",
+"question": "To what extent do cognitive models of a mental health disorder need other perspectives to explain it fully?",
 "area": "Cognitive models",
-"concept": "measurement"
+"concept": "perspective"
 },
 {
 "context": "Health and well-being",
@@ -324,15 +324,15 @@
 },
 {
 "context": "Health and well-being",
-"question": "To what extent can differences in the prevalence of mental health disorders between cultures be explained by problems of measurement?",
-"area": "Cultural differences",
-"concept": "measurement"
-},
-{
-"context": "Health and well-being",
 "question": "In the context of health and well-being, discuss the importance of perspective when explaining cultural differences in the prevalence of one or more mental health disorders.",
 "area": "Cultural differences",
 "concept": "perspective"
+},
+{
+"context": "Health and well-being",
+"question": "In the context of health and well-being, discuss the responsibility of psychologists when explaining cultural differences in the prevalence of one or more mental health disorders.",
+"area": "Cultural differences",
+"concept": "responsibility"
 },
 {
 "context": "Health and well-being",
@@ -504,15 +504,15 @@
 },
 {
 "context": "Human development",
-"question": "In the context of human development, to what extent can peer influence be considered a cause of behaviour in the development of the self?",
+"question": "In the context of human development, evaluate the role of bias in research on peer influence and the development of self.",
 "area": "Peer influence",
-"concept": "causality"
+"concept": "bias"
 },
 {
 "context": "Human development",
-"question": "In the context of human development, evaluate the challenges of measuring peer influence on the development of self.",
+"question": "In the context of human development, to what extent can peer influence be considered a cause of behaviour in the development of the self?",
 "area": "Peer influence",
-"concept": "measurement"
+"concept": "causality"
 },
 {
 "context": "Human development",
@@ -534,15 +534,15 @@
 },
 {
 "context": "Human relationships",
-"question": "In the context of human relationships, discuss how acculturation strategies explain change in the behaviour of individuals adapting to a new culture.",
+"question": "In the context of human relationships, discuss the role of bias in research on acculturation.",
 "area": "Acculturation",
-"concept": "change"
+"concept": "bias"
 },
 {
 "context": "Human relationships",
-"question": "In the context of human relationships, evaluate the ways in which psychologists measure acculturation.",
+"question": "In the context of human relationships, discuss how acculturation strategies explain change in the behaviour of individuals adapting to a new culture.",
 "area": "Acculturation",
-"concept": "measurement"
+"concept": "change"
 },
 {
 "context": "Human relationships",
@@ -582,15 +582,15 @@
 },
 {
 "context": "Human relationships",
-"question": "In the context of human relationships, evaluate the strategies psychologists use to measure one or more cultural dimensions.",
-"area": "Cultural dimensions",
-"concept": "measurement"
-},
-{
-"context": "Human relationships",
 "question": "One claim in human relationships psychology is that a single perspective cannot fully explain cross-cultural differences in behaviour. Discuss this claim with reference to one or more cultural dimensions.",
 "area": "Cultural dimensions",
 "concept": "perspective"
+},
+{
+"context": "Human relationships",
+"question": "One claim in human relationships psychology is that psychologists have a responsibility to avoid using cultural dimensions to stereotype groups. Discuss this claim with reference to one or more cultural dimensions.",
+"area": "Cultural dimensions",
+"concept": "responsibility"
 },
 {
 "context": "Human relationships",
@@ -642,15 +642,15 @@
 },
 {
 "context": "Human relationships",
-"question": "In the context of human relationships, to what extent can research show that patterns of communication cause changes in interpersonal relationships?",
+"question": "In the context of human relationships, evaluate the role of bias in research on communication in interpersonal relationships.",
 "area": "Communication/language",
-"concept": "causality"
+"concept": "bias"
 },
 {
 "context": "Human relationships",
-"question": "In the context of human relationships, evaluate the challenges of measuring communication in interpersonal relationships.",
+"question": "In the context of human relationships, to what extent can research show that patterns of communication cause changes in interpersonal relationships?",
 "area": "Communication/language",
-"concept": "measurement"
+"concept": "causality"
 },
 {
 "context": "Human relationships",
@@ -666,9 +666,9 @@
 },
 {
 "context": "Human relationships",
-"question": "In the context of human relationships, evaluate how the effectiveness of one or more strategies for improving relationships can be measured.",
+"question": "One claim in human relationships psychology is that strategies for improving relationships work best when they combine more than one perspective. Discuss this claim with reference to one or more strategies for improving relationships.",
 "area": "Strategies for improving relationships",
-"concept": "measurement"
+"concept": "perspective"
 },
 {
 "context": "Human relationships",
