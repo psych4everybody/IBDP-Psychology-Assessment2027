@@ -332,9 +332,9 @@
 {
 "n": 16,
 "context": "Health and well-being",
-"term": "Validity",
-"scenario": "Shaikha, a school counsellor, compares two reports on screen-time-related health problems. Her own school’s report, using a strict clinical interview to identify cases, found that 4 percent of students showed signs of problematic use. A neighbouring school’s report, using a brief ten-item self-report questionnaire with a low cutoff score, found that 22 percent of students showed signs of problematic use.",
-"question": "With reference to the scenario above, explain how the validity of the two schools' measurement tools could account for their different rates of problematic use."
+"term": "Classical Conditioning",
+"scenario": "Hamad, a Grade 12 student, says his phone use has become hard to control. For the past year, his phone has played the same short chime whenever a message or notification arrived, and the chime was usually followed by something exciting, such as a friend’s reply or a funny video. Now, whenever Hamad hears a similar chime, even from someone else’s phone in the library, he feels a jolt of excitement and a strong urge to check his own phone, and he struggles to concentrate on revision until he does.",
+"question": "With reference to the scenario above, explain the role of classical conditioning in Hamad's urge to check his phone."
 },
 {
 "n": 17,

@@ -111,7 +111,7 @@
     [/-check$/, 'bulb'], [/-ready$/, 'checklist'], [/test$/, 'clock'], [/before$/, 'moon'], [/room$|pp-day/, 'hourglass'],
     [/a-tag|q1-ice/, 'tag'], [/b-clue|q1-spot/, 'magnifier'], [/a-terms|q4-terms/, 'book'],
     [/c-concepts|q2-concepts/, 'scales'], [/c-protocol|q4-plan/, 'map'], [/c-thesis/, 'flag'], [/c-moves|sb-moves|q2-moves/, 'stairs'],
-    [/c-builder|pp-random|ps-browse/, 'dice'], [/pr-exp/, 'flask'], [/pr-obs/, 'eye'], [/pr-int/, 'speech'],
+    [/c-builder|pp-random|ps-browse/, 'dice'], [/pr-exp/, 'flask'], [/pr-obs/, 'eye'], [/pr-int/, 'speech'], [/pr-sur/, 'clipboard'],
     [/q1-menu|q2-start|ps-set/, 'chart'], [/ov-read|sb-read/, 'book'], [/ov-research/, 'magnifier'], [/q4-pov/, 'scales'],
     [/q4-own/, 'brain'], [/q4-start|sb-interact/, 'puzzle'], [/ps-about|pp-set/, 'papers'], [/q3-start/, 'speech'],
     [/q2-conclude/, 'flag'], [/pr-start/, 'cards'], [/sb-start/, 'eye'], [/-start$/, 'plane'],
@@ -122,7 +122,7 @@
   // worksheet key studies, matched on the card's contents label
   var TOC_RULES = [[/^Key study/i, 'magnifier'], [/concepts in this chapter/i, 'scales']];
   // only these cards get no doodle (busy layouts where it would crowd content)
-  var SKIP = /^(pr-exp|pr-obs|pr-int|a-bank|b-bank|c-bank|q2-grid|ps-set|q1-spot|c-builder|q4-check|ps-browse|pp-random)$/;
+  var SKIP = /^(pr-exp|pr-obs|pr-int|pr-sur|a-bank|b-bank|c-bank|q2-grid|ps-set|q1-spot|c-builder|q4-check|ps-browse|pp-random)$/;
 
   function pick(id, toc) {
     for (var i = 0; i < RULES.length; i++) if (RULES[i][0].test(id)) return RULES[i][1];
