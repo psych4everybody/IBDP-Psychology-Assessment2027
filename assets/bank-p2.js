@@ -20,10 +20,10 @@
       q1Ethics: 'I described the ethics we followed (no consent possible because covert, so everyday settings only, no names, no images, age bands only).'
     },
     interview: {
-      name: 'interview', a: 'an interview', topic: 'how a Grade 12 student copes with the stress of university applications',
+      name: 'interview', a: 'an interview', topic: 'how Grade 12 students cope with the stress of university applications',
       q1Type: 'I named the type of interview we used (semi-structured) and said what that meant in practice (core questions plus follow-ups).',
       q1Detail: 'I gave one real detail: a core question we asked and a follow-up.',
-      q1Record: 'I said how the interview was recorded and analysed (audio, transcript checked against the recording, then coding or content analysis).',
+      q1Record: 'I said how the interview was recorded and analysed (audio, transcript checked against the recording, then inductive content analysis into themes, then coding as problem-focused or emotion-focused coping).',
       q1Ethics: 'I described the ethics we followed (consent to take part and to recording, right to withdraw, code instead of a name, recording deleted within 7 days, debrief).'
     }
   };

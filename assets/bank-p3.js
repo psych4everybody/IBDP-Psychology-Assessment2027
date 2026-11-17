@@ -4132,7 +4132,7 @@
   function build(nums) { return function (id) { var s = pickSet(id); return nums.map(function (n) { return q(s, n); }); }; }
   var MODES = {
     full: { label: 'Full paper', minutes: 105, build: build([1, 2, 3, 4]),
-      advice: 'Answer all four questions. Suggested times: about 40 minutes reading the sources and planning, 10 minutes each on questions 1 to 3, and 45 minutes on question 4.' },
+      advice: 'Answer all four questions. Suggested times: about 30 minutes reading the sources and planning, 10 minutes each on questions 1 to 3, and 45 minutes on question 4. That fills the 1 hour 45 minutes.' },
     q13: { label: 'Questions 1 to 3', minutes: 50, build: build([1, 2, 3]),
       advice: 'Answer questions 1 to 3. Suggested times: about 20 minutes reading sources 1 to 3, then 10 minutes on each question.' },
     q4: { label: 'Question 4 only', minutes: 70, build: build([4]),
