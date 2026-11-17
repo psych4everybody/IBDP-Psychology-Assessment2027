@@ -148,6 +148,17 @@ details.q summary::after{font-family:'Jost',sans-serif;color:var(--sky-deep);bor
 details.more{border-radius:3px;}
 .chip{font-family:'Jost',sans-serif;background:var(--cloud);border:1px solid var(--line);border-bottom-width:3px;border-radius:8px 8px 2px 2px;color:var(--ink);}
 .chip:nth-child(even){background:var(--sky-pale);border-color:#c4dff0;}
+/* tags sit neatly inside sentences on lined paper */
+.chip{line-height:1.45;padding-top:2px;padding-bottom:2px;}
+li .chip,p .chip{vertical-align:1px;}
+/* concept tags keep their solid concept colour (white text, at least 4.5:1) */
+.chip.cc:nth-child(n){color:#fff;border:1px solid transparent;border-bottom-width:3px;border-bottom-color:rgba(0,0,0,.18);}
+.chip.cc-bias:nth-child(n){background:var(--c-bias);}
+.chip.cc-causality:nth-child(n){background:var(--c-causality);}
+.chip.cc-change:nth-child(n){background:var(--c-change);}
+.chip.cc-measurement:nth-child(n){background:var(--c-measurement);}
+.chip.cc-perspective:nth-child(n){background:var(--c-perspective);}
+.chip.cc-responsibility:nth-child(n){background:var(--c-responsibility);}
 
 /* Paper 3 sources: photocopied pages clipped into the notebook */
 .p3-source{background:#fff;border:1px solid var(--line);border-left:5px solid var(--sky-deep);border-radius:2px;box-shadow:0 2px 8px rgba(29,58,80,.07);}
@@ -159,7 +170,7 @@ details.more{border-radius:3px;}
 
 /* ---------- topic nav and footer ---------- */
 .topic-nav a{background:var(--page);border:1.5px solid var(--line);border-radius:3px;font-family:'Fraunces',Georgia,serif;font-weight:600;}
-.topic-nav a small{font-family:'Jost',sans-serif;}
+.topic-nav a small{font-family:'Jost',sans-serif;color:#4f6474;}
 .topic-nav a:hover{border-color:var(--sky-deep);}
 footer{font-family:'Jost',sans-serif;color:#5d6f7c;}
 
