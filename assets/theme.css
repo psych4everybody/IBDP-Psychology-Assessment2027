@@ -191,6 +191,21 @@ ol.steps li:nth-child(2)::after{background:var(--tape-sky);transform:translateX(
 .sec:hover{border-color:var(--sky-deep);background:var(--sky);}
 .sec .num{color:var(--sky-ink);}
 
+/* worksheets */
+.howto .panel{position:relative;background:var(--sky-pale);border:none;border-radius:2px;box-shadow:0 2px 8px rgba(29,58,80,.08);padding-top:22px;}
+.howto .panel:nth-child(even){background:#fbf6e6;}
+.howto .panel::after{content:"";position:absolute;top:-8px;left:50%;width:56px;height:16px;transform:translateX(-50%) rotate(-2deg);background:var(--tape-butter);}
+.howto .panel:nth-child(even)::after{background:var(--tape-sky);transform:translateX(-50%) rotate(3deg);}
+.howto .panel h3{font-family:'Fraunces',Georgia,serif;}
+.ws-ctx{border-radius:3px;border-left-color:var(--sky-deep);}
+.ws-ctx h2{font-family:'Fraunces',Georgia,serif;color:var(--ink);}
+.ws-list a,.ws-list span{border-radius:8px 8px 2px 2px;border-width:1px;border-bottom-width:3px;background:var(--cloud);}
+.ws-list li:nth-child(even) a{background:var(--sky-pale);border-color:#c4dff0;}
+.ws-list a:hover{border-color:var(--sky-deep);}
+.ws-list b{color:var(--sky-ink);}
+.slot{border-color:var(--sky);background:rgba(252,253,254,.92);border-radius:3px;}
+.slot-code{background:var(--sky-deep);border-radius:4px;}
+
 /* ---------- small screens, print, motion ---------- */
 @media(max-width:640px){
   section.card,.paper{padding:22px 16px 20px 48px;

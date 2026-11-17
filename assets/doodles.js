@@ -114,12 +114,21 @@
     [/c-builder|pp-random|ps-browse/, 'dice'], [/pr-exp/, 'flask'], [/pr-obs/, 'eye'], [/pr-int/, 'speech'],
     [/q1-menu|q2-start|ps-set/, 'chart'], [/ov-read|sb-read/, 'book'], [/ov-research/, 'magnifier'], [/q4-pov/, 'scales'],
     [/q4-own/, 'brain'], [/q4-start|sb-interact/, 'puzzle'], [/ps-about|pp-set/, 'papers'], [/q3-start/, 'speech'],
-    [/q2-conclude/, 'flag'], [/pr-start/, 'cards'], [/sb-start/, 'eye'], [/-start$/, 'plane']
+    [/q2-conclude/, 'flag'], [/pr-start/, 'cards'], [/sb-start/, 'eye'], [/-start$/, 'plane'],
+    // worksheet chapters
+    [/^st-1$/, 'compass'], [/^wu-1$/, 'bulb'], [/^ck-1$/, 'checklist'], [/^wo-1$/, 'stairs'], [/^wo-6$/, 'flag'],
+    [/^ex-1$/, 'pencil'], [/^ex-3$/, 'map'], [/^mo-1$/, 'cards'], [/^rd-1$/, 'book']
   ];
+  // worksheet key studies, matched on the card's contents label
+  var TOC_RULES = [[/^Key study/i, 'magnifier'], [/concepts in this chapter/i, 'scales']];
   // only these cards get no doodle (busy layouts where it would crowd content)
   var SKIP = /^(pr-exp|pr-obs|pr-int|a-bank|b-bank|c-bank|q2-grid|ps-set|q1-spot|c-builder|q4-check|ps-browse|pp-random)$/;
 
-  function pick(id) { for (var i = 0; i < RULES.length; i++) if (RULES[i][0].test(id)) return RULES[i][1]; return null; }
+  function pick(id, toc) {
+    for (var i = 0; i < RULES.length; i++) if (RULES[i][0].test(id)) return RULES[i][1];
+    for (var j = 0; j < TOC_RULES.length; j++) if (TOC_RULES[j][0].test(toc || '')) return TOC_RULES[j][1];
+    return null;
+  }
   function insert(el, name) {
     if (!LIB[name] || el.querySelector(':scope > .doodle')) return;
     var w = document.createElement('div'); w.className = 'doodle'; w.setAttribute('aria-hidden', 'true'); w.innerHTML = LIB[name];
@@ -130,9 +139,9 @@
     '<filter id="wcSpot" x="-20%" y="-20%" width="140%" height="140%"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="3" seed="8" result="w"/><feDisplacementMap in="SourceGraphic" in2="w" scale="16" xChannelSelector="R" yChannelSelector="G" result="d"/><feTurbulence type="fractalNoise" baseFrequency=".02" numOctaves="2" seed="4" result="b"/><feColorMatrix in="b" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1.4 0 0 0 .1" result="bA"/><feComposite in="d" in2="bA" operator="in"/></filter>' +
     '</defs></svg>';
   document.body.insertAdjacentHTML('afterbegin', defs);
-  document.querySelectorAll('section.card[id]').forEach(function (c) { if (!SKIP.test(c.id)) { var n = pick(c.id); if (n) insert(c, n); } });
+  document.querySelectorAll('section.card[id]').forEach(function (c) { if (!SKIP.test(c.id)) { var n = pick(c.id, c.getAttribute('data-toc')); if (n) insert(c, n); } });
   // hub: one doodle per paper
-  var hub = { 'paper1.html': 'brain', 'paper2.html': 'flask', 'paper3.html': 'chart' };
+  var hub = { 'paper1.html': 'brain', 'paper2.html': 'flask', 'paper3.html': 'chart', 'worksheets.html': 'book' };
   document.querySelectorAll('.paper').forEach(function (p) {
     var a = p.querySelector('h2 a'); var n = a && hub[a.getAttribute('href')];
     insert(p, n || 'clock');
