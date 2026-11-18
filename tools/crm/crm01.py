@@ -50,7 +50,7 @@ P.card("rd-2", f"""<h2>How the course fits together</h2>
 <ul>
 <li><b>Exam questions use only the concept word.</b> A question will say "causality", never a related term such as "reductionism". The related terms in this chapter are there to help your thinking.</li>
 <li><b>Any idea can link to any concept, if you explain the link.</b> Reductionism, for example, can be argued as a problem of bias, of causality or of perspective. What earns marks is the explanation of the link.</li>
-<li><b>Concepts are not about memorising study details.</b> You need studies as evidence, but the exam rewards how well you think about them, not how many dates and sample sizes you remember.</li>
+<li><b>Concepts are not about memorising study details.</b> Studies are useful evidence, and one well-used study is plenty, but the exam rewards how well you think about them, not how many dates and sample sizes you remember.</li>
 </ul>""", "How the course fits together")
 
 P.card("rd-3", f"""<h2>Bias</h2>

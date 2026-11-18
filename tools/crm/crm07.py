@@ -67,7 +67,7 @@ P.card("rd-4", """<h2>Case studies</h2>
 <li><b>Strengths:</b> rich, detailed data; the only way to study rare conditions or events; can challenge an accepted theory with a single clear counter-example; generates hypotheses for later research.</li>
 <li><b>Limitations:</b> findings from one case may not generalise; much information may be retrospective and depend on memory; the researcher's interpretation plays a large role; anonymity is hard to protect when the case is unusual and well known.</li>
 </ul>
-<p>Correlational studies and case studies are both research methods in the guide, and they often appear as unseen studies in Paper 2 Section B. They are <b>not</b> class practical methods and cannot be used as the method for your IA, which must be an experiment, observation, survey/questionnaire or interview.</p>""", "Case studies")
+<p>Correlational studies and case studies are both research methods in the guide, and they often appear as unseen studies in Paper 2 Section B. They are <b>not</b> class practical methods and cannot be used as the method for your IA, which must be an experiment, observation, survey/questionnaire or interview. They can, however, be the additional method you suggest in IA Criterion D, or when a Paper 2 Section A question asks you to suggest another method: the IB credits them there. A different type of the same method does not count as another method, so a semi-structured interview is not an alternative to a structured one.</p>""", "Case studies")
 
 P.card("rd-5", f"""<h2>Key study: H.M., a case study of memory</h2>
 {table(None, [
