@@ -1,0 +1,163 @@
+from lib import Page, checklist, earns, chips, table, slot_list, tip, frame
+from common import EARN_S, ai_card
+
+P = Page("CRM-04", "04", "Quasi-Experiments, Natural Experiments and Ethics",
+         "When you cannot run a true experiment, what do you do instead?")
+S = P.slot
+
+P.topic("start", "Quasi and Natural Experiments", P.sub)
+P.card("st-goals", f"""<div class="sec-label">Goals</div>
+<h2>By the end of this chapter</h2>
+<p class="lede">You will be able to tell true, quasi and natural experiments apart, explain what each can and cannot show about cause and effect, and explain the ethical guidelines that shape every study in psychology, including why ethics is often the reason a true experiment is impossible.</p>
+{checklist("CRM-04-goals", [
+ "I can define a quasi-experiment and explain how it differs from a true experiment.",
+ "I can explain why a natural experiment is a kind of quasi-experiment.",
+ "I can classify a study as a true, quasi or natural experiment and justify my answer.",
+ "I can explain the main ethical guidelines and the idea of a cost-benefit analysis.",
+ "I can explain the rules that apply to class practicals and the IA.",
+ "I can explain the concept of responsibility in relation to a specific study.",
+])}
+<p class="progress"></p>
+<p class="small">Part of the course: research methodology (research methods; ethical considerations). The guide lists experiments as "true or quasi-" for the class practical in learning and cognition.</p>
+<p class="small"><b>Where this appears in the exams:</b> Paper 2 Section A (Question 1 when your experiment was a quasi-experiment; Question 2 when the concept is responsibility); Paper 2 Section B (evaluating unseen studies, which are often quasi or natural experiments); the IA (Criterion B, ethical considerations)</p>
+{chips("responsibility", "causality", "bias")}""", "Goals")
+
+P.card("wu-1", f"""<div class="sec-label">Warm-up</div><h2>Before you read</h2>
+{tip("<p>A researcher wants to know whether more than three hours a day on social media makes teenagers anxious. Her plan: 200 teenagers aged 14 to 17 are randomly allocated to two groups for a year. Group A must use social media for at least three hours every day. Group B is banned from social media completely. She says this is the only design that can prove cause and effect.</p>")}
+<p>1. What makes this a true experiment, and what could it show that a survey of heavy and light users could not?</p>
+{S("W", 2)}
+<p>2. Give two ethical problems with the plan. Be specific.</p>
+{S("W", 2)}
+<p>3. If the plan is not allowed, what could she do instead?</p>
+{S("W", 2)}""", "Warm-up")
+
+P.topic("read", "Read", "Read this before the lesson.")
+P.card("rd-1", """<h2>When a true experiment is not possible</h2>
+<p>A <b>true experiment</b> has two features: the researcher manipulates the IV, and participants are <b>randomly allocated</b> to conditions. Together these let the researcher claim that the IV caused any difference in the DV. But random allocation is not always possible, and it is not always ethical.</p>
+<ul>
+<li><b>It is impossible</b> when the IV is something participants already have: age, gender, first language, whether they are bilingual, which school they attend. Nobody can be randomly allocated to being 15 or being a Grade 12 student.</li>
+<li><b>It is unethical</b> when the IV would harm people: you cannot randomly allocate children to grow up in poverty, or teenagers to lose sleep for a term, or anyone to a stressful life event.</li>
+<li><b>It is impractical</b> when the IV operates on whole communities or over years, such as a new national curriculum or a change in school start times.</li>
+</ul>
+<p>In each case, researchers can still compare groups, but they must accept that the comparison is weaker evidence of cause and effect.</p>""", "When a true experiment is not possible")
+
+P.card("rd-2", f"""<h2>Quasi-experiments and natural experiments</h2>
+<p>A <b>quasi-experiment</b> looks like an experiment, with conditions and a measured DV, but participants are <b>not randomly allocated</b> to the conditions. Often the groups already exist: Grade 9 versus Grade 12 students, bilingual versus monolingual students, students who chose to revise with music versus those who chose silence. The researcher may still control the setting and the task, but cannot control who is in which group.</p>
+<p>A <b>natural experiment</b> is a kind of quasi-experiment in which the IV changes in the real world without the researcher's involvement. A city introduces a new reading programme and a neighbouring city does not; a community gets broadband internet for the first time; a school changes its start time. The researcher measures the effect but decided nothing about who was exposed. In IB terms, natural experiments come under the quasi-experiment umbrella.</p>
+{table(["", "True experiment", "Quasi-experiment", "Natural experiment"], [
+ ["Random allocation?", "Yes", "No: groups exist already or are formed another way", "No"],
+ ["Who controls the IV?", "The researcher", "Often the researcher controls the task, but not who is in which group", "Nobody in the study: it changes naturally"],
+ ["Evidence of cause and effect", "Strongest, if well controlled", "Weaker: the groups may differ in other ways", "Weaker, for the same reason"],
+ ["Ecological validity", "Often lower", "Varies", "Often high: real people in real settings"],
+ ["Why use it?", "To test cause and effect with high internal validity", "When random allocation is impossible or unethical", "When the change happens anyway and would be unethical or impossible to create"],
+])}
+<p>The central evaluation point for quasi and natural experiments is always the same: without random allocation, the groups may differ in many ways at once, so a <b>confounding variable</b> could explain the result. Grade 12 students differ from Grade 9 students in age, but also in years of schooling, exam experience and motivation. Strong answers name a likely confound and explain how it could produce the result on its own.</p>""", "Quasi and natural experiments")
+
+P.card("rd-3", f"""<h2>Key study: Charlton et al. (2000), television arrives on St Helena</h2>
+{table(None, [
+ ["Aim", "To find out whether the arrival of broadcast television changed children's behaviour, in particular whether it increased anti-social behaviour."],
+ ["Setting", "St Helena, a remote island in the South Atlantic that received broadcast television for the first time in 1995. This made a natural experiment possible: the IV (television) arrived whether or not researchers were there."],
+ ["Procedure", "Before television arrived, the free play of children aged 3 to 8 was video-recorded in the playgrounds of two schools. Five years after television's arrival, children of the same age were recorded in the same playgrounds. The recordings were coded for pro-social acts (such as sharing and turn-taking) and anti-social acts (such as hitting and kicking), and the before and after measures were compared."],
+ ["Findings", "Most comparisons showed no significant change. Of those that did, five showed a decrease in pro-social behaviour, two showed an increase in pro-social behaviour (boys only) and two showed a decrease in anti-social behaviour (boys only). There was no increase in anti-social behaviour."],
+ ["Conclusion", "Television did not make these children more aggressive. Parents and teachers suggested that strong community expectations about behaviour on the island may have protected children from any effect."],
+ ["Use it for", "This chapter (natural experiments); observation and coding (CRM-05); social learning theory (CL-02)."],
+ ["Evaluate it with", "<b>Causality:</b> the IV could not be manipulated or randomly allocated, and many other things on the island changed over five years. <b>Bias:</b> the after group was not the same children, so differences could be between cohorts. <b>Perspective:</b> the result may say more about this small, close-knit community than about television in general."],
+])}""", "Key study: Charlton et al. (2000)")
+
+P.card("rd-4", f"""<h2>Ethics in psychological research</h2>
+<p>Ethics is not a checklist; it is a judgement. Researchers weigh the likely <b>benefits</b> of the knowledge against the likely <b>costs</b> to participants. This is a <b>cost-benefit analysis</b>. A small, temporary discomfort may be justified if the study could help many people; serious or lasting harm is not justified by any benefit. The main guidelines are:</p>
+{table(["Guideline", "What it means"], [
+ ["Informed consent", "Participants are told enough about the study, before it starts, to decide freely whether to take part. Children need a parent or guardian's consent as well as their own agreement."],
+ ["Right to withdraw", "Participants can stop at any time, without giving a reason or losing anything. Agreeing to take part does not remove this right."],
+ ["Protection from harm", "Participants should not be exposed to physical or psychological harm greater than in everyday life. If distress appears, the researcher responds, and stops the study if necessary."],
+ ["Confidentiality and anonymity", "Personal data are kept secure. Where possible, results are anonymised so individuals cannot be identified."],
+ ["Deception", "Avoided unless it is essential, causes no harm, and is fully explained afterwards."],
+ ["Debriefing", "At the end, participants are told the true aim, any deception and how their data will be used, and are given the chance to withdraw their data."],
+])}
+<p>Ethics also shapes the results. Giving full information may change how participants behave; the right to withdraw may leave a group that differs from the one you started with; anonymity can make people answer more honestly.</p>""", "Ethics in psychological research")
+
+P.card("rd-5", """<h2>Ethics for class practicals and the IA</h2>
+<p>The IB sets extra rules for the studies you run and design yourself. For <b>class practicals</b>:</p>
+<ul>
+<li>A teacher supervises every practical, and a student-led practical needs the teacher's approval first.</li>
+<li>Consent must be explicit and in writing; for anyone under 16, a parent or guardian must also give written consent.</li>
+<li>Nothing may cause anxiety, stress, pain or discomfort.</li>
+<li>Partial deception is allowed only when knowing the aim would spoil the study, when it does no harm, and when participants are fully debriefed and can withdraw their data.</li>
+<li>Conformity and obedience studies are never allowed, and animals are not used.</li>
+<li>Researchers must be sensitive to local, national and international cultures.</li>
+</ul>
+<p>The <b>IA</b> is a proposal, so you do not collect data, but it must still be a study that an ethics committee would approve. Some topics are off-limits altogether (for example abuse or self-harm), and your teacher will advise on topics that are sensitive here in the UAE.</p>
+<p>Ethics and quasi-experiments belong in the same chapter for a reason: ethics is often <i>why</i> researchers use a quasi or natural design. You cannot randomly allocate teenagers to lose sleep, so you compare schools that already start at different times, and accept that your causal claim will be weaker. Ethics limits the method, and the method limits the conclusion.</p>""", "Ethics for class practicals and the IA")
+
+P.card("rd-6", f"""<h2>Real life: questions that need natural experiments</h2>
+{tip('''<ul>
+<li><b>School start times.</b> Some school systems have moved to later start times. Comparing students before and after the change, or with schools that did not change, tests whether later starts improve sleep and attendance without asking anyone to lose sleep.</li>
+<li><b>New technology.</b> When a region gets fast internet for the first time, researchers can compare how young people spend their time before and after.</li>
+<li><b>Bilingual education.</b> Comparing students in bilingual and English-only programmes is a quasi-experiment: families chose the programme, so the groups may differ in other ways.</li>
+</ul>''', "Real life")}
+<p>During the reading: choose one example and name one confounding variable that could explain a difference between the groups.</p>
+{S("D", 2)}""", "Real life")
+
+P.card("rd-7", f"""<h2>The concepts in this chapter</h2>
+{table(["Concept", "How it applies"], [
+ ["Causality", "Without random allocation, groups may differ in several ways at once, so a quasi or natural experiment gives weaker evidence of cause and effect than a true experiment."],
+ ["Responsibility", "Ethical guidelines protect participants, and they are often the reason a true experiment cannot be run. A cost-benefit analysis decides what is acceptable."],
+ ["Bias", "Pre-existing groups can differ systematically. The right to withdraw can leave a biased sample if certain kinds of people drop out."],
+ ["Change", "Natural experiments often study change over time, such as before and after a new technology or policy, which raises the question of what else changed at the same time."],
+])}""", "The concepts in this chapter")
+
+P.topic("check", "Check yourself", "Ten minutes, without looking back. The gaps tell you what to reread.")
+P.card("ck-1", f"""<div class="sec-label">Without looking back</div><h2>Check yourself</h2>
+<p>1. What is the difference between a true experiment and a quasi-experiment?</p>
+{S("C", 2)}
+<p>2. Why is a natural experiment counted as a kind of quasi-experiment?</p>
+{S("C", 2)}
+<p>3. Give two reasons a researcher might choose a quasi-experiment instead of a true experiment.</p>
+{S("C", 2)}
+<p>4. Explain what a cost-benefit analysis is, with an example.</p>
+{S("C", 2)}
+<p>5. Name three rules that apply to class practicals but would not stop a researcher in other settings.</p>
+{S("C", 2)}""", "Check yourself")
+
+P.card("ck-2", f"""<h2>Classify the design</h2>
+<ol>
+<li>Researchers want to know whether a mindfulness programme reduces exam anxiety. They randomly allocate 60 Grade 11 students to a six-week after-school mindfulness programme or a study-skills workshop of the same length, then give both groups the same anxiety questionnaire.</li>
+<li>A national youth sport programme is introduced in some cities but not others, because of funding decisions made before the researchers were involved. A year later, researchers compare teenagers' well-being scores in cities with and without the programme.</li>
+<li>Researchers ask 80 university students to choose whether to revise with music or in silence for two weeks, then give everyone the same test.</li>
+</ol>
+{slot_list(["Study 1: design, one reason, one ethical consideration", "Study 2: design, one reason, one ethical consideration", "Study 3: design, one reason, one ethical consideration"])}
+{S("C", 6)}""", "Classify the design")
+
+P.topic("exam", "Exam practice", "Paper 2 practice: responsibility, and evaluating a quasi-experiment.")
+P.card("ex-1", f"""<h2>Paper 2, Section A, Question 2 style [4 marks]</h2>
+<p><b>Explain the concept of responsibility in relation to the practice study on word type and memory (CRM-03).</b> [4]</p>
+<p class="small">Which ethical guidelines applied? How were they met? What could have gone wrong if they had not been?</p>
+{S("Q2", 5)}
+{earns("CRM-04-Q2", ["I explain what the concept means in research, accurately.", "I link it to specific features of the study, not to research in general.", "I explain the effect: how it helped or limited what the study could show."])}""", "Paper 2, Section A, Question 2 style [4 marks]")
+P.card("ex-2", f"""<h2>Paper 2, Section B warm-up [6 marks]</h2>
+{tip("<p><b>Study (invented for practice):</b> Researchers compared students at schools starting at 7:30 am (312 students) with students at schools starting at 8:45 am (298 students). Students attended their local school as normal; nobody was allocated. Academic performance was measured with end-of-year exam scores and well-being with a validated questionnaire. Students and parents received written information and signed consent forms, and all data were anonymised. The late-start group scored significantly higher on both measures. The researchers concluded that early start times may harm teenagers' performance and well-being.</p>")}
+<p><b>Evaluate this study with reference to the concepts of causality and responsibility.</b> [6]</p>
+{S("S", 7)}
+{earns("CRM-04-S", EARN_S, "Our plain-language guide. A practice rubric is in the self-check box on your answer sheet.")}""", "Paper 2, Section B warm-up [6 marks]")
+
+P.topic("more", "Beyond the chapter", "AI prompts, optional extensions and a last check.")
+P.card("mo-ai", ai_card([
+ "Describe six short studies, one at a time. For each, ask me whether it is a true experiment, a quasi-experiment or a natural experiment, and why. Wait for my answer.",
+ "Give me a study design that has an ethical problem. Ask me to find the problem and suggest a safer design, then tell me what my design would lose.",
+ "Here is my evaluation of a quasi-experiment. Point out any sentence where I claim cause and effect too strongly. Do not rewrite it.",
+]), "Using AI to learn")
+P.card("mo-b-1", f"""<div class="sec-label">Optional</div><h2>Beyond the chapter</h2>
+{table(["For", "Try this"], [
+ ["IA starter", "Population of interest: students in the UAE who study in a second language. Sketch a quasi-experiment comparing recall of a short text read in the first language versus the second language. Which confounding variables would you need to discuss?"],
+ ["EE question workshop", "Turn \"Does television make children aggressive?\" into a focused question that natural experiments could help answer, and find one study that supports and one that challenges a link."],
+ ["HL link", "<b>Culture:</b> Charlton's team suggested that community norms on St Helena protected children. How could you test whether culture changes the effect of media on behaviour?"],
+])}""", "Beyond the chapter")
+P.card("mo-l-1", f"""<div class="sec-label">Five minutes</div><h2>Last check</h2>
+{tip("<p>A researcher proposes randomly allocating Grade 10 students to sleep six hours a night or eight hours a night for a full term, then comparing their exam results and well-being.</p>")}
+<p>1. Give two ethical problems with the design.</p>
+<p>2. Suggest an alternative design and say what it means for the causal claim.</p>
+<p>3. What would the benefits have to be to justify even a milder version?</p>
+{S("L", 5)}""", "Last check")
+
+open("../../ws-crm-04.html", "w").write(P.render())
+print("ok", P.counts)

@@ -304,7 +304,7 @@ def convert(src, code):
                     buf.append('<p class="small">The Section C markband is in the self-check box on your answer sheet.</p>')
                     continue
                 if "Concept Moves Tracker" in t:
-                    t2 = inner(el).replace("☐", '<span class="tickbox"></span>')
+                    t2 = inner(el).replace("☐", '<span class="tickbox"></span>').replace('Copy your ticks into the Concept Moves Tracker in the Unit 1 workbook.', 'Copy your ticks into your <a href="ws-crm-02.html#more">Concept Moves Tracker</a> (CRM-02).')
                     buf.append(f'<p class="small">{t2}</p>')
                     continue
                 cls = el.get("class") or []
