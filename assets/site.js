@@ -103,6 +103,11 @@
       else el.scrollIntoView();
     });
     route();
+    window.addEventListener('load',function(){
+      var id=decodeURIComponent(location.hash.slice(1));
+      var el=id?document.getElementById(id):null;
+      if(el&&!el.classList.contains('topic'))el.scrollIntoView();
+    });
   }
 
   // ---------- 2. self-test tables ----------
