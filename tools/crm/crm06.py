@@ -159,7 +159,7 @@ P.card("mo-ai", ai_card([
 ]), "Using AI to learn")
 P.card("mo-b-1", f"""<div class="sec-label">Optional</div><h2>Beyond the chapter</h2>
 {table(["For", "Try this"], [
- ["IA starter", "A questionnaire with at least five items can be your IA tool. Draft five items on what students in the UAE value most in a friend, mixing rating scales and one open question, and explain one decision behind each item."],
+ ["IA starter", "A questionnaire you write yourself, with at least five items, can be your IA tool (an existing published questionnaire cannot). Draft five items on what students in the UAE value most in a friend, mixing rating scales and one open question, and explain one decision behind each item."],
  ["EE question workshop", "Turn \"Can we trust what people say about themselves?\" into a focused question about social desirability in self-report research, and find studies on both sides."],
  ["HL link", "<b>Technology:</b> do online surveys get more honest answers than paper ones on personal topics? <b>Culture:</b> does a five-point agreement scale mean the same thing in every culture, or do some groups avoid the extremes?"],
 ])}""", "Beyond the chapter")

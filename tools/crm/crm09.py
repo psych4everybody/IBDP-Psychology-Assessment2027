@@ -10,10 +10,10 @@ P.card("st-goals", f"""<div class="sec-label">Goals</div>
 <h2>By the end of this chapter</h2>
 <p class="lede">You will be able to summarise numerical data, choose and read the right graph, explain what statistical significance does and does not mean, carry out the first stages of a thematic analysis, and keep describing data separate from interpreting it.</p>
 {checklist("CRM-09-goals", [
- "I can calculate and explain the mean, median, mode, range and standard deviation, and choose the right one for skewed data.",
+ "I can calculate and explain the mean, median, mode, range, standard deviation and semi-interquartile range, and choose the right one for skewed data.",
  "I can choose and read bar graphs, histograms, box plots, line graphs, scatterplots and frequency tables.",
  "I can recognise normal and skewed distributions and outliers, and explain what they mean for the statistics.",
- "I can explain what p &lt; .05 means and what it does not mean, and the difference between statistical and practical significance.",
+ "I can explain what p &lt; .05 means and what it does not mean, the difference between statistical significance and effect size, and which test fits which design.",
  "I can explain a correlation coefficient.",
  "I can describe the phases of thematic analysis and code a small set of responses.",
  "I can keep describing data separate from interpreting it.",
@@ -41,6 +41,7 @@ P.card("rd-1", f"""<h2>Descriptive statistics: summarising numbers</h2>
  ["Mode", "The most common score or category", "The only average that works for categories, such as the most popular answer to a survey item"],
  ["Range", "Highest score minus lowest score", "A quick measure of spread, but one extreme score can change it a lot"],
  ["Standard deviation (SD)", "Roughly, the typical distance of scores from the mean", "A small SD means scores cluster near the mean; a large SD means they are spread out"],
+ ["Semi-interquartile range (SIQR)", "Half the distance between the lower quartile (the score a quarter of the way up the ordered list) and the upper quartile (three quarters of the way up)", "The spread of the middle half of the scores. Extreme scores do not affect it, so it is the measure of spread to report with the median when data are skewed"],
 ])}
 <p>Worked example: the scores 12, 14, 14, 16 and 19 have a mean of 15, a median of 14, a mode of 14 and a range of 7. Reporting a mean without any measure of spread hides how much people differed, which is why good results sections give "mean = 15, SD = 2.5" and not just the mean.</p>""", "Descriptive statistics")
 
@@ -65,7 +66,7 @@ P.card("rd-3", """<h2>Distributions and outliers</h2>
 <p>A memory aid: <i>the tail tells the tale</i>. The skew is named after the side the tail is on. A skewed distribution is not "bad data"; it tells you something about the task or the participants, and it tells you to report the median.</p>
 <p>An <b>outlier</b> is a score far from the rest. It might be genuine, or it might come from a misunderstood instruction or a recording error. Outliers pull the mean and inflate the SD. One common rule treats a score as an outlier if it lies more than 1.5 times the interquartile range beyond the box. Never remove an outlier just because it is inconvenient: if a score is excluded, the reason must be stated and the decision reported.</p>""", "Distributions and outliers")
 
-P.card("rd-4", """<h2>Inferential statistics and significance</h2>
+P.card("rd-4", f"""<h2>Inferential statistics and significance</h2>
 <p><b>Inferential statistics</b> test whether a difference or relationship found in a sample is likely to reflect a real pattern, or could easily have arisen by chance. The test starts from the <b>null hypothesis</b> (no effect) and produces a <b>p-value</b>.</p>
 <p>A p-value is the probability of getting a result at least as extreme as the one found <b>if the null hypothesis were true</b>. In psychology, results with p &lt; .05 are usually called <b>statistically significant</b>: if there were really no effect, results this strong would turn up less than 5% of the time.</p>
 <p>Three things significance does <b>not</b> tell you:</p>
@@ -74,7 +75,10 @@ P.card("rd-4", """<h2>Inferential statistics and significance</h2>
 <li><b>That the effect is large or important.</b> With 10,000 participants, a difference of 0.3 points on a 100-point test can be significant but educationally meaningless. The size of an effect is a separate question from whether it is significant.</li>
 <li><b>That the result is certain.</b> A <b>Type I error</b> is finding a significant result when there is no real effect; a <b>Type II error</b> is missing a real effect, which is more likely with small samples.</li>
 </ul>
-<p>Which test is used depends on the design and the data. You do not need to calculate tests by hand, but HL students should be able to read a reported result: for some tests, such as the Mann-Whitney U, a result is significant when the calculated value is <i>smaller</i> than the critical value, so always check the rule for the test.</p>
+<p>Which test is used depends on the design and the data:</p>
+{table(["Test", "What it looks for", "When it is used"], [["Unrelated t-test", "A difference between two conditions", "Two separate groups (independent samples) and scores on a scale, such as words recalled"], ["Related t-test", "A difference between two conditions", "The same people in both conditions (repeated measures) or matched pairs, with scores on a scale"], ["Mann-Whitney U", "A difference between two conditions", "Two separate groups, when the data are ranks or ratings, or are skewed"], ["Wilcoxon T", "A difference between two conditions", "Repeated measures or matched pairs, when the data are ranks or ratings, or are skewed"], ["Chi-square", "A difference or association in frequencies", "Counts in categories, such as how many students in each group answered yes or no"], ["Correlation coefficient", "A relationship between two co-variables", "Two measures taken from each participant, such as hours of sleep and a test score"]])}
+<p><b>Effect size</b> tells you how big a difference or relationship is, which significance alone does not. One common measure for a difference between two means is Cohen's d, where about 0.2 is usually called small, 0.5 medium and 0.8 large; for a relationship, the correlation coefficient itself is a measure of effect size.</p>
+<p>You do not need to calculate tests by hand, but HL students should be able to read a reported result: for some tests, such as the Mann-Whitney U, a result is significant when the calculated value is <i>smaller</i> than the critical value, so always check the rule for the test.</p>
 <p>A <b>correlation coefficient</b> (r) from -1 to +1 gives the direction and strength of a straight-line relationship between two co-variables (CRM-07). It cannot detect curved relationships, and it never shows cause on its own.</p>""", "Inferential statistics and significance")
 
 P.card("rd-5", f"""<h2>Thematic analysis: analysing words</h2>

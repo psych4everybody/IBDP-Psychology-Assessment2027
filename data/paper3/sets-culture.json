@@ -255,7 +255,6 @@
      "It is not stated whether both series use the same base; if depression is recorded per 1,000 patients and unexplained symptoms per 100 visits, the two bars for each country cannot be compared even though they share one axis.",
      "It is unclear what the rate is calculated from (the whole adult population, registered patients or clinic visits), so a country where fewer people visit primary care could appear to have lower rates for that reason alone.",
      "Countries may record and count cases in different ways (for example per patient or per consultation), and with no unit stated the figure gives no way to check that like is being compared with like.",
-     "No sample sizes or numbers of records are given for any country, so the reader cannot judge how stable each rate is.",
      "The figure shows recorded diagnoses, not the number of people with depression, so it describes how often depression is recognised rather than its true prevalence."
     ]
    },
@@ -1287,7 +1286,6 @@
      "Figure 1 uses two y-axes with very different scales: vocabulary runs from 0 to 100 but task-switching accuracy runs only from 88 to 92, so a rise of under 3 percentage points in accuracy is drawn even more steeply than a rise of over 40 points in vocabulary, making the two trends look closely matched.",
      "Because the right-hand axis is truncated and the scales are chosen independently, the point where the two lines cross has no meaning; changing either scale would move or remove it.",
      "The figure invites the reader to link vocabulary growth with cognitive control, but the visual similarity of the lines is created by the axis choices rather than by the size of the changes.",
-     "The sample size for each year group is not given, so the reader cannot judge how reliable each mean is.",
      "No measure of variability is shown, so small changes in accuracy (for example 90.1% to 90.8%) cannot be judged.",
      "Each point is a different year group, so the lines show differences between cohorts, not change in the same children, although the line format suggests a single trend over time."
     ]

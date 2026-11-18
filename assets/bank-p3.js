@@ -259,7 +259,6 @@
      "It is not stated whether both series use the same base; if depression is recorded per 1,000 patients and unexplained symptoms per 100 visits, the two bars for each country cannot be compared even though they share one axis.",
      "It is unclear what the rate is calculated from (the whole adult population, registered patients or clinic visits), so a country where fewer people visit primary care could appear to have lower rates for that reason alone.",
      "Countries may record and count cases in different ways (for example per patient or per consultation), and with no unit stated the figure gives no way to check that like is being compared with like.",
-     "No sample sizes or numbers of records are given for any country, so the reader cannot judge how stable each rate is.",
      "The figure shows recorded diagnoses, not the number of people with depression, so it describes how often depression is recognised rather than its true prevalence."
     ]
    },
@@ -1291,7 +1290,6 @@
      "Figure 1 uses two y-axes with very different scales: vocabulary runs from 0 to 100 but task-switching accuracy runs only from 88 to 92, so a rise of under 3 percentage points in accuracy is drawn even more steeply than a rise of over 40 points in vocabulary, making the two trends look closely matched.",
      "Because the right-hand axis is truncated and the scales are chosen independently, the point where the two lines cross has no meaning; changing either scale would move or remove it.",
      "The figure invites the reader to link vocabulary growth with cognitive control, but the visual similarity of the lines is created by the axis choices rather than by the size of the changes.",
-     "The sample size for each year group is not given, so the reader cannot judge how reliable each mean is.",
      "No measure of variability is shown, so small changes in accuracy (for example 90.1% to 90.8%) cannot be judged.",
      "Each point is a different year group, so the lines show differences between cohorts, not change in the same children, although the line format suggests a single trend over time."
     ]
@@ -3346,7 +3344,6 @@
      "The figure gives percentages but no number of children in each category, so the reader cannot tell whether 33% in the 'Almost always' group is based on a handful of children or many; with a very small group, one or two children changing classification would change the percentage greatly.",
      "Groups based on how often parents use their phone are likely to be very unequal in size (few parents would report 'Almost always'), so the dramatic drop for the last bar may be the least reliable figure on the graph.",
      "Without the counts, the reader cannot check the percentages or work out how many children in total were insecurely attached in each category.",
-     "No total sample size is given anywhere, so the reader cannot judge how much confidence to place in any of the differences between bars.",
      "The categories ('Rarely' to 'Almost always') are not defined, so the reader cannot tell how much phone use each bar represents or whether parents interpreted them in the same way.",
      "Each bar shows a percentage within its own category, so the bars do not add to 100%; a reader could misread them as the share of the whole sample."
     ]
@@ -3699,8 +3696,7 @@
      "Because of the unequal intervals, a reader may think group membership and feeling settled grew at a steady rate, when the yearly rate of change was actually much faster in the later years.",
      "The lines join points across missing years (2011 to 2014 and 2016 to 2017), suggesting smooth change where there are no data, so any rises or falls in those years are hidden.",
      "Both trends are shown on the same graph, which invites the reader to link them, but these are yearly percentages for different respondents, so the figure cannot show whether the people in groups were the ones who felt settled.",
-     "'Felt settled' is not defined in the figure, so it is unclear what the second line is measuring.",
-     "The figure does not show how many people answered each year, so small differences between adjacent years (for example 66% and 68%) may not be meaningful."
+     "'Felt settled' is not defined in the figure, so it is unclear what the second line is measuring."
     ]
    },
    "q2": {

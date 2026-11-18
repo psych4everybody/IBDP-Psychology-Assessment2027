@@ -251,7 +251,7 @@
       'learning and cognition':[
         'cognitive biases',
         'classical and operant conditioning',
-        'the dual processing model',
+        'the dual processing theory',
         'schema theory',
         'social learning theory',
         'biological factors in one cognitive process',

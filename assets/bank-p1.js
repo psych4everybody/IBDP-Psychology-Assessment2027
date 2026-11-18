@@ -8,7 +8,7 @@
 "approach": "Biological approach",
 "term": "Animal Research / Animal Models",
 "q": [
-"Describe/Explain the value of animal research in the study of one human behaviour."
+"Describe/Explain the use of animal research in the study of one human behaviour."
 ],
 "study": "Pavlov (1927); Skinner (1948)"
 },
@@ -66,7 +66,7 @@
 "term": "Neuroplasticity",
 "q": [
 "Describe/Explain the process of neuroplasticity with reference to one example of human behaviour.",
-"Describe/Explain the role of neuroplasticity in human development."
+"Describe/Explain the role of neuroplasticity in one example of human behaviour."
 ],
 "study": "Maguire et al. (2000); Kuhl et al. (2003); Merzenich et al. (1996)"
 },
@@ -178,7 +178,7 @@
 "approach": "Sociocultural approach",
 "term": "Emic Approach",
 "q": [
-"Describe/Explain the value of the emic approach when investigating one human behaviour."
+"Describe/Explain the use of the emic approach when investigating one human behaviour."
 ],
 "study": "Corsaro (1985)"
 },
@@ -194,7 +194,7 @@
 "approach": "Sociocultural approach",
 "term": "Etic Approach",
 "q": [
-"Describe/Explain one limitation of the etic approach when investigating one human behaviour."
+"Describe/Explain the use of the etic approach when investigating one human behaviour."
 ],
 "study": "Cole et al. (1971)"
 },
@@ -804,14 +804,14 @@
 },
 {
 "context": "Learning and cognition",
-"question": "In the context of learning and cognition, discuss the challenges of measuring the thinking processes described by the dual processing model.",
-"area": "Dual processing model",
+"question": "In the context of learning and cognition, discuss the challenges of measuring the thinking processes described by the dual processing theory.",
+"area": "Dual processing theory",
 "concept": "measurement"
 },
 {
 "context": "Learning and cognition",
-"question": "One claim in learning and cognition psychology is that the dual processing model needs other perspectives to explain decision-making. Discuss this claim with reference to the dual processing model.",
-"area": "Dual processing model",
+"question": "One claim in learning and cognition psychology is that the dual processing theory needs other perspectives to explain decision-making. Discuss this claim with reference to the dual processing theory.",
+"area": "Dual processing theory",
 "concept": "perspective"
 },
 {

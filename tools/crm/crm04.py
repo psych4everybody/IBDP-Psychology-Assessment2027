@@ -18,7 +18,7 @@ P.card("st-goals", f"""<div class="sec-label">Goals</div>
  "I can explain the concept of responsibility in relation to a specific study.",
 ])}
 <p class="progress"></p>
-<p class="small">Part of the course: research methodology (research methods; ethical considerations). The guide lists experiments as "true or quasi-" for the class practical in learning and cognition.</p>
+<p class="small">Part of the course: research methodology (research methods; ethical considerations). For the experiment class practical (recommended for learning and cognition), the guide allows a true or a quasi-experiment.</p>
 <p class="small"><b>Where this appears in the exams:</b> Paper 2 Section A (Question 1 when your experiment was a quasi-experiment; Question 2 when the concept is responsibility); Paper 2 Section B (evaluating unseen studies, which are often quasi or natural experiments); the IA (Criterion B, ethical considerations)</p>
 {chips("responsibility", "causality", "bias")}""", "Goals")
 
