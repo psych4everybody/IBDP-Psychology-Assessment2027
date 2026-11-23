@@ -459,3 +459,7 @@ tr[id^="term-"]:target td{background:var(--sky-pale,#e1f0f9);}
 @media print{
   .ct-strip,.ct-row{display:none;}
 }
+
+.daa-links{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px;}
+.daa-links a{display:inline-block;padding:6px 12px;border-radius:999px;background:#fff;border:1px solid #93a7b8;font-size:14px;text-decoration:none;}
+.daa-links a:hover{background:#e6edf3;}
