@@ -424,6 +424,8 @@ def page(d, code):
 </footer>
 
 <script src="assets/site.js"></script>
+<script src="assets/search.js" defer></script>
+<script src="assets/countdown.js" defer></script>
 </body>
 </html>
 '''
