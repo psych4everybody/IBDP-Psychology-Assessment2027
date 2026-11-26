@@ -6,7 +6,10 @@
    5. Source triage scorer and source list (Stage 4)
    6. AI traffic-light sorter (Stage 8)
    7. Reference anatomy (Stage 8)
-   8. AI acknowledgement builder (Stage 8) */
+   8. AI acknowledgement builder (Stage 8)
+   9. Hours tracker (Stage 1)  10. Question tester (Stage 2)  11. Study notes cards (Stage 5)
+   12. Paragraph order and 13. argument map builder (Stage 6)
+   14. Word budget planner and 15. claim checker (Stage 7)  16. Mock viva (Stage 9) */
 (function () {
   'use strict';
   var PREFIX = 'ibpsy27:';
@@ -343,5 +346,211 @@
     }
     F.forEach(function (f) { f.addEventListener('input', renderA); });
     renderA();
+  }
+  // ---------- 9. EE hours tracker (Stage 1) ----------
+  var hours = $('hours');
+  if (hours) {
+    var HK = 'ee-hours';
+    var STAGES = [['Choose and test a question', 4], ['Find sources', 6], ['Read and take notes', 10], ['Build the argument', 4],
+      ['Write the draft', 10], ['Revise after feedback', 4], ['Final checks and reflection', 2]];
+    var hs; try { hs = JSON.parse(store.get(HK) || 'null'); } catch (e) { hs = null; }
+    if (!hs || !Array.isArray(hs.plan) || hs.plan.length !== STAGES.length) hs = { plan: STAGES.map(function (s) { return s[1]; }), done: STAGES.map(function () { return 0; }) };
+    var hb = $('hoursBody');
+    hb.innerHTML = STAGES.map(function (s, i) {
+      return '<tr><td class="key">' + esc(s[0]) + '</td><td><input class="t-input hr-in" type="number" min="0" step="0.5" data-k="plan" data-i="' + i + '" aria-label="Planned hours for ' + esc(s[0]) + '"></td>' +
+        '<td><input class="t-input hr-in" type="number" min="0" step="0.5" data-k="done" data-i="' + i + '" aria-label="Hours done for ' + esc(s[0]) + '"></td><td class="hr-bar"><span></span></td></tr>';
+    }).join('');
+    var ins = [].slice.call(hb.querySelectorAll('input'));
+    function drawH() {
+      ins.forEach(function (inp) { inp.value = hs[inp.dataset.k][+inp.dataset.i]; });
+      var P = hs.plan.reduce(function (a, b) { return a + (+b || 0); }, 0), D = hs.done.reduce(function (a, b) { return a + (+b || 0); }, 0);
+      [].slice.call(hb.querySelectorAll('.hr-bar span')).forEach(function (sp, i) {
+        var pl = +hs.plan[i] || 0, dn = +hs.done[i] || 0; sp.style.width = (pl ? Math.min(100, dn / pl * 100) : 0) + '%';
+      });
+      $('hoursTotal').innerHTML = '<b>' + D + '</b> of <b>' + P + '</b> planned hours done' + (P !== 40 ? ' <span class="small">(your plan adds up to ' + P + ' hours; the guide suggests about 40)</span>' : '');
+    }
+    hb.addEventListener('input', function (e) {
+      var inp = e.target.closest('input'); if (!inp) return;
+      hs[inp.dataset.k][+inp.dataset.i] = Math.max(0, +inp.value || 0); store.set(HK, JSON.stringify(hs)); drawH();
+    });
+    twoClick($('hoursReset'), function () { hs = { plan: STAGES.map(function (s) { return s[1]; }), done: STAGES.map(function () { return 0; }) }; store.set(HK, JSON.stringify(hs)); drawH(); });
+    drawH();
+  }
+
+  // ---------- 10. question tester (Stage 2) ----------
+  var qt = $('qtest');
+  if (qt) {
+    var qIn = $('qtText'), checks = [].slice.call(qt.querySelectorAll('input[type=checkbox]'));
+    var FLAGS = [
+      [/nature|nurture/i, 'Nature versus nurture questions are too broad. Choose one specific factor and one outcome.'],
+      [/\b(better|more effective) than\b|\bcompare|\bversus\b|\bvs\b/i, 'A comparison only works if published studies compare the two directly. Check before you commit.'],
+      [/\bhistory\b|\bhistorical\b|\bover the (last|past) (century|decades)\b/i, 'Historical topics are not appropriate for a psychology EE.'],
+      [/\b(will|future|next decade)\b/i, 'Predicting the future cannot be answered from published research.'],
+      [/\b(dopamine|serotonin|cortisol|neurons?|synapse|neurotransmitters?|brain region)\b/i, 'Biology is fine, but the focus must be on behaviour or thinking, not on how the mechanism works.'],
+      [/\b(tiktok|instagram|snapchat|youtube|fortnite|netflix)\b/i, 'A specific app or trend may have very little peer-reviewed research. Run a study census first.'],
+      [/\b(emirati|uae|dubai|abu dhabi|my school|our school)\b/i, 'A population limiter needs published research on that group. If there is little, widen the population.'],
+      [/\b(effects? of|impact of)\b/i, '"The effects of" often hides a list of many outcomes. Name the one outcome you will measure.']
+    ];
+    function testQ() {
+      var q = qIn.value.trim(), tips = [], score = checks.filter(function (c) { return c.checked; }).length;
+      if (!q) { $('qtOut').innerHTML = '<span class="small">Type a question to test it.</span>'; return; }
+      var words = q.split(/\s+/).length;
+      if (!/\?\s*$/.test(q)) tips.push('Write it as a question, ending with a question mark.');
+      if (!/^(to what extent|how far|how effective|is|are|does|do|can|how)\b/i.test(q)) tips.push('Questions that start "To what extent..." or "How far..." invite an argument rather than a description.');
+      if (/^(what is|what are|describe)\b/i.test(q)) tips.push('"What is..." questions invite description. Rephrase so the answer must be weighed.');
+      if (words > 30) tips.push('At ' + words + ' words it is probably trying to do too much. Aim for one factor and one outcome.');
+      if (words < 7) tips.push('Very short questions are usually too broad. Name the factor, the outcome and who it applies to.');
+      FLAGS.forEach(function (f) { if (f[0].test(q)) tips.push(f[1]); });
+      var verdict = score === 5 && tips.length === 0 ? ['Looks promising. Take it to your supervisor.', 'keep'] : score >= 4 ? ['Nearly there. Fix the points below.', 'park'] : ['Needs work before you commit.', 'cut'];
+      $('qtOut').innerHTML = '<div class="tr-score ' + verdict[1] + '"><b>' + score + ' / 5</b><span>' + verdict[0] + '</span></div>' +
+        (tips.length ? '<ul class="small" style="margin-top:8px">' + tips.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>' : '') +
+        '<p class="small" style="margin-top:6px">The checks you tick are your judgement; the tips come from patterns in the wording. Neither replaces a conversation with your supervisor.</p>';
+    }
+    qIn.addEventListener('input', testQ); checks.forEach(function (c) { c.addEventListener('change', testQ); });
+    testQ();
+  }
+
+  // ---------- 11. study notes cards (Stage 5) ----------
+  var notes = $('notes');
+  if (notes) {
+    var NK = 'ee-notes', cards = loadList(NK);
+    var FIELDS = [['nCite', 'Reference'], ['nAim', 'Aim'], ['nSample', 'Sample'], ['nDesign', 'Design and method'], ['nMeasure', 'How the key variables were measured'],
+      ['nFind', 'Key findings'], ['nLim', "Authors' own limitations"], ['nEval', 'My evaluation'], ['nConcept', 'Concept'], ['nJob', 'Job in my argument'], ['nQuote', 'Quotes with page numbers']];
+    function drawCards() {
+      $('nList').innerHTML = cards.length ? cards.map(function (c, i) {
+        return '<details class="more"><summary>' + esc(c.nCite || 'Untitled study') + '</summary><div>' +
+          FIELDS.slice(1).filter(function (f) { return c[f[0]]; }).map(function (f) { return '<p><b>' + f[1] + ':</b> ' + esc(c[f[0]]) + '</p>'; }).join('') +
+          '<button class="btn btn-line btn-sm ee-x-card" type="button" data-i="' + i + '">Delete this card</button></div></details>';
+      }).join('') : '<p class="small">No study cards yet. Your cards are saved in this browser on this device only.</p>';
+      $('nCount').textContent = cards.length + (cards.length === 1 ? ' study' : ' studies');
+    }
+    $('nAdd').addEventListener('click', function () {
+      var c = {}; FIELDS.forEach(function (f) { c[f[0]] = $(f[0]).value.trim(); });
+      if (!c.nCite) { $('nCite').focus(); return; }
+      cards.push(c); store.set(NK, JSON.stringify(cards)); drawCards();
+      FIELDS.forEach(function (f) { var el = $(f[0]); el.value = el.tagName === 'SELECT' ? el.options[0].value : ''; });
+    });
+    $('nList').addEventListener('click', function (e) {
+      var b = e.target.closest('.ee-x-card'); if (!b) return;
+      cards.splice(+b.dataset.i, 1); store.set(NK, JSON.stringify(cards)); drawCards();
+    });
+    $('nCsv').addEventListener('click', function () {
+      var lines = [FIELDS.map(function (f) { return f[1]; })].concat(cards.map(function (c) { return FIELDS.map(function (f) { return c[f[0]]; }); }));
+      download('ee-literature-matrix.csv', lines.map(function (l) { return l.map(csvCell).join(','); }).join('\n'));
+    });
+    twoClick($('nClear'), function () { cards = []; store.set(NK, '[]'); drawCards(); });
+    drawCards();
+  }
+
+  // ---------- 12. paragraph order (Stage 6) ----------
+  var ord = $('order');
+  if (ord) {
+    var ANSWER = ['D', 'B', 'C', 'E', 'F', 'A'];
+    $('orderCheck').addEventListener('click', function () {
+      var sels = [].slice.call(ord.querySelectorAll('select'));
+      var picked = sels.map(function (s) { return s.value; });
+      if (picked.some(function (p) { return !p; })) { $('orderOut').textContent = 'Give every sentence a position first.'; return; }
+      var seq = []; sels.forEach(function (s) { seq[+s.value - 1] = s.dataset.l; });
+      if (seq.filter(Boolean).length !== 6) { $('orderOut').textContent = 'Each position can only be used once. Check for repeats.'; return; }
+      var right = seq.filter(function (l, i) { return l === ANSWER[i]; }).length;
+      $('orderOut').innerHTML = '<b>Your order: ' + seq.join(', ') + '.</b> ' + (right === 6 ? 'That matches our order exactly.' :
+        right + ' of 6 in the same place as our order. Check the model answer: is your order still a logical line of argument? There can be more than one good order, but the conclusion must come last and the challenge must come before the explanation of the conflict.');
+    });
+  }
+
+  // ---------- 13. argument map builder (Stage 6) ----------
+  var amap = $('amap');
+  if (amap) {
+    var AK = 'ee-argmap', AF = [['aQ', 'Research question'], ['aClaim', 'Main claim'], ['aS1', 'Strand 1'], ['aS2', 'Strand 2'], ['aS3', 'Strand 3'], ['aCounter', 'Strongest counter-argument'], ['aVerdict', 'Verdict']];
+    var saved; try { saved = JSON.parse(store.get(AK) || '{}') || {}; } catch (e) { saved = {}; }
+    AF.forEach(function (f) { $(f[0]).value = saved[f[0]] || ''; });
+    function drawMap() {
+      var d = {}; AF.forEach(function (f) { d[f[0]] = $(f[0]).value.trim(); }); store.set(AK, JSON.stringify(d));
+      var lines = AF.filter(function (f) { return d[f[0]]; }).map(function (f, i) { return f[1].toUpperCase() + ': ' + d[f[0]]; });
+      $('aOut').textContent = lines.length ? lines.join('\n\n') : 'Fill in the boxes to see your one-page outline.';
+    }
+    AF.forEach(function (f) { $(f[0]).addEventListener('input', drawMap); });
+    twoClick($('aClear'), function () { AF.forEach(function (f) { $(f[0]).value = ''; }); drawMap(); });
+    drawMap();
+  }
+
+  // ---------- 14. word budget planner (Stage 7) ----------
+  var wb = $('wbudget');
+  if (wb) {
+    var WK = 'ee-wordbudget', PARTS = [['Introduction (context, question, terms, method paragraph)', 10], ['Background: key theory and definitions', 10], ['Body section 1', 20], ['Body section 2', 20], ['Body section 3', 15], ['Discussion: the evidence as a whole', 15], ['Conclusion', 10]];
+    var pct; try { pct = JSON.parse(store.get(WK) || 'null'); } catch (e) { pct = null; }
+    if (!Array.isArray(pct) || pct.length !== PARTS.length) pct = PARTS.map(function (p) { return p[1]; });
+    var wBody = $('wbBody');
+    wBody.innerHTML = PARTS.map(function (p, i) {
+      return '<tr><td class="key">' + esc(p[0]) + '</td><td><input class="t-input hr-in" type="number" min="0" max="100" data-i="' + i + '" aria-label="Percentage for ' + esc(p[0]) + '"> %</td><td class="wb-w"></td></tr>';
+    }).join('');
+    var wIns = [].slice.call(wBody.querySelectorAll('input')), wTot = $('wbTotal');
+    function drawW() {
+      var total = Math.max(0, +wTot.value || 4000);
+      wIns.forEach(function (inp, i) { inp.value = pct[i]; });
+      [].slice.call(wBody.querySelectorAll('.wb-w')).forEach(function (td, i) { td.textContent = Math.round(total * (+pct[i] || 0) / 100) + ' words'; });
+      var sum = pct.reduce(function (a, b) { return a + (+b || 0); }, 0);
+      $('wbSum').innerHTML = sum === 100 ? 'Adds up to 100%.' : '<span style="color:var(--rust)">Adds up to ' + sum + '%. Adjust until it reaches 100%.</span>';
+    }
+    wBody.addEventListener('input', function (e) { var inp = e.target.closest('input'); if (!inp) return; pct[+inp.dataset.i] = Math.max(0, +inp.value || 0); store.set(WK, JSON.stringify(pct)); drawW(); });
+    wTot.addEventListener('input', drawW);
+    twoClick($('wbReset'), function () { pct = PARTS.map(function (p) { return p[1]; }); store.set(WK, JSON.stringify(pct)); drawW(); });
+    drawW();
+  }
+
+  // ---------- 15. claim checker (Stage 7) ----------
+  var cc = $('claims');
+  if (cc) {
+    var RULES = [
+      [/\b(prove[sd]?|proof|proving)\b/gi, 'over', 'Research supports or suggests; it rarely proves.'],
+      [/\b(always|never|all|every|definitely|certainly|clearly|undoubtedly|obviously)\b/gi, 'over', 'Absolute words rarely match mixed evidence.'],
+      [/\b(causes?|caused|leads? to|results? in|makes?)\b/gi, 'cause', 'Causal wording: is this study an experiment? If not, describe an association.'],
+      [/\b(disprove[sd]?|debunk(s|ed)?)\b/gi, 'over', 'One study rarely disproves another. Say it "weakens" or "challenges".'],
+      [/\b(lacks? ecological validity|cannot be generali[sz]ed|small sample|lab(oratory)? experiment|unethical)\b/gi, 'generic', 'Generic evaluation: say what this feature means for this study and your question.'],
+      [/\b(p\s*[<=>]\s*0?\.\d+|t\(\d+\)\s*=\s*-?[\d.]+|F\(\d+,\s*\d+\)\s*=\s*[\d.]+|r\s*=\s*-?0?\.\d+)/gi, 'stat', 'Statistics are rarely needed in a psychology EE. Report what was found in words.'],
+      [/\b(I think|I feel|I believe|in my opinion)\b/gi, 'voice', 'Let the evidence carry the claim: "the evidence suggests..."']
+    ];
+    var ccIn = $('ccText');
+    function checkClaims() {
+      var t = ccIn.value, words = (t.trim().match(/\S+/g) || []).length, marks = [];
+      RULES.forEach(function (r) { var m; r[0].lastIndex = 0; while ((m = r[0].exec(t))) marks.push({ s: m.index, e: m.index + m[0].length, k: r[1], tip: r[2] }); });
+      marks.sort(function (a, b) { return a.s - b.s; });
+      var html = '', pos = 0, used = {};
+      marks.forEach(function (m) { if (m.s < pos) return; html += esc(t.slice(pos, m.s)) + '<mark class="cc-' + m.k + '" title="' + esc(m.tip) + '">' + esc(t.slice(m.s, m.e)) + '</mark>'; pos = m.e; used[m.tip] = 1; });
+      html += esc(t.slice(pos));
+      $('ccOut').innerHTML = t.trim() ? html.replace(/\n/g, '<br>') : '<span class="small">Paste a paragraph above.</span>';
+      var tips = Object.keys(used);
+      $('ccTips').innerHTML = '<b>' + words + ' words.</b> ' + (t.trim() ? (tips.length ? 'Look again at the highlighted words:</p><ul class="small">' + tips.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul><p class="small">' : 'Nothing flagged. That does not mean the paragraph is right, only that these common problems are absent.') : '');
+    }
+    ccIn.addEventListener('input', checkClaims); checkClaims();
+  }
+
+  // ---------- 16. mock viva (Stage 9) ----------
+  var viva = $('viva');
+  if (viva) {
+    var VQ = [
+      'What did you learn about your research question that surprised you?',
+      'Which source changed your thinking most, and how?',
+      'Tell me about one problem you hit during the research and how you solved it.',
+      'Which section of the essay are you proudest of, and why?',
+      'If you started again tomorrow, what would you do differently?',
+      'Which study in your essay do you trust least, and why did you keep it?',
+      'How did you decide which studies to include and which to leave out?',
+      'What is the strongest argument against your conclusion?',
+      'What would a good next study on your question look like?',
+      'Which skill from your EE will you use again, and where?',
+      'How did your main claim change between your first plan and your final essay?',
+      'Explain one study in your essay to me in two sentences, without notes.',
+      'How did you use AI tools, if at all, and how did you check what they gave you?',
+      'What did you find hardest about evaluating the research?',
+      'How has doing your EE changed the way you read news about psychology?'
+    ];
+    var order = [], idx = -1;
+    function shuffle() { order = VQ.map(function (_, i) { return i; }); for (var i = order.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = order[i]; order[i] = order[j]; order[j] = t; } idx = -1; }
+    shuffle();
+    $('vivaNext').addEventListener('click', function () {
+      idx++; if (idx >= order.length) { shuffle(); idx = 0; }
+      $('vivaOut').textContent = VQ[order[idx]]; $('vivaCount').textContent = 'Question ' + (idx + 1) + ' of ' + VQ.length;
+    });
   }
 })();

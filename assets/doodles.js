@@ -107,7 +107,7 @@
   // card id -> doodle (first matching rule wins)
   var RULES = [
     // extended essay pages
-    [/^ee-aim$/, 'compass'], [/^ee-log$/, 'clipboard'], [/^ee-mmmr$/, 'scales'], [/^ee-rules$/, 'flag'], [/^ee-verify$/, 'magnifier'], [/^apa-anat$/, 'pencil'],
+    [/^ee-aim$/, 'compass'], [/^ee-log$/, 'clipboard'], [/^ee-mmmr$/, 'scales'], [/^ee-rules$/, 'flag'], [/^ee-verify$/, 'magnifier'], [/^apa-anat$/, 'pencil'], [/^ee-what$/, 'book'], [/^ee-process$/, 'map'], [/^ee-checks$/, 'checklist'], [/^ee-claim$/, 'flag'], [/^ee-viva$/, 'speech'], [/^ee-refl$/, 'bulb'],
     [/^ov-start$/, 'compass'], [/glance$/, 'clipboard'], [/command$/, 'speech'], [/ingredients$/, 'puzzle'], [/planbox$/, 'map'],
     [/-marks$|-band$/, 'ribbon'], [/worked$/, 'pencil'], [/-bank$|banks$/, 'cards'], [/mixups$/, 'mixups'],
     [/-check$/, 'bulb'], [/-ready$/, 'checklist'], [/test$/, 'clock'], [/before$/, 'moon'], [/room$|pp-day/, 'hourglass'],
