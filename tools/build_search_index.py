@@ -4,7 +4,7 @@
 Run from the repo root after changing any page, then commit search-index.json:
     python3 tools/build_search_index.py
 
-Indexes every section card on the Paper 1 to 3 pages and the chapter worksheets, and every
+Indexes every section card on the Paper 1 to 3 pages, the chapter worksheets and the EE stage pages, and every
 entry on the content terms page. Each entry links to the section's own anchor. Text is
 trimmed per entry to keep the file small; headings and bold terms are kept in full.
 """
@@ -39,13 +39,17 @@ def trim(t, n=MAX_TEXT):
 
 items = []
 
-pages = ["paper1.html", "paper2.html", "paper3.html"] + sorted(p.name for p in ROOT.glob("ws-*.html"))
+pages = (["paper1.html", "paper2.html", "paper3.html"] + sorted(p.name for p in ROOT.glob("ws-*.html"))
+         + sorted(p.name for p in ROOT.glob("ee-*.html")))
 for name in pages:
     src = (ROOT / name).read_text(encoding="utf-8")
     h1 = re.search(r"(?is)<h1[^>]*>(.*?)</h1>", src)
     title = text_of(h1.group(1)) if h1 else name
     m = re.match(r"ws-([a-z]+)-(\d+)\.html", name)
-    group = ("Worksheet %s-%s" % (m.group(1).upper(), m.group(2))) if m else ("Paper " + re.search(r"\d", name).group(0))
+    ee = re.match(r"ee-(\d+)\.html", name)
+    group = (("Worksheet %s-%s" % (m.group(1).upper(), m.group(2))) if m
+             else ("Extended essay, stage %d" % int(ee.group(1))) if ee
+             else ("Paper " + re.search(r"\d", name).group(0)))
     end_main = src.find("</main>")
     end_main = end_main if end_main > 0 else len(src)
     topics = [(t.start(), attr(t.group(0), "data-title")) for t in re.finditer(r'<div class="topic"[^>]*>', src)]
