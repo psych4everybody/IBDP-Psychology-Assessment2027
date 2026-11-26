@@ -100,7 +100,7 @@
    "learn": ["CRM-05#rd-1", "CRM-05#rd-2"], "also": ["HD-09"], "practise": [["paper2.html#pr-obs", "Paper 2: our observation practical"]]},
   {"slug": "surveys", "name": "Surveys and questionnaires", "group": "rm",
    "def": "A fixed set of written questions answered by many people, using closed, rating-scale and open items.",
-   "learn": ["CRM-06#rd-1"], "also": [], "practise": [["paper2.html#pr-sur", "Paper 2: the survey practical card"]]},
+   "learn": ["CRM-06#rd-1"], "also": ["HR-11"], "practise": [["paper2.html#pr-sur", "Paper 2: our survey practical"]]},
   {"slug": "interviews", "name": "Interviews and focus groups", "group": "rm",
    "def": "Asking people questions in person: structured, semi-structured, or as a focus group where participants also respond to each other.",
    "learn": ["CRM-06#rd-3"], "also": ["HW-11"], "practise": [["paper2.html#pr-int", "Paper 2: our interview practical"]]},

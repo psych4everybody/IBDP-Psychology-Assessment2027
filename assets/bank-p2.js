@@ -25,9 +25,16 @@
       q1Detail: 'I gave one real detail: a core question we asked and a follow-up.',
       q1Record: 'I said how the interview was recorded and analysed (audio, transcript checked against the recording, then inductive content analysis into themes, then coding as problem-focused or emotion-focused coping).',
       q1Ethics: 'I described the ethics we followed (consent to take part and to recording, right to withdraw, code instead of a name, recording deleted within 7 days, debrief).'
+    },
+    survey: {
+      name: 'survey', a: 'a survey', topic: 'which qualities Grade 11 and Grade 12 students value most in a close friend',
+      q1Type: 'I named the type of survey we used (a cross-sectional questionnaire on a Google Form comparing two existing groups, Grade 11 and Grade 12) and said what that meant in practice.',
+      q1Detail: 'I gave one real detail: eight qualities, each with a short description, rated from 1 (not at all important) to 5 (extremely important), plus a top-three choice and two optional open questions.',
+      q1Record: 'I said how the data were collected and analysed (the researcher stepped away while the participant answered; median, mode and percentage rating each quality 4 or 5, compared by grade; open answers coded into themes).',
+      q1Ethics: 'I described the ethics we followed (a consent tickbox and an age check of 16 or older, no names or emails, a made-up code for withdrawing within 7 days, data deleted after the practical).'
     }
   };
-  var METHODS = ['experiment', 'observation', 'interview'];
+  var METHODS = ['experiment', 'observation', 'interview', 'survey'];
   var CONCEPTS = ['bias', 'causality', 'measurement', 'responsibility', 'change', 'perspective'];
   var CONCEPT_DEF = {
     bias: 'a filter of experience or preference that distorts how data are collected or read',
@@ -131,7 +138,7 @@
   ];
 
   function pick(a){ return a[Math.floor(Math.random() * a.length)]; }
-  function others(m){ return METHODS.filter(function(x){ return x !== m; }).concat(['survey']); }
+  function others(m){ return METHODS.filter(function(x){ return x !== m; }); }
   function art(m){ return (PRACTICALS[m] || ALT[m]).a; }
   function nm(m){ return (PRACTICALS[m] || ALT[m]).name; }
   function joinConcepts(list){
