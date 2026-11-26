@@ -1,5 +1,4 @@
 /* Extended Essay pages: shared behaviour.
-   1. Model answers locked with the class code (decrypted in the browser, see tools/build_ee_locked.py)
    2. Copy buttons
    3. Search-string builder (Stage 3)
    4. Search log, saved in this browser (Stage 3)
@@ -58,72 +57,6 @@
       }
     });
   }
-
-  // ---------- 1. locked model answers ----------
-  var locks = [].slice.call(document.querySelectorAll('.ee-lock[data-lock]'));
-  var DATA = window.EE_LOCKED;
-  function b64u8(s) { var b = atob(s), u = new Uint8Array(b.length); for (var i = 0; i < b.length; i++) u[i] = b.charCodeAt(i); return u; }
-  function normCode(c) { return String(c || '').replace(/\s+/g, '').toUpperCase(); }
-  function deriveKey(code) {
-    var enc = new TextEncoder();
-    return crypto.subtle.importKey('raw', enc.encode(code), 'PBKDF2', false, ['deriveKey']).then(function (base) {
-      return crypto.subtle.deriveKey({ name: 'PBKDF2', salt: b64u8(DATA.salt), iterations: DATA.iter, hash: 'SHA-256' },
-        base, { name: 'AES-GCM', length: 256 }, false, ['decrypt']);
-    });
-  }
-  function decrypt(key, item) {
-    return crypto.subtle.decrypt({ name: 'AES-GCM', iv: b64u8(item.iv) }, key, b64u8(item.ct)).then(function (buf) {
-      return new TextDecoder().decode(buf);
-    });
-  }
-  function lockedView(el) {
-    el.classList.remove('open');
-    el.innerHTML = '<div class="ee-lock-box"><p class="ee-lock-title"><span aria-hidden="true">&#128274;</span> Model answer</p>' +
-      '<p class="small">Try the exercise first. Your teacher gives the class code in class.</p>' +
-      '<form class="ee-lock-form"><label class="sr-only" for="c-' + el.dataset.lock + '">Class code</label>' +
-      '<input id="c-' + el.dataset.lock + '" class="t-input" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="Class code">' +
-      '<button class="btn btn-dark" type="submit">Unlock</button></form><p class="ee-lock-msg small" role="status"></p></div>';
-  }
-  function setMsg(text) { locks.forEach(function (el) { var m = el.querySelector('.ee-lock-msg'); if (m) m.textContent = text; }); }
-  function unlock(code, silent) {
-    code = normCode(code);
-    if (!code) return;
-    if (!window.crypto || !crypto.subtle) { setMsg('This browser cannot unlock the answers. Try a recent Chrome, Safari, Edge or Firefox.'); return; }
-    if (!silent) setMsg('Checking the code...');
-    deriveKey(code).then(function (key) {
-      return decrypt(key, DATA.check).then(function () {
-        store.set('ee-code', code);
-        return Promise.all(locks.map(function (el) {
-          var item = DATA.blocks[el.dataset.lock];
-          if (!item) { el.innerHTML = '<p class="small">This model answer is not ready yet.</p>'; return null; }
-          return decrypt(key, item).then(function (html) {
-            el.innerHTML = '<div class="ee-ans"><p class="ee-lock-title open"><span aria-hidden="true">&#128275;</span> Model answer</p>' + html + '</div>';
-            el.classList.add('open');
-          });
-        }));
-      });
-    }).catch(function () {
-      if (silent) { store.del('ee-code'); return; }
-      setMsg('That code did not work. Check it with your teacher.');
-    });
-  }
-  if (locks.length) {
-    if (!DATA) {
-      locks.forEach(function (el) { el.innerHTML = '<p class="small">Model answers are not available yet.</p>'; });
-    } else {
-      locks.forEach(lockedView);
-      document.addEventListener('submit', function (e) {
-        var f = e.target.closest('.ee-lock-form'); if (!f) return;
-        e.preventDefault(); unlock(f.querySelector('input').value, false);
-      });
-      var saved = store.get('ee-code'); if (saved) unlock(saved, true);
-    }
-  }
-  var relock = $('eeRelock');
-  if (relock) relock.addEventListener('click', function () {
-    store.del('ee-code'); if (DATA) locks.forEach(lockedView);
-    relock.textContent = 'Locked again on this device';
-  });
 
   // ---------- 2. copy buttons ----------
   document.querySelectorAll('[data-copy]').forEach(function (btn) {
