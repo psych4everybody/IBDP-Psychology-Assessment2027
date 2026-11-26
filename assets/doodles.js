@@ -106,6 +106,8 @@
 
   // card id -> doodle (first matching rule wins)
   var RULES = [
+    // extended essay pages
+    [/^ee-aim$/, 'compass'], [/^ee-log$/, 'clipboard'], [/^ee-mmmr$/, 'scales'], [/^ee-rules$/, 'flag'], [/^ee-verify$/, 'magnifier'], [/^apa-anat$/, 'pencil'],
     [/^ov-start$/, 'compass'], [/glance$/, 'clipboard'], [/command$/, 'speech'], [/ingredients$/, 'puzzle'], [/planbox$/, 'map'],
     [/-marks$|-band$/, 'ribbon'], [/worked$/, 'pencil'], [/-bank$|banks$/, 'cards'], [/mixups$/, 'mixups'],
     [/-check$/, 'bulb'], [/-ready$/, 'checklist'], [/test$/, 'clock'], [/before$/, 'moon'], [/room$|pp-day/, 'hourglass'],
@@ -141,7 +143,7 @@
   document.body.insertAdjacentHTML('afterbegin', defs);
   document.querySelectorAll('section.card[id]').forEach(function (c) { if (!SKIP.test(c.id)) { var n = pick(c.id, c.getAttribute('data-toc')); if (n) insert(c, n); } });
   // hub: one doodle per paper
-  var hub = { 'paper1.html': 'brain', 'paper2.html': 'flask', 'paper3.html': 'chart', 'worksheets.html': 'book' };
+  var hub = { 'paper1.html': 'brain', 'paper2.html': 'flask', 'paper3.html': 'chart', 'worksheets.html': 'book', 'ee.html': 'magnifier' };
   document.querySelectorAll('.paper').forEach(function (p) {
     var a = p.querySelector('h2 a'); var n = a && hub[a.getAttribute('href')];
     insert(p, n || 'clock');
