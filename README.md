@@ -16,6 +16,8 @@ Live site: https://psych4everybody.github.io/IBDP-Psychology-Assessment2027/
 | `content-terms.html` | The 27 Section A content terms and the research methodology terms: a short definition for each, the exact card where it is taught, other chapters that use it, and links to practise. Generated with `tools/build_content_terms.py` from `tools/content_terms.json`, which also adds the content-term tags to chapter pages and the Paper 1 term bank |
 | `ws-cl-01.html` to `ws-hw-11.html` | One page per chapter: goals, warm-up, reading with its key studies, self-check, concept workout and exam practice (the four class practical chapters, CL-11, HD-09, HW-11 and HR-11, have Paper 2 Section A practice instead of a workout). Generated with `tools/build_worksheets.py`. HR-11 has no Google Docs source, so its source is kept in `tools/sources/HR-11.html` |
 | `search-index.json` | What the Search button searches: every section of the paper pages and worksheet readings, plus the content terms. Rebuild it after changing any page with `python3 tools/build_search_index.py`, then commit it |
+| `assets/dark.css` | The dark theme, chosen in the Aa panel. Generated: after changing `style.css` or `theme.css`, run `python3 tools/build_dark_css.py` |
+| `assets/settings.js` | The Aa button: text size and theme, shared with the AP and Intro sites |
 | `assets/search.js` | The Search button and search box (shared with the AP and Intro sites) |
 | `test.html` | Test conditions for all three papers: random paper or section, offline gate, full screen, timer, locked answers, required checklist review, PDF download once back online |
 | `assets/bank-p1.js` | Paper 1 question pool for the test page (generated from the P1ABC Revision Guide) |
