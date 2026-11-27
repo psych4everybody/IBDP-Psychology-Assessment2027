@@ -225,5 +225,5 @@
   };
 
   window.P2BANK = { PRACTICALS: PRACTICALS, METHODS: METHODS, CONCEPTS: CONCEPTS, STUDIES: STUDIES,
-    makeQuestion: makeQuestion, MODES: MODES, paperName: 'Paper 2', totalMarks: 35 };
+    makeQuestion: makeQuestion, q1: q1, q2: q2, q4: q4, CONCEPT_DEF: CONCEPT_DEF, DESIGN: DESIGN, MODES: MODES, paperName: 'Paper 2', totalMarks: 35 };
 })();

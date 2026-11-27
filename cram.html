@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cram mode | IB Psychology 2027 Revision</title>
+<meta name="description" content="Short, mixed self-testing for IB Psychology (first assessment 2027): content terms, key studies, scenarios, essay plans, the class practicals and Paper 3 figures.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Jost:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/theme.css">
+<link rel="stylesheet" href="assets/cram.css">
+<link rel="stylesheet" href="assets/dark.css">
+<script src="assets/settings.js" data-dark></script>
+</head>
+<body class="crampage">
+
+<header class="hero">
+  <div class="eyebrow">IB Psychology &nbsp;|&nbsp; First assessment 2027 &nbsp;|&nbsp; Cram mode</div>
+  <h1>Cram mode</h1>
+  <p class="subtitle">Ten or twenty quick cards, mixed from across the course. Try to answer, check, rate yourself, and the cards you miss come back.</p>
+  <div class="hero-actions">
+    <a class="btn btn-ghost" href="index.html">&larr; All papers</a>
+    <a class="btn btn-ghost" href="content-terms.html">Content terms</a>
+    <a class="btn btn-ghost" href="test.html">Test conditions</a>
+  </div>
+</header>
+
+<main class="wrap cr-wrap">
+
+  <!-- SETUP -->
+  <section class="screen active" id="screen-setup">
+    <div id="resumeBox"></div>
+
+    <div class="section-label">Quick start</div>
+    <div class="cr-quickrow" id="quick"></div>
+
+    <div class="section-label">Build your own</div>
+    <div class="panel cr-setup">
+      <h2 class="cr-h2">1. What to practise</h2>
+      <div id="typeChips"></div>
+
+      <h2 class="cr-h2">2. Which contexts</h2>
+      <p class="small">Applies to key studies, scenarios, essay plans and Paper 3 sets. Content terms and the class practical cards are always included.</p>
+      <div class="cr-chips" id="ctxChips"></div>
+
+      <div class="cr-two">
+        <div>
+          <h2 class="cr-h2">3. How many cards</h2>
+          <div class="cr-chips">
+            <label class="cr-tog cr-tog-sm"><input type="radio" name="n" value="10"><span><b>10</b><small>about 10 minutes</small></span></label>
+            <label class="cr-tog cr-tog-sm"><input type="radio" name="n" value="20"><span><b>20</b><small>about 20 minutes</small></span></label>
+            <label class="cr-tog cr-tog-sm"><input type="radio" name="n" value="30"><span><b>30</b><small>about 30 minutes</small></span></label>
+          </div>
+        </div>
+        <div>
+          <h2 class="cr-h2">4. Which cards first</h2>
+          <div class="cr-chips">
+            <label class="cr-tog cr-tog-sm"><input type="radio" name="focus" value="smart"><span><b>Smart mix</b><small>new and weak cards first</small></span></label>
+            <label class="cr-tog cr-tog-sm"><input type="radio" name="focus" value="weak"><span><b>Only my weak cards</b><small>rated "Not yet" or "Partly"</small></span></label>
+            <label class="cr-tog cr-tog-sm"><input type="radio" name="focus" value="random"><span><b>Surprise me</b><small>completely random</small></span></label>
+          </div>
+        </div>
+      </div>
+
+      <p class="cr-count" id="countLine"></p>
+      <button class="btn btn-dark" type="button" id="startBtn">Start cramming</button>
+    </div>
+
+    <div class="section-label">Your cram map</div>
+    <div class="panel">
+      <p class="small" id="mapNote"></p>
+      <div id="mapHost"></div>
+      <div class="cr-legend small"><span class="cr-sq l0">&nbsp;</span> not tried <span class="cr-sq l1">&nbsp;</span> under 20% known <span class="cr-sq l2">&nbsp;</span> 20% or more <span class="cr-sq l3">&nbsp;</span> half or more <span class="cr-sq l4">&nbsp;</span> 80% or more</div>
+      <p class="small">Your ratings are saved in this browser on this device only. <button type="button" class="cr-link" id="resetBtn">Reset my cram history</button></p>
+    </div>
+
+    <div class="section-label">How to use it well</div>
+    <div class="howto">
+      <div class="panel"><h3>Answer before you look</h3><p class="small">Say it, or jot it in the box. Pulling an answer out of memory (retrieval practice) strengthens it far more than reading the answer again.</p></div>
+      <div class="panel"><h3>Rate yourself honestly</h3><p class="small">"Not yet" cards come back a few cards later and "Partly" cards come back at the end. Next time, Smart mix puts your weak cards first.</p></div>
+      <div class="panel"><h3>Little and often</h3><p class="small">One short session a day beats one long session the night before. The cards are mixed on purpose: switching topics is harder, and that is what makes it work.</p></div>
+    </div>
+    <p class="small cr-total">There are <b id="cardTotal">0</b> cards, all drawn from the paper pages, the worksheets and the content terms on this site.</p>
+  </section>
+
+  <!-- SESSION -->
+  <section class="screen" id="screen-session">
+    <div class="cr-bar" role="status">
+      <span id="crCount"></span>
+      <span class="cr-track"><span class="cr-fill" id="crBar"></span></span>
+      <span id="crDone"></span>
+      <span class="cr-clock" id="crClock" aria-label="Time in this session">0:00</span>
+      <button class="btn btn-line cr-end" type="button" id="crEnd">End</button>
+    </div>
+    <div class="callout c-tip" id="crNudge" hidden><strong class="tag">Break soon</strong><p>You have reached the time you planned. Finish this card, then take a short break before the next session.</p></div>
+    <article class="cr-card" id="crCard" aria-live="polite"></article>
+  </section>
+
+  <!-- DONE -->
+  <section class="screen" id="screen-done">
+    <div class="panel cr-done">
+      <h2 class="cr-h2">Session done</h2>
+      <div id="doneBody"></div>
+      <div class="hero-actions" style="justify-content:flex-start">
+        <button class="btn btn-dark" type="button" id="againBtn">Go again with the shaky ones</button>
+        <button class="btn btn-line" type="button" id="newBtn">New session</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Cards are drawn from this site's revision pages. Section B scenarios and most Paper 3 sources are fictional; adapted Paper 3 sources give their reference on the Paper 3 page. Based on the IB Psychology guide (first assessment 2027); not endorsed by the IB.</p>
+  <p>Your ratings are saved in this browser on this device only.</p>
+</footer>
+<script src="assets/site.js"></script>
+<script src="assets/doodles.js"></script>
+<script src="assets/charts.js"></script>
+<script src="assets/bank-p1.js"></script>
+<script src="assets/bank-p2.js"></script>
+<script src="assets/bank-p3.js"></script>
+<script src="assets/p3.js"></script>
+<script src="assets/bank-cram.js"></script>
+<script src="assets/cram.js"></script>
+<script src="assets/search.js" defer></script>
+<script src="assets/countdown.js" defer></script>
+</body>
+</html>
