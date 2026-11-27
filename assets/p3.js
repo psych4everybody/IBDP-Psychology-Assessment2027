@@ -19,6 +19,7 @@
     { spec: { type: 'scatter', title: 'Figure D: Praise from coaches increases training attendance', points: [[2, 5], [3, 6], [4, 6], [4, 8], [5, 7], [6, 9], [6, 7], [7, 10], [8, 9], [8, 11], [9, 12], [10, 11]], xLabel: 'Praise rating given by athlete (1 to 10)', yLabel: 'Sessions attended in a month', xMin: 0, xMax: 10, yMin: 0, yMax: 14, trend: true },
       issue: 'Causal title on correlational data.', why: 'The title says praise "increases" attendance, but the figure only shows that the two go together. Athletes who attend more may receive, or notice, more praise. The title invites a cause-and-effect reading that the data cannot support.' }
   ];
+  window.P3SPOT = SPOT; // also used by cram.html
   var spot = document.getElementById('spotGrid');
   if (spot) {
     spot.innerHTML = SPOT.map(function (s, i) {
